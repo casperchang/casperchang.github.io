@@ -24,16 +24,11 @@
 	var map = L.mapbox.map('map', 'examples.map-i86nkdio')
     			.setView([28.19, 113.03], 5);
 	
-	queue()
-		.defer(d3.json, "geojson-flights2012.json")
-		.await(ready);
-	function ready(error, data){
-		L.geoJson(data).addTo(map);
-	}
-/* 	var featureLayer = L.mapbox.featureLayer()
-    					.loadURL('./us-states.json')
-    					.addTo(map);
- */
+	//var myLayer = L.mapbox.featureLayer().addTo(map);
+	
+	d3.json("geojson-flights2012.json", function(json) {
+		L.geoJson(json).addTo(map);		
+	});
 </script>
 
 
