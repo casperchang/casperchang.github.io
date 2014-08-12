@@ -1,0 +1,1265 @@
+{
+    "type": "FeatureCollection", 
+    "features": [
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    113.9184808, 
+                    22.308046999999998
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "HKG airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    140.3928501, 
+                    35.771986699999999
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "NRT airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    103.99153080000001, 
+                    1.3644202000000001
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "SIN airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    121.808273, 
+                    31.144343899999999
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "PVG airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    135.2303939, 
+                    34.432002400000002
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "KIX airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    100.75011240000001, 
+                    13.6899991
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "BKK airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    113.5764123, 
+                    22.157835899999998
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "MFM airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -118.40853, 
+                    33.941588899999999
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "LAX airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    116.6031121, 
+                    40.0798573
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "PEK airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    106.65882449999999, 
+                    10.818463100000001
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "SGN airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    101.7050033, 
+                    2.7533631000000001
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "KUL airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    121.016508, 
+                    14.5122739
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "MNL airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.389979, 
+                    37.615223
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "SFO airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    113.814606, 
+                    22.636828000000001
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "SZX airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    130.44670909999999, 
+                    33.590314499999998
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "FUK airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    136.81460050000001, 
+                    34.8590935
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "NGO airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    113.3079699, 
+                    23.395907900000001
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "CAN airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    141.6704785, 
+                    42.792594200000003
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "CTS airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    126.44069570000001, 
+                    37.460190799999999
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "ICN airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    106.6536859, 
+                    -6.1275117999999997
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "CGK airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    105.8041709, 
+                    21.218714899999998
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "HAN airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    115.166787, 
+                    -8.7467171999999991
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "DPS airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    120.4388907, 
+                    30.2359486
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "HGH airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    118.8719394, 
+                    31.733822199999999
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "NKG airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -123.18151229999999, 
+                    49.196691299999998
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "YVR airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    118.13436799999999, 
+                    24.539070500000001
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "XMN airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    125.52828239999999, 
+                    3.682830899999999
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "OKA airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    120.43526300000001, 
+                    31.4986195
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "WUX airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    121.46194439999999, 
+                    29.826666700000001
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "NGB airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    123.4935627, 
+                    41.639419799999999
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "SHE airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    113.8461563, 
+                    34.5253412
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "CGO airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    113.2208333, 
+                    28.196666700000002
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "CSX airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    103.9492936, 
+                    30.567456
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "CTU airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    116.0487772, 
+                    5.9307463999999994
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "BKI airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    120.3831232, 
+                    36.266674500000001
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "TAO airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -122.30049699999999, 
+                    47.444429999999997
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "SEA airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    104.84778, 
+                    11.546111
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "PNH airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    108.7573294, 
+                    34.437111000000002
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "XIY airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    8.5621517999999988, 
+                    50.037932599999998
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "FRA airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    144.795556, 
+                    13.483055999999999
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "GUM airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    119.6701958, 
+                    25.930638200000001
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "FOC airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    117.21600340000001, 
+                    36.857200599999999
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "TNA airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    153.1218303, 
+                    -27.394214399999999
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "BNE airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    110.462132, 
+                    19.938539899999999
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "HAK airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    2.5710999999999999, 
+                    49.003999999999998
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "CDG airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -79.368986300000003, 
+                    34.450023199999997
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "DLC airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    9.9775679999999998, 
+                    2.8739868999999998
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "SYD airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    114.21244950000001, 
+                    30.776617099999999
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "WUH airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    106.6416667, 
+                    29.719166699999999
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "CKG airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    134.53879499999999, 
+                    7.3673590000000004
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "ROR airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    132.91902150000001, 
+                    34.439863199999998
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "HIJ airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -79.612048999999999, 
+                    43.681727000000002
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "YYZ airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    102.93924989999999, 
+                    25.106952799999998
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "KMG airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    126.49135339999999, 
+                    33.510413500000013
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "CJU airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    115.91066549999999, 
+                    28.857463599999999
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "KHN airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    117.5552778, 
+                    34.059055600000001
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "XUZ airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    16.566575100000001, 
+                    48.115833299999998
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "VIE airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    77.099957799999999, 
+                    28.556162400000002
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "DEL airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    126.2433815, 
+                    45.622441999999999
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "HRB airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -79.612048999999999, 
+                    43.681727000000002
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "YNZ airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    106.800209, 
+                    26.540692
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "KWE airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    114.69666669999999, 
+                    38.280833299999998
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "SJW airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -73.77813909999999, 
+                    40.641311100000003
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "JFK airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    4.7682742999999999, 
+                    52.310539200000001
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "AMS airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    110.0470653, 
+                    25.2158795
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "KWL airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -149.98101700000001, 
+                    61.173914999999987
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "ANC airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    121.37166670000001, 
+                    37.4016667
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "YNT airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    136.413355, 
+                    36.401653000000003
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "KMQ airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    100.26559709999999, 
+                    5.2938700000000001
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "PEN airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    108.1716582, 
+                    22.609644299999999
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "NNG airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    117.3592, 
+                    39.130406000000001
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "TSN airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    112.7872891, 
+                    -7.3788850999999998
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "SUB airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    125.697045, 
+                    43.995218999999999
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "CGQ airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    140.91694440000001, 
+                    38.139722200000001
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "SDJ airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    116.96972340000001, 
+                    31.9861881
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "HFE airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    109.41266299999999, 
+                    18.303701
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "SYX airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    112.62833329999999, 
+                    37.746944399999997
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "TYN airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    130.71802339999999, 
+                    31.802852600000001
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "KOJ airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    98.964008800000002, 
+                    18.767748999999998
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "CNX airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    98.306464599999998, 
+                    8.1110951
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "HKT airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    10.527689000000001, 
+                    50.016830200000008
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "FSZ airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    131.44732250000001, 
+                    31.876208800000001
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "KMI airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    137.1893263, 
+                    36.651773800000001
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "TOY airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    140.81439610000001, 
+                    41.775344400000002
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "HKD airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    -0.45429550000000002, 
+                    51.470022299999997
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "LHR airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    124.245, 
+                    24.396388999999999
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "ISG airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    142.45423389999999, 
+                    43.670802399999999
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "AKJ airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    144.1962619, 
+                    43.045166299999998
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "KUH airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    143.21287670000001, 
+                    42.732209699999999
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "OBO airport"
+            }
+        }, 
+        {
+            "geometry": {
+                "type": "Point", 
+                "coordinates": [
+                    120.8554106, 
+                    27.911023499999999
+                ]
+            }, 
+            "type": "Feature", 
+            "id": null, 
+            "properties": {
+                "country": "WNZ airport"
+            }
+        }
+    ]
+}

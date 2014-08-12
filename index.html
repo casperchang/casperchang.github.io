@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>A simple map</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	
+	<link rel="stylesheet" type="text/css" href="./d3/css/styles.css" />
+	<script type="text/javascript" src="./d3/d3.v3.js"></script>
+	<script src="http://d3js.org/queue.v1.min.js"></script>
+	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.css' rel='stylesheet' />
+	
+	<style>
+  	body { margin:0; padding:0; }
+  	#map { position:absolute; top:0; bottom:0; width:100%; }
+	</style>	
+</head>
+<body>
+	<div id='map'></div>
+	
+<script>
+	L.mapbox.accessToken = 'pk.eyJ1IjoiY2FzcGVydml6IiwiYSI6IjFyNHlFYkUifQ.61-Ph449J2Zqn0KNynDpUw'; // my public token
+	var map = L.mapbox.map('map', 'examples.map-i86nkdio')
+    			.setView([28.19, 113.03], 5);
+	
+	queue()
+		.defer(d3.json, "geojson-flights2012.json")
+		.await(ready);
+	function ready(error, data){
+		L.geoJson(data).addTo(map);
+	}
+/* 	var featureLayer = L.mapbox.featureLayer()
+    					.loadURL('./us-states.json')
+    					.addTo(map);
+ */
+</script>
+
+
+</body>
+</html>
