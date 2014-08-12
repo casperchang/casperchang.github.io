@@ -23,12 +23,43 @@
 	L.mapbox.accessToken = 'pk.eyJ1IjoiY2FzcGVydml6IiwiYSI6IjFyNHlFYkUifQ.61-Ph449J2Zqn0KNynDpUw'; // my public token
 	var map = L.mapbox.map('map', 'examples.map-i86nkdio')
     			.setView([28.19, 113.03], 5);
+    			
+    map.tileLayer.setOpacity(0.8);
 	
-	//var myLayer = L.mapbox.featureLayer().addTo(map);
-	
+    
+    var myLayer = L.geoJson().addTo(map);
+    
 	d3.json("geojson-flights2012.json", function(json) {
-		L.geoJson(json).addTo(map);		
+		
+		var max = d3.max(json.features, function(d) { return d.properties.passengers; });
+		var min = d3.min(json.features, function(d) { return d.properties.passengers; });
+		var scale = d3.scale.sqrt()
+						.domain([min, max])
+						.range([5,15]);
+		//console.log(max);
+		
+/* 		L.geoJson(json, {
+		    pointToLayer: function(feature, latlng) {
+		        return L.circleMarker(latlng, {
+		            radius: scale(feature.properties.passengers)
+		        })
+		    }
+		}).addTo(map);
+ */		
+		myLayer.addData(json, {
+		    pointToLayer: function(feature, latlng) {
+		        return L.circleMarker(latlng, {
+		            radius: scale(feature.properties.passengers)
+		        })
+		    }
+		});
 	});
+	
+	var latlngs = []
+	latlngs.push(L.latLng(25.0, 121.0));
+	latlngs.push(L.latLng(26.0, 122.0));	
+	var polyline = L.polyline(latlngs, {color: 'red'}).addTo(map);
+	
 </script>
 
 

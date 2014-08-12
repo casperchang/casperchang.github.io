@@ -12,7 +12,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "HKG airport"
+                "country": "HKG airport", 
+                "flights": 12012, 
+                "passengers": 2516784
             }
         }, 
         {
@@ -26,7 +28,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "NRT airport"
+                "country": "NRT airport", 
+                "flights": 3295, 
+                "passengers": 697650
             }
         }, 
         {
@@ -40,7 +44,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "SIN airport"
+                "country": "SIN airport", 
+                "flights": 2778, 
+                "passengers": 498969
             }
         }, 
         {
@@ -54,7 +60,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "PVG airport"
+                "country": "PVG airport", 
+                "flights": 2035, 
+                "passengers": 490974
             }
         }, 
         {
@@ -68,7 +76,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "KIX airport"
+                "country": "KIX airport", 
+                "flights": 2577, 
+                "passengers": 487955
             }
         }, 
         {
@@ -82,7 +92,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "BKK airport"
+                "country": "BKK airport", 
+                "flights": 2062, 
+                "passengers": 450010
             }
         }, 
         {
@@ -96,7 +108,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "MFM airport"
+                "country": "MFM airport", 
+                "flights": 3075, 
+                "passengers": 436706
             }
         }, 
         {
@@ -110,7 +124,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "LAX airport"
+                "country": "LAX airport", 
+                "flights": 1266, 
+                "passengers": 355429
             }
         }, 
         {
@@ -124,7 +140,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "PEK airport"
+                "country": "PEK airport", 
+                "flights": 1274, 
+                "passengers": 314375
             }
         }, 
         {
@@ -138,7 +156,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "SGN airport"
+                "country": "SGN airport", 
+                "flights": 1330, 
+                "passengers": 296041
             }
         }, 
         {
@@ -152,7 +172,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "KUL airport"
+                "country": "KUL airport", 
+                "flights": 1158, 
+                "passengers": 274598
             }
         }, 
         {
@@ -166,7 +188,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "MNL airport"
+                "country": "MNL airport", 
+                "flights": 1759, 
+                "passengers": 250125
             }
         }, 
         {
@@ -180,7 +204,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "SFO airport"
+                "country": "SFO airport", 
+                "flights": 747, 
+                "passengers": 213233
             }
         }, 
         {
@@ -194,7 +220,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "SZX airport"
+                "country": "SZX airport", 
+                "flights": 1077, 
+                "passengers": 205262
             }
         }, 
         {
@@ -208,7 +236,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "FUK airport"
+                "country": "FUK airport", 
+                "flights": 1120, 
+                "passengers": 196700
             }
         }, 
         {
@@ -222,7 +252,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "NGO airport"
+                "country": "NGO airport", 
+                "flights": 1141, 
+                "passengers": 190170
             }
         }, 
         {
@@ -236,7 +268,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "CAN airport"
+                "country": "CAN airport", 
+                "flights": 793, 
+                "passengers": 174726
             }
         }, 
         {
@@ -250,7 +284,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "CTS airport"
+                "country": "CTS airport", 
+                "flights": 666, 
+                "passengers": 164682
             }
         }, 
         {
@@ -264,7 +300,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "ICN airport"
+                "country": "ICN airport", 
+                "flights": 669, 
+                "passengers": 158169
             }
         }, 
         {
@@ -278,7 +316,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "CGK airport"
+                "country": "CGK airport", 
+                "flights": 734, 
+                "passengers": 141834
             }
         }, 
         {
@@ -292,7 +332,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "HAN airport"
+                "country": "HAN airport", 
+                "flights": 954, 
+                "passengers": 138494
             }
         }, 
         {
@@ -306,7 +348,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "DPS airport"
+                "country": "DPS airport", 
+                "flights": 547, 
+                "passengers": 118000
             }
         }, 
         {
@@ -320,7 +364,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "HGH airport"
+                "country": "HGH airport", 
+                "flights": 685, 
+                "passengers": 117309
             }
         }, 
         {
@@ -334,7 +380,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "NKG airport"
+                "country": "NKG airport", 
+                "flights": 624, 
+                "passengers": 116026
             }
         }, 
         {
@@ -348,7 +396,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "YVR airport"
+                "country": "YVR airport", 
+                "flights": 394, 
+                "passengers": 97415
             }
         }, 
         {
@@ -362,7 +412,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "XMN airport"
+                "country": "XMN airport", 
+                "flights": 613, 
+                "passengers": 96795
             }
         }, 
         {
@@ -376,7 +428,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "OKA airport"
+                "country": "OKA airport", 
+                "flights": 682, 
+                "passengers": 90455
             }
         }, 
         {
@@ -390,7 +444,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "WUX airport"
+                "country": "WUX airport", 
+                "flights": 630, 
+                "passengers": 78921
             }
         }, 
         {
@@ -404,7 +460,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "NGB airport"
+                "country": "NGB airport", 
+                "flights": 542, 
+                "passengers": 78910
             }
         }, 
         {
@@ -418,7 +476,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "SHE airport"
+                "country": "SHE airport", 
+                "flights": 473, 
+                "passengers": 74610
             }
         }, 
         {
@@ -432,7 +492,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "CGO airport"
+                "country": "CGO airport", 
+                "flights": 389, 
+                "passengers": 66842
             }
         }, 
         {
@@ -446,7 +508,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "CSX airport"
+                "country": "CSX airport", 
+                "flights": 429, 
+                "passengers": 65188
             }
         }, 
         {
@@ -460,7 +524,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "CTU airport"
+                "country": "CTU airport", 
+                "flights": 350, 
+                "passengers": 63752
             }
         }, 
         {
@@ -474,7 +540,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "BKI airport"
+                "country": "BKI airport", 
+                "flights": 526, 
+                "passengers": 62980
             }
         }, 
         {
@@ -488,7 +556,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "TAO airport"
+                "country": "TAO airport", 
+                "flights": 351, 
+                "passengers": 58270
             }
         }, 
         {
@@ -502,7 +572,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "SEA airport"
+                "country": "SEA airport", 
+                "flights": 194, 
+                "passengers": 56008
             }
         }, 
         {
@@ -516,7 +588,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "PNH airport"
+                "country": "PNH airport", 
+                "flights": 434, 
+                "passengers": 54351
             }
         }, 
         {
@@ -530,7 +604,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "XIY airport"
+                "country": "XIY airport", 
+                "flights": 336, 
+                "passengers": 52554
             }
         }, 
         {
@@ -544,7 +620,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "FRA airport"
+                "country": "FRA airport", 
+                "flights": 218, 
+                "passengers": 49670
             }
         }, 
         {
@@ -558,7 +636,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "GUM airport"
+                "country": "GUM airport", 
+                "flights": 208, 
+                "passengers": 46760
             }
         }, 
         {
@@ -572,7 +652,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "FOC airport"
+                "country": "FOC airport", 
+                "flights": 389, 
+                "passengers": 46249
             }
         }, 
         {
@@ -586,7 +668,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "TNA airport"
+                "country": "TNA airport", 
+                "flights": 356, 
+                "passengers": 45884
             }
         }, 
         {
@@ -600,7 +684,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "BNE airport"
+                "country": "BNE airport", 
+                "flights": 211, 
+                "passengers": 44743
             }
         }, 
         {
@@ -614,7 +700,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "HAK airport"
+                "country": "HAK airport", 
+                "flights": 383, 
+                "passengers": 42266
             }
         }, 
         {
@@ -628,7 +716,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "CDG airport"
+                "country": "CDG airport", 
+                "flights": 156, 
+                "passengers": 42037
             }
         }, 
         {
@@ -642,7 +732,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "DLC airport"
+                "country": "DLC airport", 
+                "flights": 264, 
+                "passengers": 40293
             }
         }, 
         {
@@ -656,7 +748,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "SYD airport"
+                "country": "SYD airport", 
+                "flights": 186, 
+                "passengers": 39162
             }
         }, 
         {
@@ -670,7 +764,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "WUH airport"
+                "country": "WUH airport", 
+                "flights": 227, 
+                "passengers": 38588
             }
         }, 
         {
@@ -684,7 +780,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "CKG airport"
+                "country": "CKG airport", 
+                "flights": 302, 
+                "passengers": 36937
             }
         }, 
         {
@@ -698,7 +796,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "ROR airport"
+                "country": "ROR airport", 
+                "flights": 306, 
+                "passengers": 35589
             }
         }, 
         {
@@ -712,7 +812,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "HIJ airport"
+                "country": "HIJ airport", 
+                "flights": 313, 
+                "passengers": 34909
             }
         }, 
         {
@@ -726,7 +828,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "YYZ airport"
+                "country": "YYZ airport", 
+                "flights": 131, 
+                "passengers": 34373
             }
         }, 
         {
@@ -740,7 +844,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "KMG airport"
+                "country": "KMG airport", 
+                "flights": 259, 
+                "passengers": 33391
             }
         }, 
         {
@@ -754,7 +860,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "CJU airport"
+                "country": "CJU airport", 
+                "flights": 245, 
+                "passengers": 32221
             }
         }, 
         {
@@ -768,7 +876,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "KHN airport"
+                "country": "KHN airport", 
+                "flights": 231, 
+                "passengers": 30840
             }
         }, 
         {
@@ -782,7 +892,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "XUZ airport"
+                "country": "XUZ airport", 
+                "flights": 300, 
+                "passengers": 29838
             }
         }, 
         {
@@ -796,7 +908,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "VIE airport"
+                "country": "VIE airport", 
+                "flights": 130, 
+                "passengers": 29597
             }
         }, 
         {
@@ -810,7 +924,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "DEL airport"
+                "country": "DEL airport", 
+                "flights": 105, 
+                "passengers": 29388
             }
         }, 
         {
@@ -824,7 +940,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "HRB airport"
+                "country": "HRB airport", 
+                "flights": 223, 
+                "passengers": 28993
             }
         }, 
         {
@@ -838,7 +956,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "YNZ airport"
+                "country": "YNZ airport", 
+                "flights": 251, 
+                "passengers": 27044
             }
         }, 
         {
@@ -852,7 +972,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "KWE airport"
+                "country": "KWE airport", 
+                "flights": 243, 
+                "passengers": 26113
             }
         }, 
         {
@@ -866,7 +988,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "SJW airport"
+                "country": "SJW airport", 
+                "flights": 214, 
+                "passengers": 25344
             }
         }, 
         {
@@ -880,7 +1004,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "JFK airport"
+                "country": "JFK airport", 
+                "flights": 95, 
+                "passengers": 25291
             }
         }, 
         {
@@ -894,7 +1020,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "AMS airport"
+                "country": "AMS airport", 
+                "flights": 220, 
+                "passengers": 25131
             }
         }, 
         {
@@ -908,7 +1036,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "KWL airport"
+                "country": "KWL airport", 
+                "flights": 212, 
+                "passengers": 24376
             }
         }, 
         {
@@ -922,7 +1052,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "ANC airport"
+                "country": "ANC airport", 
+                "flights": 96, 
+                "passengers": 23969
             }
         }, 
         {
@@ -936,7 +1068,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "YNT airport"
+                "country": "YNT airport", 
+                "flights": 201, 
+                "passengers": 23156
             }
         }, 
         {
@@ -950,7 +1084,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "KMQ airport"
+                "country": "KMQ airport", 
+                "flights": 182, 
+                "passengers": 22388
             }
         }, 
         {
@@ -964,7 +1100,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "PEN airport"
+                "country": "PEN airport", 
+                "flights": 176, 
+                "passengers": 20399
             }
         }, 
         {
@@ -978,7 +1116,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "NNG airport"
+                "country": "NNG airport", 
+                "flights": 152, 
+                "passengers": 19828
             }
         }, 
         {
@@ -992,7 +1132,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "TSN airport"
+                "country": "TSN airport", 
+                "flights": 88, 
+                "passengers": 19511
             }
         }, 
         {
@@ -1006,7 +1148,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "SUB airport"
+                "country": "SUB airport", 
+                "flights": 94, 
+                "passengers": 18171
             }
         }, 
         {
@@ -1020,7 +1164,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "CGQ airport"
+                "country": "CGQ airport", 
+                "flights": 129, 
+                "passengers": 16828
             }
         }, 
         {
@@ -1034,7 +1180,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "SDJ airport"
+                "country": "SDJ airport", 
+                "flights": 89, 
+                "passengers": 16722
             }
         }, 
         {
@@ -1048,7 +1196,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "HFE airport"
+                "country": "HFE airport", 
+                "flights": 139, 
+                "passengers": 16661
             }
         }, 
         {
@@ -1062,7 +1212,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "SYX airport"
+                "country": "SYX airport", 
+                "flights": 170, 
+                "passengers": 15190
             }
         }, 
         {
@@ -1076,7 +1228,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "TYN airport"
+                "country": "TYN airport", 
+                "flights": 125, 
+                "passengers": 12611
             }
         }, 
         {
@@ -1090,7 +1244,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "KOJ airport"
+                "country": "KOJ airport", 
+                "flights": 94, 
+                "passengers": 12177
             }
         }, 
         {
@@ -1104,7 +1260,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "CNX airport"
+                "country": "CNX airport", 
+                "flights": 99, 
+                "passengers": 11564
             }
         }, 
         {
@@ -1118,7 +1276,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "HKT airport"
+                "country": "HKT airport", 
+                "flights": 84, 
+                "passengers": 11179
             }
         }, 
         {
@@ -1132,7 +1292,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "FSZ airport"
+                "country": "FSZ airport", 
+                "flights": 93, 
+                "passengers": 10330
             }
         }, 
         {
@@ -1146,7 +1308,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "KMI airport"
+                "country": "KMI airport", 
+                "flights": 84, 
+                "passengers": 9182
             }
         }, 
         {
@@ -1160,7 +1324,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "TOY airport"
+                "country": "TOY airport", 
+                "flights": 73, 
+                "passengers": 6333
             }
         }, 
         {
@@ -1174,7 +1340,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "HKD airport"
+                "country": "HKD airport", 
+                "flights": 38, 
+                "passengers": 5796
             }
         }, 
         {
@@ -1188,7 +1356,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "LHR airport"
+                "country": "LHR airport", 
+                "flights": 24, 
+                "passengers": 3814
             }
         }, 
         {
@@ -1202,7 +1372,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "ISG airport"
+                "country": "ISG airport", 
+                "flights": 41, 
+                "passengers": 3722
             }
         }, 
         {
@@ -1216,7 +1388,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "AKJ airport"
+                "country": "AKJ airport", 
+                "flights": 17, 
+                "passengers": 2493
             }
         }, 
         {
@@ -1230,7 +1404,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "KUH airport"
+                "country": "KUH airport", 
+                "flights": 17, 
+                "passengers": 2455
             }
         }, 
         {
@@ -1244,7 +1420,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "OBO airport"
+                "country": "OBO airport", 
+                "flights": 18, 
+                "passengers": 1983
             }
         }, 
         {
@@ -1258,7 +1436,9 @@
             "type": "Feature", 
             "id": null, 
             "properties": {
-                "country": "WNZ airport"
+                "country": "WNZ airport", 
+                "flights": 2, 
+                "passengers": 261
             }
         }
     ]
