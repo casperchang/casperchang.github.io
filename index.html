@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>A simple map</title>
+	<title>Visual-Flights in China</title>
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 	
 	<link rel="stylesheet" type="text/css" href="./d3/css/styles.css" />
@@ -20,6 +20,7 @@
 	<div id='map'></div>
 	
 <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/arc.js/v0.1.0/arc.js'></script>	
+<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
 <script>
 	
 	/*
@@ -44,8 +45,10 @@
 	      			attributionControl: false,
 	      			infoControl: true
 	    		})
-    			.setView([28.19, 113.03], 5);
+    			.setView([28.19, 113.03], 6);
 	
+	// 
+	omnivore.csv('china-airports.csv').addTo(map);
 	
 </script>
 
