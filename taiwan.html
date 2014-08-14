@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>A simple map</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	
+	<link rel="stylesheet" type="text/css" href="./d3/css/styles.css" />
+	<script type="text/javascript" src="./d3/d3.v3.js"></script>
+	<script src="http://d3js.org/queue.v1.min.js"></script>
+	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.css' rel='stylesheet' />
+	
+	<style>
+  	body { margin:0; padding:0; }
+  	#map { position:absolute; top:0; bottom:0; width:100%; }
+	</style>	
+</head>
+<body>
+	<div id='map'></div>
+	
+<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/arc.js/v0.1.0/arc.js'></script>	
+<script>
+	L.mapbox.accessToken = 'pk.eyJ1IjoiY2FzcGVydml6IiwiYSI6IjFyNHlFYkUifQ.61-Ph449J2Zqn0KNynDpUw'; // my public token
+	var map = L.mapbox.map('map', 'examples.map-2k9d7u0c', {
+	      			attributionControl: false,
+	      			infoControl: true
+	    		})
+    			.setView([28.19, 113.03], 5);
+	//map.infoControl.addInfo('<a href="http://openflights.org/data.html">Flight data from Open Flights, under the ODbL license</a>');			
+    //map.dragging.disable();
+	//map.touchZoom.disable();
+	//map.doubleClickZoom.disable();
+	//map.scrollWheelZoom.disable();
+	//if (map.tap) map.tap.disable();
+	map.tileLayer.setOpacity(0.8);
+	    
+	d3.json("geojson-flights2012.json", function(json) {
+		
+		var max = d3.max(json.features, function(d) { return d.properties.passengers; });
+		var min = d3.min(json.features, function(d) { return d.properties.passengers; });
+		var scale = d3.scale.sqrt()
+						.domain([min, max])
+						.range([5,15]);
+		
+		var latlngs = []; // keep geojson info. for further use
+		var passengers = [];
+		var gLayer = L.geoJson(json, {
+		    pointToLayer: function(feature, latlng) {	// add destination marker
+		        return L.circleMarker(latlng, {
+		            radius: scale(feature.properties.passengers)
+		        })
+		    },
+		    onEachFeature: function (feature, layer) {
+		        layer.bindPopup(feature.properties.country);		       		        
+		        latlngs.push(feature.geometry.coordinates);
+		        passengers.push(feature.properties.passengers);
+		    }
+		});
+		gLayer.addTo(map);
+		
+		// add path line from taiwan to each marker
+		
+		// Transform the short [lat,lng] format in our
+		// data into the {x, y} expected by arc.js.
+		function obj(ll) { return { y: ll[1], x: ll[0] }; }
+		
+		// special process for date-line on pacific
+		for (var i = 0; i < latlngs.length; i++) {
+			if (latlngs[i][0] > 0) {
+				latlngs[i][0] -= 360.0;
+			}
+		}
+		console.log(latlngs);
+		scale
+			.range([1,5]);
+		for (var i = 0; i < latlngs.length; i++) {
+			
+			
+			var generator = new arc.GreatCircle(
+		            obj(latlngs[i]),
+		            obj([121.223889, 25.076389]));
+			
+			var line = generator.Arc(100, { offset: 10 });
+			
+			var newLine = L.polyline(line.geometries[0].coords.map(function(c) {
+		        return c.reverse();
+		    }), {
+		        color: '#fff',
+		        weight: 1,
+		        opacity: 0.5
+		    })
+		    .addTo(map);
+			
+			//var width = passengers[i] /
+			
+			/*
+			// drawing lines
+			obj0 = L.latLng(latlngs[i][1], latlngs[i][0]);
+			obj1 = L.latLng(25.076389, 121.223889); // Taoyuan airport, Taiwan
+			L.polyline([obj0, obj1], {
+				"color": 'white', 
+				"weight": scale(passengers[i]),
+			    "opacity": 0.7
+			    //"line-dasharray": [10, 4]
+			})
+			//.bindPopup('<p>Hello world!<br />This is a nice popup.</p>').openPopup()
+			.addTo(map);
+			*/
+		}
+		
+	});
+	
+/* 	var latlngs = []
+	latlngs.push(L.latLng(25.0, 121.0));
+	latlngs.push(L.latLng(26.0, 122.0));	
+	var polyline = L.polyline(latlngs, {color: 'red'}).addTo(map);
+ */	
+</script>
+
+
+</body>
+</html>
