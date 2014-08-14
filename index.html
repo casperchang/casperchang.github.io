@@ -20,7 +20,6 @@
 	<div id='map'></div>
 	
 <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/arc.js/v0.1.0/arc.js'></script>	
-<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
 <script>
 	
 	/*
@@ -33,6 +32,7 @@
 	6. from lines to arcs with arc.js
 	
 	7. (oc) refine map with css tool by mapbox
+	8. add tooltip for more infomation
 	*/
 
 
@@ -45,11 +45,43 @@
 	      			attributionControl: false,
 	      			infoControl: true
 	    		})
-    			.setView([28.19, 113.03], 6);
+    			.setView([28.19, 113.03], 5);
+	map.tileLayer.setOpacity(0.6);
+	
+	// 2. 
+	d3.csv("china-airports.csv", function(error, data) {
+		
+		var max = d3.max(data, function(d) { return +d.dob; });
+		var min = d3.min(data, function(d) { return +d.dob; });
+		console.log([max, min]);
+		var scale = d3.scale.linear()
+						.domain([min, max])
+						.range([10000, 100000]);
+		
+		
+		data.forEach(function(d) {
+			
+ 			obj0 = L.latLng(d.latitude, d.longitude);
+ 			L.circle(obj0, scale(d.dob), {
+		        color: '#f00',
+		        weight: 1,
+		        opacity: 0.5
+		    }).addTo(map);
+ 
+ 		});
+	});
 	
 	// 
-	omnivore.csv('china-airports.csv').addTo(map);
-	
+	d3.csv("china-routes-t2.csv", function(error, data) {
+		data.forEach(function(d) {
+			obj0 = L.latLng(d.slat, d.slng);
+			obj1 = L.latLng(d.dlat, d.dlng);
+			L.polyline([obj0, obj1], {
+				"color": 'steelblue',
+				"weight": 1
+			});
+		});
+	});
 </script>
 
 
