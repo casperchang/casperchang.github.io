@@ -1,0 +1,69 @@
+{
+    "children": [
+        {
+            "name": "Area Chart", 
+            "size": 1
+        }, 
+        {
+            "name": "Bar Chart", 
+            "size": 1
+        }, 
+        {
+            "name": "Bubble", 
+            "size": 1
+        }, 
+        {
+            "name": "Connected Scatterplot", 
+            "size": 1
+        }, 
+        {
+            "name": "Donut Chart", 
+            "size": 1
+        }, 
+        {
+            "name": "Heat Map", 
+            "size": 1
+        }, 
+        {
+            "name": "ISOtype", 
+            "size": 1
+        }, 
+        {
+            "name": "Line Chart", 
+            "size": 1
+        }, 
+        {
+            "name": "Map", 
+            "size": 1
+        }, 
+        {
+            "name": "Network diagram", 
+            "size": 1
+        }, 
+        {
+            "name": "Pie Chart", 
+            "size": 1
+        }, 
+        {
+            "name": "Scatterplot", 
+            "size": 1
+        }, 
+        {
+            "name": "Slope Graph", 
+            "size": 1
+        }, 
+        {
+            "name": "Timeline", 
+            "size": 1
+        }, 
+        {
+            "name": "Tree", 
+            "size": 1
+        }, 
+        {
+            "name": "Treemap", 
+            "size": 1
+        }
+    ], 
+    "name": "paent"
+}

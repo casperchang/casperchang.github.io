@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Inside The Data | Data Visualization</title>
+    <link rel="stylesheet" type="text/css" href="./css/mystyle.css">
+    <link rel="stylesheet" type="text/css" href="./css/clock.css">
+    <link rel="stylesheet" type="text/css" href="./css/fontfaces.css">
+    
+    <!-- jQuery for: clcok -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    
+<!--     <script src="http://d3js.org/d3.v3.min.js"></script>    
+    <script src="https://www.google.com/jsapi"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="jquery.csv-0.71.js"></script>	        
+ -->
+ 
+ 	
+ 	<!-- clock from http://www.alessioatzeni.com/blog/css3-digital-clock-with-jquery/ -->
+ 
+ </head>
+            
+<body>
+    
+   	<div id="head-div">
+   		<!-- <div id="slogan"><p>Visualization, inside the data</p></div> -->
+   		<div id="slogan"><p>Inside the data - #data visualization</p></div>
+   		<div id="Date"></div>
+   		<div id="clock">		  
+   			<ul>
+		    	<li id="hours"></li>
+		     	<li id="point">:</li>
+		      	<li id="min"></li>
+		      	<li id="point">:</li>
+		      	<li id="sec"></li>
+		  	</ul>
+   		</div>
+   		<div id="destination">It remains,</div>
+   		<div id="backclock"></div>
+   	</div>
+    
+    <div id="nav-div">
+        <ul id="nav">
+            <li><a href="">Home</a></li>
+            <li><a href="http://dataperspective.wordpress.com/">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./app.html">APP</a></li>
+        </ul>        
+    </div>
+    
+    <div id="description">
+        <p>Programming, reading, photography, and trying to write something.</p>
+        <p>My name is Casper, a software engineer and visualization enthusiast. I used to write codes for image processing, 
+        GUI, medical devices, art filters for camera, iOS application, and wearable device.</br></br> 
+        
+        After several working years, one day I finally realize that my passion is inside beautiful visualization. 
+        Data visualization is an very interesting field to tell stories with visual graphs and processed data. 
+        </br></br>
+        So I start to study, develop this website to collect my visual works, and try my best looking for my visualization playground.
+        </p>  
+    </div>
+    
+    <div id="cpolaroid">
+        <figure>
+			<a href="./gallery/p7_nbaschedule/nbaschedule.html"> <img
+				src="./img/home-nbaschedule.png" alt="Graphic NBA schedule" border="0" /></a>
+			<figcaption>Visualization of NBA Schedule, which team has most successive road trip game?</figcaption>
+        </figure>
+        <figure>
+            <a href="./gallery/p10_flightsinchina/flightsinchina.html">
+            <img src="./img/home-flightsinchina.png" alt="Flights in China" /></a>
+            <figcaption>Visualization of local flights and busy degree of airports in China</figcaption>
+        </figure>        
+        <figure>
+        	<a href="./gallery/p5_radialtree/radialtree.html">
+            <img src="./img/home-radialtree.png" alt="Radial Tree of Taiwan Stock" /></a>
+            <figcaption>Visualization of Taiwan Stock by Category with Radial Tree model</figcaption>
+        </figure>
+        <figure>
+			<a href="./gallery/p1_nbastanding2014/nbacorrelation.html"> <img
+				src="./img/home-nba.png" alt="NBA 2014" border="0" /></a>
+			<figcaption>Correlation of season standings vs. team salaries of NBA 2013-14</figcaption>
+        </figure>
+        <figure>
+        	<a href="./gallery/p3_taipeilarceny/taipeilarceny.html">
+            <img src="./img/home-taipeilarceny.png" alt="Taipei Lerceny 2013" /></a>
+            <figcaption>Visualization of the ratio of larceny types in different districts</figcaption>
+        </figure>
+        <figure>
+        	<a href="./gallery/p4_stocktree/stocktree.html">
+            <img src="./img/home-stocktree.png" alt="Tree of Taiwan Stock" /></a>
+            <figcaption>Hierarchical Viewpoint of Taiwan Stock Market by Industrial Group</figcaption>
+        </figure>
+        <figure>
+        	<a href="./gallery/p6_stockbubble/stockbubble.html">
+            <img src="./img/home-stockbubble.png" alt="Taiwan Stock As Bubbles" /></a>
+            <figcaption>What does each stock look like? IF they all become Bubbles!</figcaption>
+        </figure>
+        <figure>
+            <a href="./gallery/p8_geopower/geopower.html">
+            <img src="./img/home-geopower.png" alt="Who Use The Power?" /></a>
+            <figcaption>Visualization of the distribution of average power consumption in Taiwan with GeoJSON data</figcaption>
+        </figure>
+        <figure>
+        	<a href="./gallery/p2_treemapstock/stocktrend5.html">
+            <img src="./img/home_stocktreemamp1.png" alt="Treemap of Stock" /></a>
+            <figcaption>Visualization of five days' stock trend in Taiwan with treemap model</figcaption>
+        </figure>
+    </div>    
+    
+     <p class="text_line"><br/></p>
+    
+    <!-- script for clock -->
+    <script type="text/javascript">
+		$(document).ready(function() {
+			// Create two variable with the names of the months and days in an array
+			//var monthNames = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
+			var monthNames = [ "Jan-", "Feb-", "Mar-", "Apr-", "May-", "Jun-", "Jul-", "Aug-", "Sep-", "Oct-", "Nov-", "Dec-" ];
+			//var dayNames= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+			var dayNames= ["Sun.","Mon.","Tue.","Wed.","Thu.","Fri.","Sat."]
+
+			// Create a newDate() object
+			var newDate = new Date();
+			// Extract the current date from Date object
+			newDate.setDate(newDate.getDate());
+			// Output the day, date, month and year   
+			$('#Date').html(newDate.getFullYear() + ' ' + monthNames[newDate.getMonth()] + newDate.getDate() + ' ' + 
+					dayNames[newDate.getDay()] );
+
+			setInterval( function() {
+				// Create a newDate() object and extract the seconds of the current time on the visitor's
+				var seconds = new Date().getSeconds();
+				// Add a leading zero to seconds value
+				$("#sec").html(( seconds < 10 ? "0" : "" ) + seconds);
+			},1000);
+	
+			setInterval( function() {
+				// Create a newDate() object and extract the minutes of the current time on the visitor's
+				var minutes = new Date().getMinutes();
+				// Add a leading zero to the minutes value
+				$("#min").html(( minutes < 10 ? "0" : "" ) + minutes);
+    		},1000);
+	
+			setInterval( function() {
+				// Create a newDate() object and extract the hours of the current time on the visitor's
+				var hours = new Date().getHours();
+				// Add a leading zero to the hours value
+				$("#hours").html(( hours < 10 ? "0" : "" ) + hours);
+    		}, 1000);	
+			
+			// 
+			setInterval( function() {
+				var now = new Date();
+				var des = new Date(2040, 12, 17, 0, 0, 0, 0);
+				var diff = des-now;
+				$('#backclock').html( parseInt(diff/1000).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") );	
+			}, 1000);
+			
+		});
+	</script>  
+ </body>
+</html>

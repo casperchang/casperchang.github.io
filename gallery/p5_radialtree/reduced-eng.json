@@ -1,0 +1,805 @@
+{
+    "name": "stockTW", 
+    "children": [
+        {
+            "name": "Cement", 
+            "children": [
+                {
+                    "name": "TCC "
+                }, 
+                {
+                    "name": "ACC "
+                }, 
+                {
+                    "name": "CHC "
+                }, 
+                {
+                    "name": "UCC "
+                }, 
+                {
+                    "name": "LUCKY CEMENT "
+                }, 
+                {
+                    "name": "HSINGTA "
+                }
+            ]
+        }, 
+        {
+            "name": "Food", 
+            "children": [
+                {
+                    "name": "WEI CHUAN "
+                }, 
+                {
+                    "name": "VE WONG "
+                }, 
+                {
+                    "name": "GREATWALL "
+                }, 
+                {
+                    "name": "OCEANIC BEVERAGES CO. INC. "
+                }, 
+                {
+                    "name": "CPE "
+                }, 
+                {
+                    "name": "UNI-PRESIDENT "
+                }
+            ]
+        }, 
+        {
+            "name": "Others", 
+            "children": [
+                {
+                    "name": "GREEN SEAL "
+                }, 
+                {
+                    "name": "C.F.CORP. "
+                }, 
+                {
+                    "name": "FALCON "
+                }, 
+                {
+                    "name": "SSM "
+                }, 
+                {
+                    "name": "LONG BON "
+                }, 
+                {
+                    "name": "POC "
+                }
+            ]
+        }, 
+        {
+            "name": "Plastic", 
+            "children": [
+                {
+                    "name": "FPC "
+                }, 
+                {
+                    "name": "NPC "
+                }, 
+                {
+                    "name": "USI "
+                }, 
+                {
+                    "name": "CGPC "
+                }, 
+                {
+                    "name": "SAN FANG "
+                }, 
+                {
+                    "name": "APC "
+                }
+            ]
+        }, 
+        {
+            "name": "Chemical Industry", 
+            "children": [
+                {
+                    "name": "SUN YAD "
+                }, 
+                {
+                    "name": "LCYCIC "
+                }, 
+                {
+                    "name": "SESODA "
+                }, 
+                {
+                    "name": "FUCC "
+                }, 
+                {
+                    "name": "OUCC "
+                }, 
+                {
+                    "name": "EVERLIGHT "
+                }
+            ]
+        }, 
+        {
+            "name": "Automobile", 
+            "children": [
+                {
+                    "name": "HIROCA "
+                }, 
+                {
+                    "name": "YL "
+                }, 
+                {
+                    "name": "CMC "
+                }, 
+                {
+                    "name": "SY "
+                }, 
+                {
+                    "name": "HOTAI MOTOR "
+                }, 
+                {
+                    "name": "YNM "
+                }
+            ]
+        }, 
+        {
+            "name": "Textile", 
+            "children": [
+                {
+                    "name": "FENC "
+                }, 
+                {
+                    "name": "SSFC "
+                }, 
+                {
+                    "name": "NYDF "
+                }, 
+                {
+                    "name": "H.C. "
+                }, 
+                {
+                    "name": "TUNG HO "
+                }, 
+                {
+                    "name": "KFIC "
+                }
+            ]
+        }, 
+        {
+            "name": "Building Material&Construction", 
+            "children": [
+                {
+                    "name": "HUA YU LIEN "
+                }, 
+                {
+                    "name": "YU FOONG "
+                }, 
+                {
+                    "name": "ADVANCETEK "
+                }, 
+                {
+                    "name": "KPT "
+                }, 
+                {
+                    "name": "RUN LONG "
+                }, 
+                {
+                    "name": "CATHAY RED "
+                }
+            ]
+        }, 
+        {
+            "name": "Semiconductor Industry", 
+            "children": [
+                {
+                    "name": "GTM "
+                }, 
+                {
+                    "name": "RECTRON "
+                }, 
+                {
+                    "name": "UMC "
+                }, 
+                {
+                    "name": "ASE "
+                }, 
+                {
+                    "name": "SPIL "
+                }, 
+                {
+                    "name": "OSE "
+                }, 
+                {
+                    "name": "TSMC "
+                }, 
+                {
+                    "name": "MACRONIX "
+                }, 
+                {
+                    "name": "TMC "
+                }, 
+                {
+                    "name": "MVI "
+                }, 
+                {
+                    "name": "WEC "
+                }, 
+                {
+                    "name": "SDI "
+                }, 
+                {
+                    "name": "SIS "
+                }, 
+                {
+                    "name": "LPI "
+                }, 
+                {
+                    "name": "RT "
+                }, 
+                {
+                    "name": "VIA "
+                }
+            ]
+        }, 
+        {
+            "name": "Electronic Parts/Components", 
+            "children": [
+                {
+                    "name": "SL "
+                }, 
+                {
+                    "name": "SYNCMOLD "
+                }, 
+                {
+                    "name": "KING SLIDE "
+                }, 
+                {
+                    "name": "DELTA "
+                }, 
+                {
+                    "name": "COMPEQ MFG. "
+                }, 
+                {
+                    "name": "WUS "
+                }, 
+                {
+                    "name": "YAGEO "
+                }, 
+                {
+                    "name": "PI "
+                }, 
+                {
+                    "name": "CHIN-POON "
+                }, 
+                {
+                    "name": "UNITECH "
+                }, 
+                {
+                    "name": "GCE "
+                }, 
+                {
+                    "name": "TEAPO "
+                }, 
+                {
+                    "name": "EMC "
+                }, 
+                {
+                    "name": "FOXLINK "
+                }, 
+                {
+                    "name": "ICHIA "
+                }, 
+                {
+                    "name": "UMEC "
+                }, 
+                {
+                    "name": "CX TECH "
+                }, 
+                {
+                    "name": "ZIPPY "
+                }, 
+                {
+                    "name": "SUNON "
+                }, 
+                {
+                    "name": "THINKING "
+                }, 
+                {
+                    "name": "PWT "
+                }, 
+                {
+                    "name": "LIEN CHANG "
+                }, 
+                {
+                    "name": "RALEC "
+                }, 
+                {
+                    "name": "SPACE SHUTTLE "
+                }, 
+                {
+                    "name": "LEADDATA LTD "
+                }, 
+                {
+                    "name": "CHILISN ELECTRONICS CORP. "
+                }, 
+                {
+                    "name": "PHIHONG "
+                }, 
+                {
+                    "name": "GEM "
+                }, 
+                {
+                    "name": "LINE TEK "
+                }, 
+                {
+                    "name": "C SUN "
+                }, 
+                {
+                    "name": "LELON "
+                }, 
+                {
+                    "name": "GS "
+                }, 
+                {
+                    "name": "TA-I "
+                }, 
+                {
+                    "name": "ECE "
+                }
+            ]
+        }, 
+        {
+            "name": "Electric Machinery", 
+            "children": [
+                {
+                    "name": "SEEC "
+                }, 
+                {
+                    "name": "TECO "
+                }, 
+                {
+                    "name": "R.W. "
+                }, 
+                {
+                    "name": "YUNGTAY "
+                }, 
+                {
+                    "name": "JL "
+                }, 
+                {
+                    "name": "CHEM "
+                }
+            ]
+        }, 
+        {
+            "name": "Iron & Steel", 
+            "children": [
+                {
+                    "name": "CMP "
+                }, 
+                {
+                    "name": "CSC "
+                }, 
+                {
+                    "name": "TUNG HO STEEL "
+                }, 
+                {
+                    "name": "YH "
+                }, 
+                {
+                    "name": "KHC "
+                }, 
+                {
+                    "name": "FCC "
+                }
+            ]
+        }, 
+        {
+            "name": "Electrical & Cable", 
+            "children": [
+                {
+                    "name": "CWCO "
+                }, 
+                {
+                    "name": "SAMPO "
+                }, 
+                {
+                    "name": "WALSIN "
+                }, 
+                {
+                    "name": "HE "
+                }, 
+                {
+                    "name": "TA YA "
+                }, 
+                {
+                    "name": "CE "
+                }
+            ]
+        }, 
+        {
+            "name": "Biotechnology and Medical Care", 
+            "children": [
+                {
+                    "name": "CCPC "
+                }, 
+                {
+                    "name": "GKI "
+                }, 
+                {
+                    "name": "S.C.P.C "
+                }, 
+                {
+                    "name": "PIHSIANG "
+                }, 
+                {
+                    "name": "MAYWUFA "
+                }, 
+                {
+                    "name": "APEX BIOTECHNOLOGY CORP. "
+                }
+            ]
+        }, 
+        {
+            "name": "Glass & Ceramic", 
+            "children": [
+                {
+                    "name": "TGI "
+                }, 
+                {
+                    "name": "CHAMPION "
+                }, 
+                {
+                    "name": "CHINA GLAZE "
+                }, 
+                {
+                    "name": "HCG "
+                }, 
+                {
+                    "name": "SANITAR "
+                }
+            ]
+        }, 
+        {
+            "name": "Paper & Pulp", 
+            "children": [
+                {
+                    "name": "TPPC "
+                }, 
+                {
+                    "name": "SHIHLIN PAPER "
+                }, 
+                {
+                    "name": "CHENG LOONG "
+                }, 
+                {
+                    "name": "CHP "
+                }, 
+                {
+                    "name": "P.L "
+                }, 
+                {
+                    "name": "YFY "
+                }
+            ]
+        }, 
+        {
+            "name": "Rubber", 
+            "children": [
+                {
+                    "name": "NK "
+                }, 
+                {
+                    "name": "FEDERAL CORP "
+                }, 
+                {
+                    "name": "TSRC "
+                }, 
+                {
+                    "name": "CSRC "
+                }, 
+                {
+                    "name": "CST "
+                }, 
+                {
+                    "name": "KENDA "
+                }
+            ]
+        }, 
+        {
+            "name": "Shipping & Transportation", 
+            "children": [
+                {
+                    "name": "CSBC "
+                }, 
+                {
+                    "name": "EMC "
+                }, 
+                {
+                    "name": "SNC "
+                }, 
+                {
+                    "name": "U-MING "
+                }, 
+                {
+                    "name": "EITC "
+                }, 
+                {
+                    "name": "KERRY TJ "
+                }
+            ]
+        }, 
+        {
+            "name": "Computer and Peripheral Equipm", 
+            "children": [
+                {
+                    "name": "LTC "
+                }, 
+                {
+                    "name": "MII "
+                }, 
+                {
+                    "name": "COMPAL "
+                }, 
+                {
+                    "name": "ECS "
+                }, 
+                {
+                    "name": "QISDA "
+                }, 
+                {
+                    "name": "ACER "
+                }
+            ]
+        }, 
+        {
+            "name": "Other Electronic Industry", 
+            "children": [
+                {
+                    "name": "KINPO "
+                }, 
+                {
+                    "name": "HON HAI "
+                }, 
+                {
+                    "name": "FTC "
+                }, 
+                {
+                    "name": "SOLOMON "
+                }, 
+                {
+                    "name": "CHROMA "
+                }, 
+                {
+                    "name": "AURORA "
+                }
+            ]
+        }, 
+        {
+            "name": "Communications and Internet", 
+            "children": [
+                {
+                    "name": "MTI "
+                }, 
+                {
+                    "name": "TECOM "
+                }, 
+                {
+                    "name": "D-LINK "
+                }, 
+                {
+                    "name": "ACCTON "
+                }, 
+                {
+                    "name": "CHT "
+                }, 
+                {
+                    "name": "H.T. "
+                }
+            ]
+        }, 
+        {
+            "name": "Optoelectronic Industry", 
+            "children": [
+                {
+                    "name": "CMC "
+                }, 
+                {
+                    "name": "OPTOTECH "
+                }, 
+                {
+                    "name": "RITEK "
+                }, 
+                {
+                    "name": "ABILITY "
+                }, 
+                {
+                    "name": "WINTEK CORP. "
+                }, 
+                {
+                    "name": "EVERLIGHT "
+                }, 
+                {
+                    "name": "GSC "
+                }, 
+                {
+                    "name": "AUO "
+                }, 
+                {
+                    "name": "TYNTEK "
+                }, 
+                {
+                    "name": "ENLIGHT "
+                }, 
+                {
+                    "name": "EPISTAR "
+                }, 
+                {
+                    "name": "COSMO ELECTRONICS CORP. "
+                }, 
+                {
+                    "name": "CPT "
+                }, 
+                {
+                    "name": "I-CHIUN "
+                }, 
+                {
+                    "name": "AMTRAN "
+                }, 
+                {
+                    "name": "INFODISC "
+                }, 
+                {
+                    "name": "UNITY "
+                }, 
+                {
+                    "name": "LARGAN "
+                }, 
+                {
+                    "name": "ASIA "
+                }, 
+                {
+                    "name": "ACTION "
+                }, 
+                {
+                    "name": "BRIGHT "
+                }
+            ]
+        }, 
+        {
+            "name": "Electronic Products Distributi", 
+            "children": [
+                {
+                    "name": "SYNNEX "
+                }, 
+                {
+                    "name": "HIYES "
+                }, 
+                {
+                    "name": "UT "
+                }, 
+                {
+                    "name": "TKE "
+                }, 
+                {
+                    "name": "AUDIX "
+                }, 
+                {
+                    "name": "WAH LEE "
+                }
+            ]
+        }, 
+        {
+            "name": "Information Service Industry", 
+            "children": [
+                {
+                    "name": "MDS "
+                }, 
+                {
+                    "name": "SYSCOM "
+                }, 
+                {
+                    "name": "FIS "
+                }, 
+                {
+                    "name": "ARES "
+                }, 
+                {
+                    "name": "STARK "
+                }, 
+                {
+                    "name": "ZERO ONE "
+                }
+            ]
+        }, 
+        {
+            "name": "Trading & Consumers Goods", 
+            "children": [
+                {
+                    "name": "FSC "
+                }, 
+                {
+                    "name": "EMIC "
+                }, 
+                {
+                    "name": "SHIN SHIN "
+                }, 
+                {
+                    "name": "FEDS "
+                }, 
+                {
+                    "name": "MERCURIES "
+                }, 
+                {
+                    "name": "COLLINS "
+                }
+            ]
+        }, 
+        {
+            "name": "Oil, Gas and Electricity Indu", 
+            "children": [
+                {
+                    "name": "SLC "
+                }, 
+                {
+                    "name": "FPCC "
+                }, 
+                {
+                    "name": "TCC "
+                }, 
+                {
+                    "name": "GTG "
+                }, 
+                {
+                    "name": "S.S.N.G "
+                }, 
+                {
+                    "name": "S.H. "
+                }
+            ]
+        }, 
+        {
+            "name": "Tourism", 
+            "children": [
+                {
+                    "name": "WANHWA "
+                }, 
+                {
+                    "name": "HG "
+                }, 
+                {
+                    "name": "AMBH "
+                }, 
+                {
+                    "name": "LEOFOO "
+                }, 
+                {
+                    "name": "FIRST HOTEL "
+                }, 
+                {
+                    "name": "GFRT "
+                }
+            ]
+        }, 
+        {
+            "name": "Financial & Insurance", 
+            "children": [
+                {
+                    "name": "CHANG HWA BANK "
+                }, 
+                {
+                    "name": "KTB "
+                }, 
+                {
+                    "name": "T.C.C.B. "
+                }, 
+                {
+                    "name": "UNION INS. "
+                }, 
+                {
+                    "name": "CBF "
+                }, 
+                {
+                    "name": "CHINA LIFE "
+                }
+            ]
+        }
+    ]
+}

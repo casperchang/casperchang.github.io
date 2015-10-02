@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Visual-Flights in China</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />	
+	<link rel="stylesheet" type="text/css" href="../../css/gallery.css">
+	<link rel="stylesheet" type="text/css" href="../../d3/css/styles.css" />
+	<script type="text/javascript" src="../../d3/d3.v3.js"></script>
+	
+	<!-- <script src="http://d3js.org/queue.v1.min.js"></script> -->
+	<script src='https://api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.js'></script>
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.0.1/mapbox.css' rel='stylesheet' />
+	
+	<style>
+  	#map { /*position:absolute; top:0; bottom:0; width:800px;*/
+  		position:relative;
+  		top:0px;
+  		left:0px;
+  		float: left;
+  		margin: 0px 0px 20px 0px;
+  		height: 600px;
+ 		width: 1000px;
+	</style>	
+</head>
+<body>
+	<div id="backontop">
+		<a href="../../index.html">#Back</a>
+	</div>
+	<div id="pagedesc1">proj#10: visualization local flights and busy degree of airports in China</div>
+	<div id="projdate">@August 15, 2014</div>
+	<div id="graphtype">Graph type: Geographic Map</br>Interactive: Yes.</br>
+	Check the interactive map at the bottom with you mouse, 
+	the tooltip will show you the airport's name and how busy it was.</br>
+	There's only the static version of first graph due to the long laoding time (6000+ flight routes)</div>
+	<div id="maingraph">
+		<figure>
+			<img src="proj10-localflights-china 1000px.png" alt="Local flights in China" />
+			<figcaption></figcaption>
+		</figure>
+	</div>
+	
+	<div id='map'></div>
+	
+<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/arc.js/v0.1.0/arc.js'></script>	
+<script>
+	
+
+	// - draw bkg map of china with suitable rooming
+	L.mapbox.accessToken = 'pk.eyJ1IjoiY2FzcGVydml6IiwiYSI6IjFyNHlFYkUifQ.61-Ph449J2Zqn0KNynDpUw'; // my public token
+	/* map model list: 
+		examples.map-i86nkdio, standard 
+		examples.map-2k9d7u0c, like satellite
+	*/
+	var map = L.mapbox.map('map', 'casperviz.j7nf4774', {
+	      			attributionControl: false,
+	      			infoControl: true
+	    		});
+    			//.setView([28.19, 113.03], 5);
+	map.tileLayer.setOpacity(1.0);
+	map.scrollWheelZoom.disable();
+	
+	// - load data(airports) and draw every city with dynamic size by 'dob'	
+	d3.csv("china-airports.csv", function(error, data) {
+		
+		var max = d3.max(data, function(d) { return +d.dob; });
+		var min = d3.min(data, function(d) { return +d.dob; });
+		var scale = d3.scale.sqrt()
+						.domain([min, max])
+						.range([20000, 150000]);
+				
+		data.forEach(function(d) {
+			
+ 			obj0 = L.latLng(d.latitude, d.longitude);
+ 			L.circle(obj0, scale(d.dob), {
+		        color: '#fff',
+		        weight: 1,
+		        opacity: 0.5
+		    })
+		    .bindPopup( (d.name + "</br>" + "reached by " + d.dob + " airlines" ), {"closeButton":false} )
+ 		    .on("mouseover", function(e) {
+		    	this.openPopup();
+		    	this.setStyle( {"color": "steelblue", "weight":2, "opacity": 1} );
+		    })
+		    .on("mouseout", function(e) { 
+		    	this.closePopup();
+		    	this.setStyle( {"color": "white", "weight":1, "opacity": 0.5} );
+		    })
+ 		    .addTo(map);
+ 
+ 		});
+	});
+	
+	
+/*	
+	// - load data(routes) and draw connected lines between airports
+	// comment this section bcz it causes serious delay on web 
+	d3.csv("china-routes-t2.csv", function(error, data) {
+		
+		var plines = []; 
+		
+		data.forEach(function(d) {
+			
+			// type1: draw arcs for routes (by arc.js)
+ 			var generator = new arc.GreatCircle( {y:d.slat, x:d.slng}, {y:d.dlat, x:d.dlng} );
+		    var line = generator.Arc(100, { offset: 5 });
+			
+		    var newLine = L.polyline(line.geometries[0].coords.map(function(c) {
+		        return c.reverse();
+		    }), {
+		        color: '#eee',
+		        weight: 0.5,
+		        opacity: 0.05
+		    })
+		    .addTo(map);
+ 		
+ 			// type2: draw direct lines for routes
+ 			obj0 = L.latLng(d.slat, d.slng);
+			obj1 = L.latLng(d.dlat, d.dlng);
+			L.polyline([obj0, obj1], {
+				"color": 'white',
+				"weight": 0.5,
+				"opacity": 0.1
+			}).addTo(map);
+			
+		});
+	});
+*/	
+	
+</script>
+
+
+</body>
+</html>

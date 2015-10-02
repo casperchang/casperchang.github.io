@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Stock Bubbles</title>
+    <link rel="stylesheet" type="text/css" href="../../css/gallery.css">
+    <link rel="stylesheet" type="text/css" href="../../css/cookbookstyles.css"/>
+    <script type="text/javascript" src="../../d3/d3.v3.js"></script>
+    <style type="text/css">
+		text {
+		  font: 9px verdana, sans-serif;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="backontop">
+		<a href="../../index.html">#Back</a>
+	</div>
+	<div id="pagedesc1">proj#6: Bubbles of Taiwan Stock Market, bubble sizes decided by the current prices,</br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	And the colors stand for the different Industrial Groups.</div>
+	<div id="projdate">@August 7, 2014</div>
+	<div id="graphtype">Graph type: D3.js</br>
+	Interactive: Yes, check the prices and Chinese name by putting mouse on it.</div>
+
+	
+
+<script type="text/javascript">
+
+var diameter = 960,
+	format = d3.format(",2f"),
+	color = d3.scale.category20c();
+
+var bubble = d3.layout.pack()
+				.sort(null)
+				.size([diameter, diameter])
+				.padding(1.5);
+
+var svg = d3.select("body").append("svg")
+			.attr("width", diameter)
+			.attr("height", diameter)
+			.attr("class", "bubble");
+
+d3.json("eng0807.json", function(error, root) 
+{
+	//console.log(bubble.nodes(classes(root))); // check data
+	
+	var node = svg.selectAll(".node")
+  					.data(bubble.nodes(classes(root))
+  					.filter(function(d) { return !d.children; }))
+					.enter()
+					.append("g")
+  					.attr("class", "node")
+  					.attr("transform", function(d) { 
+  						return "translate(" + d.x + "," + d.y + ")"; 
+  					});
+
+	node.append("title")
+  		.text(function(d) { 
+  			return d.className + ": " + format(d.value) + "\n" + d.id + d.chi; 
+  		});
+
+	node.append("circle")
+  		.attr("r", function(d) { return d.r; })
+  		.style("fill", function(d) { return color(d.packageName); });
+
+	node.append("text")
+  		.attr("dy", ".3em")
+  		.style("text-anchor", "middle")
+  		.text(function(d) { return d.className.substring(0, d.r / 3); });
+});
+
+//Returns a flattened hierarchy containing all leaf nodes under the root.
+function classes(root) 
+{
+	var classes = [];
+
+	function recurse(name, node) {
+		if (node.children) node.children.forEach(function(child) { recurse(node.name, child); });
+		else classes.push({packageName: name, className: node.name, value: node.size, id: node.id, chi: node.chi});
+	}
+
+	recurse(null, root);
+	return {children: classes};
+}
+
+d3.select(self.frameElement).style("height", diameter + "px");
+
+</script>
+
+</body>
+
+</html>

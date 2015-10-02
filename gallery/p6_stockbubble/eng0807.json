@@ -1,0 +1,5221 @@
+{
+    "name": "stockTW", 
+    "children": [
+        {
+            "name": "Cement", 
+            "children": [
+                {
+                    "id": 1101, 
+                    "chi": "　台泥", 
+                    "name": "TCC ", 
+                    "size": 44.25
+                }, 
+                {
+                    "id": 1102, 
+                    "chi": "　亞泥", 
+                    "name": "ACC ", 
+                    "size": 40.95
+                }, 
+                {
+                    "id": 1103, 
+                    "chi": "　嘉泥", 
+                    "name": "CHC ", 
+                    "size": 15.0
+                }, 
+                {
+                    "id": 1104, 
+                    "chi": "　環泥", 
+                    "name": "UCC ", 
+                    "size": 29.05
+                }, 
+                {
+                    "id": 1108, 
+                    "chi": "　幸福", 
+                    "name": "LUCKY CEMENT ", 
+                    "size": 8.63
+                }, 
+                {
+                    "id": 1109, 
+                    "chi": "　信大", 
+                    "name": "HSINGTA ", 
+                    "size": 13.85
+                }, 
+                {
+                    "id": 1110, 
+                    "chi": "　東泥", 
+                    "name": "TUNA CEMENT ", 
+                    "size": 16.3
+                }
+            ]
+        }, 
+        {
+            "name": "Food", 
+            "children": [
+                {
+                    "id": 1201, 
+                    "chi": "　味全", 
+                    "name": "WEI CHUAN ", 
+                    "size": 45.8
+                }, 
+                {
+                    "id": 1203, 
+                    "chi": "　味王", 
+                    "name": "VE WONG ", 
+                    "size": 24.35
+                }, 
+                {
+                    "id": 1210, 
+                    "chi": "　大成", 
+                    "name": "GREATWALL ", 
+                    "size": 34.3
+                }, 
+                {
+                    "id": 1213, 
+                    "chi": "　大飲", 
+                    "name": "OCEANIC BEVERAGES CO. INC. ", 
+                    "size": 20.8
+                }, 
+                {
+                    "id": 1215, 
+                    "chi": "　卜蜂", 
+                    "name": "CPE ", 
+                    "size": 25.35
+                }, 
+                {
+                    "id": 1216, 
+                    "chi": "　統一", 
+                    "name": "UNI-PRESIDENT ", 
+                    "size": 50.9
+                }, 
+                {
+                    "id": 1217, 
+                    "chi": "　愛之味", 
+                    "name": "AGV ", 
+                    "size": 9.35
+                }, 
+                {
+                    "id": 1218, 
+                    "chi": "　泰山", 
+                    "name": "TAISUN ", 
+                    "size": 13.4
+                }, 
+                {
+                    "id": 1219, 
+                    "chi": "　福壽", 
+                    "name": "FWUSOW ", 
+                    "size": 16.95
+                }, 
+                {
+                    "id": 1220, 
+                    "chi": "　台榮", 
+                    "name": "TAIROUN ", 
+                    "size": 10.1
+                }, 
+                {
+                    "id": 1225, 
+                    "chi": "　福懋油", 
+                    "name": "FOPCO ", 
+                    "size": 21.1
+                }, 
+                {
+                    "id": 1227, 
+                    "chi": "　佳格", 
+                    "name": "S.F.C ", 
+                    "size": 76.5
+                }, 
+                {
+                    "id": 1229, 
+                    "chi": "　聯華", 
+                    "name": "LHIC ", 
+                    "size": 20.05
+                }, 
+                {
+                    "id": 1231, 
+                    "chi": "　聯華食", 
+                    "name": "LIAN HWA FOODS ", 
+                    "size": 41.05
+                }, 
+                {
+                    "id": 1232, 
+                    "chi": "　大統益", 
+                    "name": "TTET ", 
+                    "size": 73.2
+                }, 
+                {
+                    "id": 1233, 
+                    "chi": "　天仁", 
+                    "name": "TEN REN ", 
+                    "size": 49.4
+                }, 
+                {
+                    "id": 1234, 
+                    "chi": "　黑松", 
+                    "name": "HEY-SONG ", 
+                    "size": 32.25
+                }, 
+                {
+                    "id": 1235, 
+                    "chi": "　興泰", 
+                    "name": "ST ", 
+                    "size": 50.4
+                }, 
+                {
+                    "id": 1236, 
+                    "chi": "　宏亞", 
+                    "name": "HUNYA ", 
+                    "size": 25.2
+                }, 
+                {
+                    "id": 1702, 
+                    "chi": "　南僑", 
+                    "name": "NAMCHOW ", 
+                    "size": 62.0
+                }, 
+                {
+                    "id": 1737, 
+                    "chi": "　臺鹽", 
+                    "name": "TAIYEN ", 
+                    "size": 26.7
+                }
+            ]
+        }, 
+        {
+            "name": "Others", 
+            "children": [
+                {
+                    "id": 1262, 
+                    "chi": "　F-綠悅", 
+                    "name": "GREEN SEAL ", 
+                    "size": 161.5
+                }, 
+                {
+                    "id": 1435, 
+                    "chi": "　中福", 
+                    "name": "C.F.CORP. ", 
+                    "size": 6.49
+                }, 
+                {
+                    "id": 1516, 
+                    "chi": "　川飛", 
+                    "name": "FALCON ", 
+                    "size": 12.2
+                }, 
+                {
+                    "id": 2062, 
+                    "chi": "　橋椿", 
+                    "name": "SSM ", 
+                    "size": 52.7
+                }, 
+                {
+                    "id": 2514, 
+                    "chi": "　龍邦", 
+                    "name": "LONG BON ", 
+                    "size": 21.5
+                }, 
+                {
+                    "id": 2904, 
+                    "chi": "　匯僑", 
+                    "name": "POC ", 
+                    "size": 25.8
+                }, 
+                {
+                    "id": 4536, 
+                    "chi": "　拓凱", 
+                    "name": "TOPKEY ", 
+                    "size": 157.0
+                }, 
+                {
+                    "id": 5871, 
+                    "chi": "　F-中租", 
+                    "name": "CHAILEASE HOLDING ", 
+                    "size": 79.5
+                }, 
+                {
+                    "id": 6184, 
+                    "chi": "　大豐電", 
+                    "name": "DAFENG TV LTD. ", 
+                    "size": 51.5
+                }, 
+                {
+                    "id": 6504, 
+                    "chi": "　南六", 
+                    "name": "NAN LIU ", 
+                    "size": 147.5
+                }, 
+                {
+                    "id": 8033, 
+                    "chi": "　雷虎", 
+                    "name": "TT ", 
+                    "size": 15.2
+                }, 
+                {
+                    "id": 8404, 
+                    "chi": "　F-百和", 
+                    "name": "PAIHO SHIH HOLDINGS CORPORATION ", 
+                    "size": 20.1
+                }, 
+                {
+                    "id": 8411, 
+                    "chi": "　F-福貞", 
+                    "name": "KINGCAN ", 
+                    "size": 49.3
+                }, 
+                {
+                    "id": 8422, 
+                    "chi": "　可寧衛", 
+                    "name": "CLEANAWAY ", 
+                    "size": 169.5
+                }, 
+                {
+                    "id": 8427, 
+                    "chi": "　F-基勝", 
+                    "name": "KEYSHEEN ", 
+                    "size": 49.8
+                }, 
+                {
+                    "id": 9802, 
+                    "chi": "　F-鈺齊", 
+                    "name": "FULGENT SUN ", 
+                    "size": 37.0
+                }, 
+                {
+                    "id": 9902, 
+                    "chi": "　台火", 
+                    "name": "TIDEHOLD ", 
+                    "size": 15.4
+                }, 
+                {
+                    "id": 9904, 
+                    "chi": "　寶成", 
+                    "name": "PCC ", 
+                    "size": 32.4
+                }, 
+                {
+                    "id": 9905, 
+                    "chi": "　大華", 
+                    "name": "GCM ", 
+                    "size": 33.85
+                }, 
+                {
+                    "id": 9906, 
+                    "chi": "　欣巴巴", 
+                    "name": "HSIN BA BA ", 
+                    "size": 33.5
+                }, 
+                {
+                    "id": 9907, 
+                    "chi": "　統一實", 
+                    "name": "TON YI ", 
+                    "size": 26.45
+                }, 
+                {
+                    "id": 9910, 
+                    "chi": "　豐泰", 
+                    "name": "FT ", 
+                    "size": 81.8
+                }, 
+                {
+                    "id": 9911, 
+                    "chi": "　櫻花", 
+                    "name": "TAIWAN SAKURA ", 
+                    "size": 22.2
+                }, 
+                {
+                    "id": 9914, 
+                    "chi": "　美利達", 
+                    "name": "MIC ", 
+                    "size": 235.5
+                }, 
+                {
+                    "id": 9917, 
+                    "chi": "　中保", 
+                    "name": "TAIWAN SECOM ", 
+                    "size": 81.5
+                }, 
+                {
+                    "id": 9919, 
+                    "chi": "　康那香", 
+                    "name": "KNH ", 
+                    "size": 13.95
+                }, 
+                {
+                    "id": 9921, 
+                    "chi": "　巨大", 
+                    "name": "GIANT ", 
+                    "size": 245.0
+                }, 
+                {
+                    "id": 9924, 
+                    "chi": "　福興", 
+                    "name": "TAIWAN FU HSING ", 
+                    "size": 28.5
+                }, 
+                {
+                    "id": 9925, 
+                    "chi": "　新保", 
+                    "name": "SKS ", 
+                    "size": 42.05
+                }, 
+                {
+                    "id": 9927, 
+                    "chi": "　泰銘", 
+                    "name": "TMI ", 
+                    "size": 38.6
+                }, 
+                {
+                    "id": 9928, 
+                    "chi": "　中視", 
+                    "name": "CTV ", 
+                    "size": 15.95
+                }, 
+                {
+                    "id": 9929, 
+                    "chi": "　秋雨", 
+                    "name": "CHOICE ", 
+                    "size": 9.0
+                }, 
+                {
+                    "id": 9930, 
+                    "chi": "　中聯資", 
+                    "name": "CHC ", 
+                    "size": 71.6
+                }, 
+                {
+                    "id": 9933, 
+                    "chi": "　中鼎", 
+                    "name": "CTCI ", 
+                    "size": 52.3
+                }, 
+                {
+                    "id": 9934, 
+                    "chi": "　成霖", 
+                    "name": "GUIC ", 
+                    "size": 16.75
+                }, 
+                {
+                    "id": 9935, 
+                    "chi": "　慶豐富", 
+                    "name": "CF ", 
+                    "size": 10.4
+                }, 
+                {
+                    "id": 9938, 
+                    "chi": "　百和", 
+                    "name": "TAIWAN PAIHO ", 
+                    "size": 39.55
+                }, 
+                {
+                    "id": 9939, 
+                    "chi": "　宏全", 
+                    "name": "HON CHUAN ", 
+                    "size": 60.0
+                }, 
+                {
+                    "id": 9940, 
+                    "chi": "　信義", 
+                    "name": "SINYI REALTY ", 
+                    "size": 38.3
+                }, 
+                {
+                    "id": 9941, 
+                    "chi": "　裕融", 
+                    "name": "TAC ", 
+                    "size": 79.0
+                }, 
+                {
+                    "id": 9942, 
+                    "chi": "　茂順", 
+                    "name": "MAO SHUN ", 
+                    "size": 119.0
+                }, 
+                {
+                    "id": 9944, 
+                    "chi": "　新麗", 
+                    "name": "SHINIH ", 
+                    "size": 68.4
+                }, 
+                {
+                    "id": 9945, 
+                    "chi": "　潤泰新", 
+                    "name": "RUENTEX DEVELOP ", 
+                    "size": 53.4
+                }, 
+                {
+                    "id": 9955, 
+                    "chi": "　佳龍", 
+                    "name": "SDTI ", 
+                    "size": 21.05
+                }
+            ]
+        }, 
+        {
+            "name": "Plastic", 
+            "children": [
+                {
+                    "id": 1301, 
+                    "chi": "　台塑", 
+                    "name": "FPC ", 
+                    "size": 75.1
+                }, 
+                {
+                    "id": 1303, 
+                    "chi": "　南亞", 
+                    "name": "NPC ", 
+                    "size": 69.0
+                }, 
+                {
+                    "id": 1304, 
+                    "chi": "　台聚", 
+                    "name": "USI ", 
+                    "size": 15.2
+                }, 
+                {
+                    "id": 1305, 
+                    "chi": "　華夏", 
+                    "name": "CGPC ", 
+                    "size": 12.8
+                }, 
+                {
+                    "id": 1307, 
+                    "chi": "　三芳", 
+                    "name": "SAN FANG ", 
+                    "size": 28.5
+                }, 
+                {
+                    "id": 1308, 
+                    "chi": "　亞聚", 
+                    "name": "APC ", 
+                    "size": 20.0
+                }, 
+                {
+                    "id": 1309, 
+                    "chi": "　台達化", 
+                    "name": "TTC ", 
+                    "size": 9.2
+                }, 
+                {
+                    "id": 1310, 
+                    "chi": "　台苯", 
+                    "name": "T.S.M.C. ", 
+                    "size": 15.25
+                }, 
+                {
+                    "id": 1312, 
+                    "chi": "　國喬", 
+                    "name": "GPPC ", 
+                    "size": 14.8
+                }, 
+                {
+                    "id": 1313, 
+                    "chi": "　聯成", 
+                    "name": "UPC ", 
+                    "size": 12.3
+                }, 
+                {
+                    "id": 1314, 
+                    "chi": "　中石化", 
+                    "name": "CPDC ", 
+                    "size": 10.45
+                }, 
+                {
+                    "id": 1315, 
+                    "chi": "　達新", 
+                    "name": "TAHHSIN ", 
+                    "size": 28.5
+                }, 
+                {
+                    "id": 1319, 
+                    "chi": "　東陽", 
+                    "name": "TYG ", 
+                    "size": 36.95
+                }, 
+                {
+                    "id": 1321, 
+                    "chi": "　大洋", 
+                    "name": "OPC ", 
+                    "size": 40.5
+                }, 
+                {
+                    "id": 1323, 
+                    "chi": "　永裕", 
+                    "name": "YONYU ", 
+                    "size": 34.35
+                }, 
+                {
+                    "id": 1324, 
+                    "chi": "　地球", 
+                    "name": "GLOBE TAPE ", 
+                    "size": 16.4
+                }, 
+                {
+                    "id": 1325, 
+                    "chi": "　恆大", 
+                    "name": "UK ", 
+                    "size": 19.35
+                }, 
+                {
+                    "id": 1326, 
+                    "chi": "　台化", 
+                    "name": "FCFC ", 
+                    "size": 71.1
+                }, 
+                {
+                    "id": 1337, 
+                    "chi": "　F-再生", 
+                    "name": "ASIA PLASTIC ", 
+                    "size": 41.7
+                }, 
+                {
+                    "id": 1339, 
+                    "chi": "　昭輝", 
+                    "name": "Y.C.C. ", 
+                    "size": 93.4
+                }, 
+                {
+                    "id": 1340, 
+                    "chi": "　F-勝悅", 
+                    "name": "VICTORY ", 
+                    "size": 118.5
+                }, 
+                {
+                    "id": 1715, 
+                    "chi": "　萬洲", 
+                    "name": "ACHEM ", 
+                    "size": 17.25
+                }, 
+                {
+                    "id": 4306, 
+                    "chi": "　炎洲", 
+                    "name": "YEMCHIO ", 
+                    "size": 20.7
+                }
+            ]
+        }, 
+        {
+            "name": "Chemical Industry", 
+            "children": [
+                {
+                    "id": 1316, 
+                    "chi": "　上曜", 
+                    "name": "SUN YAD ", 
+                    "size": 12.3
+                }, 
+                {
+                    "id": 1704, 
+                    "chi": "　榮化", 
+                    "name": "LCYCIC ", 
+                    "size": 17.45
+                }, 
+                {
+                    "id": 1708, 
+                    "chi": "　東鹼", 
+                    "name": "SESODA ", 
+                    "size": 39.7
+                }, 
+                {
+                    "id": 1709, 
+                    "chi": "　和益", 
+                    "name": "FUCC ", 
+                    "size": 14.55
+                }, 
+                {
+                    "id": 1710, 
+                    "chi": "　東聯", 
+                    "name": "OUCC ", 
+                    "size": 28.3
+                }, 
+                {
+                    "id": 1711, 
+                    "chi": "　永光", 
+                    "name": "EVERLIGHT ", 
+                    "size": 31.5
+                }, 
+                {
+                    "id": 1712, 
+                    "chi": "　興農", 
+                    "name": "SINON ", 
+                    "size": 17.65
+                }, 
+                {
+                    "id": 1713, 
+                    "chi": "　國化", 
+                    "name": "CCW ", 
+                    "size": 16.15
+                }, 
+                {
+                    "id": 1714, 
+                    "chi": "　和桐", 
+                    "name": "HO TUNG ", 
+                    "size": 11.95
+                }, 
+                {
+                    "id": 1717, 
+                    "chi": "　長興", 
+                    "name": "ETERNAL ", 
+                    "size": 31.95
+                }, 
+                {
+                    "id": 1718, 
+                    "chi": "　中纖", 
+                    "name": "CMFC ", 
+                    "size": 9.98
+                }, 
+                {
+                    "id": 1721, 
+                    "chi": "　三晃", 
+                    "name": "SUNKO ", 
+                    "size": 10.9
+                }, 
+                {
+                    "id": 1722, 
+                    "chi": "　台肥", 
+                    "name": "TFC ", 
+                    "size": 60.0
+                }, 
+                {
+                    "id": 1723, 
+                    "chi": "　中碳", 
+                    "name": "CSCC ", 
+                    "size": 182.5
+                }, 
+                {
+                    "id": 1724, 
+                    "chi": "　台硝", 
+                    "name": "T.N.C. ", 
+                    "size": 16.2
+                }, 
+                {
+                    "id": 1725, 
+                    "chi": "　元禎", 
+                    "name": "YJE ", 
+                    "size": 15.4
+                }, 
+                {
+                    "id": 1726, 
+                    "chi": "　永記", 
+                    "name": "Y.C.P. ", 
+                    "size": 81.3
+                }, 
+                {
+                    "id": 1727, 
+                    "chi": "　中華化", 
+                    "name": "CHCIW ", 
+                    "size": 20.35
+                }, 
+                {
+                    "id": 1730, 
+                    "chi": "　花仙子", 
+                    "name": "FARCENT ", 
+                    "size": 25.25
+                }, 
+                {
+                    "id": 1732, 
+                    "chi": "　毛寶", 
+                    "name": "MAO BAO ", 
+                    "size": 12.15
+                }, 
+                {
+                    "id": 1735, 
+                    "chi": "　日勝化", 
+                    "name": "EVERMORE ", 
+                    "size": 12.15
+                }, 
+                {
+                    "id": 1773, 
+                    "chi": "　勝一", 
+                    "name": "SHINY ", 
+                    "size": 49.2
+                }, 
+                {
+                    "id": 4722, 
+                    "chi": "　國精化", 
+                    "name": "QPC ", 
+                    "size": 21.15
+                }, 
+                {
+                    "id": 4725, 
+                    "chi": "　信昌化", 
+                    "name": "TPCC ", 
+                    "size": 26.4
+                }, 
+                {
+                    "id": 4733, 
+                    "chi": "　上緯", 
+                    "name": "SWANCOR ", 
+                    "size": 110.0
+                }, 
+                {
+                    "id": 4755, 
+                    "chi": "　三福化", 
+                    "name": "SAN FU ", 
+                    "size": 27.2
+                }
+            ]
+        }, 
+        {
+            "name": "Automobile", 
+            "children": [
+                {
+                    "id": 1338, 
+                    "chi": "　F-廣華", 
+                    "name": "HIROCA ", 
+                    "size": 124.0
+                }, 
+                {
+                    "id": 2201, 
+                    "chi": "　裕隆", 
+                    "name": "YL ", 
+                    "size": 46.45
+                }, 
+                {
+                    "id": 2204, 
+                    "chi": "　中華", 
+                    "name": "CMC ", 
+                    "size": 28.1
+                }, 
+                {
+                    "id": 2206, 
+                    "chi": "　三陽", 
+                    "name": "SY ", 
+                    "size": 29.4
+                }, 
+                {
+                    "id": 2207, 
+                    "chi": "　和泰車", 
+                    "name": "HOTAI MOTOR ", 
+                    "size": 365.0
+                }, 
+                {
+                    "id": 2227, 
+                    "chi": "　裕日車", 
+                    "name": "YNM ", 
+                    "size": 306.0
+                }
+            ]
+        }, 
+        {
+            "name": "Textile", 
+            "children": [
+                {
+                    "id": 1402, 
+                    "chi": "　遠東新", 
+                    "name": "FENC ", 
+                    "size": 32.75
+                }, 
+                {
+                    "id": 1409, 
+                    "chi": "　新纖", 
+                    "name": "SSFC ", 
+                    "size": 10.85
+                }, 
+                {
+                    "id": 1410, 
+                    "chi": "　南染", 
+                    "name": "NYDF ", 
+                    "size": 25.3
+                }, 
+                {
+                    "id": 1413, 
+                    "chi": "　宏洲", 
+                    "name": "H.C. ", 
+                    "size": 4.11
+                }, 
+                {
+                    "id": 1414, 
+                    "chi": "　東和", 
+                    "name": "TUNG HO ", 
+                    "size": 8.76
+                }, 
+                {
+                    "id": 1416, 
+                    "chi": "　廣豐", 
+                    "name": "KFIC ", 
+                    "size": 18.75
+                }, 
+                {
+                    "id": 1417, 
+                    "chi": "　嘉裕", 
+                    "name": "CARNIVAL ", 
+                    "size": 8.21
+                }, 
+                {
+                    "id": 1418, 
+                    "chi": "　東華", 
+                    "name": "TONG-HWA ", 
+                    "size": 7.7
+                }, 
+                {
+                    "id": 1419, 
+                    "chi": "　新紡", 
+                    "name": "SHINKO.TEXTILE ", 
+                    "size": 40.45
+                }, 
+                {
+                    "id": 1423, 
+                    "chi": "　利華", 
+                    "name": "REWARD WOOL ", 
+                    "size": 7.87
+                }, 
+                {
+                    "id": 1432, 
+                    "chi": "　大魯閣", 
+                    "name": "TAROKO ", 
+                    "size": 23.1
+                }, 
+                {
+                    "id": 1434, 
+                    "chi": "　福懋", 
+                    "name": "F.T.C ", 
+                    "size": 30.15
+                }, 
+                {
+                    "id": 1439, 
+                    "chi": "　中和", 
+                    "name": "CWT ", 
+                    "size": 14.3
+                }, 
+                {
+                    "id": 1440, 
+                    "chi": "　南紡", 
+                    "name": "TAINAN SPINNING ", 
+                    "size": 18.75
+                }, 
+                {
+                    "id": 1441, 
+                    "chi": "　大東", 
+                    "name": "TAH TONG ", 
+                    "size": 9.6
+                }, 
+                {
+                    "id": 1443, 
+                    "chi": "　立益", 
+                    "name": "LILYTEXTILE ", 
+                    "size": 7.8
+                }, 
+                {
+                    "id": 1444, 
+                    "chi": "　力麗", 
+                    "name": "LEALEA ", 
+                    "size": 9.83
+                }, 
+                {
+                    "id": 1445, 
+                    "chi": "　大宇", 
+                    "name": "UNIVERSAL ", 
+                    "size": 9.34
+                }, 
+                {
+                    "id": 1446, 
+                    "chi": "　宏和", 
+                    "name": "HONG HO ", 
+                    "size": 30.8
+                }, 
+                {
+                    "id": 1447, 
+                    "chi": "　力鵬", 
+                    "name": "LP ", 
+                    "size": 11.5
+                }, 
+                {
+                    "id": 1449, 
+                    "chi": "　佳和", 
+                    "name": "CHIA HER ", 
+                    "size": 1.5
+                }, 
+                {
+                    "id": 1451, 
+                    "chi": "　年興", 
+                    "name": "NIEN HSING ", 
+                    "size": 26.5
+                }, 
+                {
+                    "id": 1452, 
+                    "chi": "　宏益", 
+                    "name": "HONG YI ", 
+                    "size": 11.5
+                }, 
+                {
+                    "id": 1453, 
+                    "chi": "　大將", 
+                    "name": "TA JIANG ", 
+                    "size": 10.05
+                }, 
+                {
+                    "id": 1454, 
+                    "chi": "　台富", 
+                    "name": "TTF ", 
+                    "size": 8.15
+                }, 
+                {
+                    "id": 1455, 
+                    "chi": "　集盛", 
+                    "name": "ZIG SHENG ", 
+                    "size": 8.9
+                }, 
+                {
+                    "id": 1456, 
+                    "chi": "　怡華", 
+                    "name": "I-HWA ", 
+                    "size": 9.73
+                }, 
+                {
+                    "id": 1457, 
+                    "chi": "　宜進", 
+                    "name": "YI JINN ", 
+                    "size": 8.23
+                }, 
+                {
+                    "id": 1459, 
+                    "chi": "　聯發", 
+                    "name": "LAN FA ", 
+                    "size": 10.3
+                }, 
+                {
+                    "id": 1460, 
+                    "chi": "　宏遠", 
+                    "name": "EVEREST ", 
+                    "size": 15.15
+                }, 
+                {
+                    "id": 1463, 
+                    "chi": "　強盛", 
+                    "name": "CS ", 
+                    "size": 15.5
+                }, 
+                {
+                    "id": 1464, 
+                    "chi": "　得力", 
+                    "name": "DE LICACY ", 
+                    "size": 11.05
+                }, 
+                {
+                    "id": 1465, 
+                    "chi": "　偉全", 
+                    "name": "WISHER ", 
+                    "size": 22.05
+                }, 
+                {
+                    "id": 1466, 
+                    "chi": "　聚隆", 
+                    "name": "ACELON ", 
+                    "size": 23.15
+                }, 
+                {
+                    "id": 1467, 
+                    "chi": "　南緯", 
+                    "name": "TEX-RAY ", 
+                    "size": 13.05
+                }, 
+                {
+                    "id": 1468, 
+                    "chi": "　昶和", 
+                    "name": "CHANG HO ", 
+                    "size": 10.9
+                }, 
+                {
+                    "id": 1469, 
+                    "chi": "　理隆", 
+                    "name": "LILONTEX ", 
+                    "size": 12.25
+                }, 
+                {
+                    "id": 1470, 
+                    "chi": "　大統染", 
+                    "name": "EVERTEX ", 
+                    "size": 19.0
+                }, 
+                {
+                    "id": 1472, 
+                    "chi": "　三洋紡", 
+                    "name": "TRI OCEAN ", 
+                    "size": 40.3
+                }, 
+                {
+                    "id": 1473, 
+                    "chi": "　台南", 
+                    "name": "TAINAN ", 
+                    "size": 28.65
+                }, 
+                {
+                    "id": 1474, 
+                    "chi": "　弘裕", 
+                    "name": "HONMYUE ", 
+                    "size": 8.88
+                }, 
+                {
+                    "id": 1475, 
+                    "chi": "　本盟", 
+                    "name": "SUMAGH ", 
+                    "size": 15.8
+                }, 
+                {
+                    "id": 1476, 
+                    "chi": "　儒鴻", 
+                    "name": "ECLAT ", 
+                    "size": 330.0
+                }, 
+                {
+                    "id": 1477, 
+                    "chi": "　聚陽", 
+                    "name": "MAKALOT ", 
+                    "size": 150.0
+                }, 
+                {
+                    "id": 4414, 
+                    "chi": "　如興", 
+                    "name": "ROO HSING ", 
+                    "size": 18.3
+                }, 
+                {
+                    "id": 4426, 
+                    "chi": "　利勤", 
+                    "name": "LI CHENG ", 
+                    "size": 34.4
+                }
+            ]
+        }, 
+        {
+            "name": "Building Material&Construction", 
+            "children": [
+                {
+                    "id": 1436, 
+                    "chi": "　華友聯", 
+                    "name": "HUA YU LIEN ", 
+                    "size": 48.2
+                }, 
+                {
+                    "id": 1438, 
+                    "chi": "　裕豐", 
+                    "name": "YU FOONG ", 
+                    "size": 6.87
+                }, 
+                {
+                    "id": 1442, 
+                    "chi": "　名軒", 
+                    "name": "ADVANCETEK ", 
+                    "size": 30.75
+                }, 
+                {
+                    "id": 1805, 
+                    "chi": "　寶徠", 
+                    "name": "KPT ", 
+                    "size": 11.55
+                }, 
+                {
+                    "id": 1808, 
+                    "chi": "　潤隆", 
+                    "name": "RUN LONG ", 
+                    "size": 29.95
+                }, 
+                {
+                    "id": 2501, 
+                    "chi": "　國建", 
+                    "name": "CATHAY RED ", 
+                    "size": 16.85
+                }, 
+                {
+                    "id": 2504, 
+                    "chi": "　國產", 
+                    "name": "GDC ", 
+                    "size": 10.6
+                }, 
+                {
+                    "id": 2505, 
+                    "chi": "　國揚", 
+                    "name": "KY ", 
+                    "size": 14.5
+                }, 
+                {
+                    "id": 2506, 
+                    "chi": "　太設", 
+                    "name": "PCC ", 
+                    "size": 9.93
+                }, 
+                {
+                    "id": 2509, 
+                    "chi": "　全坤建", 
+                    "name": "CHAINQUI ", 
+                    "size": 22.85
+                }, 
+                {
+                    "id": 2511, 
+                    "chi": "　太子", 
+                    "name": "PHD ", 
+                    "size": 13.2
+                }, 
+                {
+                    "id": 2515, 
+                    "chi": "　中工", 
+                    "name": "BES ", 
+                    "size": 7.95
+                }, 
+                {
+                    "id": 2516, 
+                    "chi": "　新建", 
+                    "name": "NEW ASIA ", 
+                    "size": 8.21
+                }, 
+                {
+                    "id": 2520, 
+                    "chi": "　冠德", 
+                    "name": "KINDOM ", 
+                    "size": 28.85
+                }, 
+                {
+                    "id": 2524, 
+                    "chi": "　京城", 
+                    "name": "KTC ", 
+                    "size": 24.1
+                }, 
+                {
+                    "id": 2527, 
+                    "chi": "　宏璟", 
+                    "name": "HUNG CHING ", 
+                    "size": 16.25
+                }, 
+                {
+                    "id": 2528, 
+                    "chi": "　皇普", 
+                    "name": "CROWELL ", 
+                    "size": 11.05
+                }, 
+                {
+                    "id": 2530, 
+                    "chi": "　華建", 
+                    "name": "DELPHA ", 
+                    "size": 13.2
+                }, 
+                {
+                    "id": 2534, 
+                    "chi": "　宏盛", 
+                    "name": "HSC ", 
+                    "size": 20.2
+                }, 
+                {
+                    "id": 2535, 
+                    "chi": "　達欣工", 
+                    "name": "DA-CIN ", 
+                    "size": 21.1
+                }, 
+                {
+                    "id": 2536, 
+                    "chi": "　宏普", 
+                    "name": "HUNG POO ", 
+                    "size": 24.65
+                }, 
+                {
+                    "id": 2537, 
+                    "chi": "　聯上發", 
+                    "name": "WE & WIN ", 
+                    "size": 12.4
+                }, 
+                {
+                    "id": 2538, 
+                    "chi": "　基泰", 
+                    "name": "KEETAI ", 
+                    "size": 18.7
+                }, 
+                {
+                    "id": 2539, 
+                    "chi": "　櫻花建", 
+                    "name": "SAKURAD ", 
+                    "size": 36.2
+                }, 
+                {
+                    "id": 2540, 
+                    "chi": "　愛山林", 
+                    "name": "I-SUNNY ", 
+                    "size": 35.5
+                }, 
+                {
+                    "id": 2542, 
+                    "chi": "　興富發", 
+                    "name": "HIGHWEALTH ", 
+                    "size": 69.4
+                }, 
+                {
+                    "id": 2543, 
+                    "chi": "　皇昌", 
+                    "name": "HWANG CHANG ", 
+                    "size": 9.35
+                }, 
+                {
+                    "id": 2545, 
+                    "chi": "　皇翔", 
+                    "name": "HUANG HSIANG ", 
+                    "size": 38.2
+                }, 
+                {
+                    "id": 2546, 
+                    "chi": "　根基", 
+                    "name": "KEDGE ", 
+                    "size": 16.05
+                }, 
+                {
+                    "id": 2547, 
+                    "chi": "　日勝生", 
+                    "name": "RADIUM ", 
+                    "size": 21.05
+                }, 
+                {
+                    "id": 2548, 
+                    "chi": "　華固", 
+                    "name": "HUAKU ", 
+                    "size": 70.8
+                }, 
+                {
+                    "id": 2597, 
+                    "chi": "　潤弘", 
+                    "name": "REC ", 
+                    "size": 58.1
+                }, 
+                {
+                    "id": 2841, 
+                    "chi": "　台開", 
+                    "name": "TLDC ", 
+                    "size": 12.05
+                }, 
+                {
+                    "id": 2923, 
+                    "chi": "　F-鼎固", 
+                    "name": "SINO HORIZON ", 
+                    "size": 34.5
+                }, 
+                {
+                    "id": 3052, 
+                    "chi": "　夆典", 
+                    "name": "APEX ", 
+                    "size": 17.45
+                }, 
+                {
+                    "id": 3056, 
+                    "chi": "　總太", 
+                    "name": "ZONGTAI ", 
+                    "size": 19.75
+                }, 
+                {
+                    "id": 3703, 
+                    "chi": "　欣陸", 
+                    "name": "CONTINENTAL HOLDINGS ", 
+                    "size": 12.0
+                }, 
+                {
+                    "id": 5515, 
+                    "chi": "　建國", 
+                    "name": "CHIEN KUO ", 
+                    "size": 12.5
+                }, 
+                {
+                    "id": 5519, 
+                    "chi": "　隆大", 
+                    "name": "LD ", 
+                    "size": 28.3
+                }, 
+                {
+                    "id": 5521, 
+                    "chi": "　工信", 
+                    "name": "KSECO ", 
+                    "size": 12.95
+                }, 
+                {
+                    "id": 5522, 
+                    "chi": "　遠雄", 
+                    "name": "FARGLORY ", 
+                    "size": 40.9
+                }, 
+                {
+                    "id": 5525, 
+                    "chi": "　順天", 
+                    "name": "SWEETEN ", 
+                    "size": 20.3
+                }, 
+                {
+                    "id": 5531, 
+                    "chi": "　鄉林", 
+                    "name": "SHINING ", 
+                    "size": 22.2
+                }, 
+                {
+                    "id": 5533, 
+                    "chi": "　皇鼎", 
+                    "name": "FOUNDING ", 
+                    "size": 18.75
+                }, 
+                {
+                    "id": 5534, 
+                    "chi": "　長虹", 
+                    "name": "CHONG HONG ", 
+                    "size": 80.2
+                }, 
+                {
+                    "id": 6177, 
+                    "chi": "　達麗", 
+                    "name": "DA-LI CO. LTD. ", 
+                    "size": 35.1
+                }, 
+                {
+                    "id": 9946, 
+                    "chi": "　三發", 
+                    "name": "SAN FAR ", 
+                    "size": 19.45
+                }
+            ]
+        }, 
+        {
+            "name": "Semiconductor Industry", 
+            "children": [
+                {
+                    "id": 1437, 
+                    "chi": "　勤益", 
+                    "name": "GTM ", 
+                    "size": 21.25
+                }, 
+                {
+                    "id": 2302, 
+                    "chi": "　麗正", 
+                    "name": "RECTRON ", 
+                    "size": 6.77
+                }, 
+                {
+                    "id": 2303, 
+                    "chi": "　聯電", 
+                    "name": "UMC ", 
+                    "size": 13.5
+                }, 
+                {
+                    "id": 2311, 
+                    "chi": "　日月光", 
+                    "name": "ASE ", 
+                    "size": 36.6
+                }, 
+                {
+                    "id": 2325, 
+                    "chi": "　矽品", 
+                    "name": "SPIL ", 
+                    "size": 41.45
+                }, 
+                {
+                    "id": 2329, 
+                    "chi": "　華泰", 
+                    "name": "OSE ", 
+                    "size": 13.7
+                }, 
+                {
+                    "id": 2330, 
+                    "chi": "　台積電", 
+                    "name": "TSMC ", 
+                    "size": 120.0
+                }, 
+                {
+                    "id": 2337, 
+                    "chi": "　旺宏", 
+                    "name": "MACRONIX ", 
+                    "size": 7.79
+                }, 
+                {
+                    "id": 2338, 
+                    "chi": "　光罩", 
+                    "name": "TMC ", 
+                    "size": 10.1
+                }, 
+                {
+                    "id": 2342, 
+                    "chi": "　茂矽", 
+                    "name": "MVI ", 
+                    "size": 8.9
+                }, 
+                {
+                    "id": 2344, 
+                    "chi": "　華邦電", 
+                    "name": "WEC ", 
+                    "size": 10.5
+                }, 
+                {
+                    "id": 2351, 
+                    "chi": "　順德", 
+                    "name": "SDI ", 
+                    "size": 39.05
+                }, 
+                {
+                    "id": 2363, 
+                    "chi": "　矽統", 
+                    "name": "SIS ", 
+                    "size": 10.1
+                }, 
+                {
+                    "id": 2369, 
+                    "chi": "　菱生", 
+                    "name": "LPI ", 
+                    "size": 17.35
+                }, 
+                {
+                    "id": 2379, 
+                    "chi": "　瑞昱", 
+                    "name": "RT ", 
+                    "size": 98.6
+                }, 
+                {
+                    "id": 2388, 
+                    "chi": "　威盛", 
+                    "name": "VIA ", 
+                    "size": 20.75
+                }, 
+                {
+                    "id": 2401, 
+                    "chi": "　凌陽", 
+                    "name": "SUNPLUS ", 
+                    "size": 12.4
+                }, 
+                {
+                    "id": 2408, 
+                    "chi": "　南科", 
+                    "name": "NTC ", 
+                    "size": 7.7
+                }, 
+                {
+                    "id": 2434, 
+                    "chi": "　統懋", 
+                    "name": "MOSPEC ", 
+                    "size": 10.3
+                }, 
+                {
+                    "id": 2436, 
+                    "chi": "　偉詮電", 
+                    "name": "WELTREND ", 
+                    "size": 33.7
+                }, 
+                {
+                    "id": 2441, 
+                    "chi": "　超豐", 
+                    "name": "GTK ", 
+                    "size": 40.55
+                }, 
+                {
+                    "id": 2449, 
+                    "chi": "　京元電", 
+                    "name": "KYEC ", 
+                    "size": 25.8
+                }, 
+                {
+                    "id": 2451, 
+                    "chi": "　創見", 
+                    "name": "TRANSCEND ", 
+                    "size": 102.5
+                }, 
+                {
+                    "id": 2454, 
+                    "chi": "　聯發科", 
+                    "name": "MEDIA TEK ", 
+                    "size": 499.0
+                }, 
+                {
+                    "id": 2458, 
+                    "chi": "　義隆", 
+                    "name": "ELAN ", 
+                    "size": 47.75
+                }, 
+                {
+                    "id": 2481, 
+                    "chi": "　強茂", 
+                    "name": "PAN JIT ", 
+                    "size": 15.7
+                }, 
+                {
+                    "id": 3006, 
+                    "chi": "　晶豪科", 
+                    "name": "ESMT ", 
+                    "size": 48.85
+                }, 
+                {
+                    "id": 3014, 
+                    "chi": "　聯陽", 
+                    "name": "ITE ", 
+                    "size": 34.45
+                }, 
+                {
+                    "id": 3016, 
+                    "chi": "　嘉晶", 
+                    "name": "PRECISION ", 
+                    "size": 19.15
+                }, 
+                {
+                    "id": 3034, 
+                    "chi": "　聯詠", 
+                    "name": "NOVATEK ", 
+                    "size": 154.0
+                }, 
+                {
+                    "id": 3035, 
+                    "chi": "　智原", 
+                    "name": "FARADAY ", 
+                    "size": 37.85
+                }, 
+                {
+                    "id": 3041, 
+                    "chi": "　揚智", 
+                    "name": "ALI ", 
+                    "size": 29.2
+                }, 
+                {
+                    "id": 3054, 
+                    "chi": "　萬國", 
+                    "name": "CARRY ", 
+                    "size": 15.65
+                }, 
+                {
+                    "id": 3094, 
+                    "chi": "　聯傑", 
+                    "name": "DAVICOM ", 
+                    "size": 37.6
+                }, 
+                {
+                    "id": 3189, 
+                    "chi": "　景碩", 
+                    "name": "KINSUS ", 
+                    "size": 125.5
+                }, 
+                {
+                    "id": 3257, 
+                    "chi": "　虹冠電", 
+                    "name": "CHAMPION ", 
+                    "size": 90.9
+                }, 
+                {
+                    "id": 3443, 
+                    "chi": "　創意", 
+                    "name": "GUC ", 
+                    "size": 79.7
+                }, 
+                {
+                    "id": 3474, 
+                    "chi": "　華亞科", 
+                    "name": "INOTERA ", 
+                    "size": 49.2
+                }, 
+                {
+                    "id": 3519, 
+                    "chi": "　綠能", 
+                    "name": "GET ", 
+                    "size": 25.0
+                }, 
+                {
+                    "id": 3532, 
+                    "chi": "　台勝科", 
+                    "name": "FST ", 
+                    "size": 34.95
+                }, 
+                {
+                    "id": 3545, 
+                    "chi": "　旭曜", 
+                    "name": "ORISETECH ", 
+                    "size": 45.1
+                }, 
+                {
+                    "id": 3559, 
+                    "chi": "　全智科", 
+                    "name": "GS ", 
+                    "size": 17.65
+                }, 
+                {
+                    "id": 3579, 
+                    "chi": "　尚志", 
+                    "name": "SAN CHIH SAMICONDUCTOR CO. LTD. ", 
+                    "size": 22.75
+                }, 
+                {
+                    "id": 3583, 
+                    "chi": "　辛耘", 
+                    "name": "SCIENTECH ", 
+                    "size": 59.2
+                }, 
+                {
+                    "id": 3588, 
+                    "chi": "　通嘉", 
+                    "name": "LEADTREND ", 
+                    "size": 57.8
+                }, 
+                {
+                    "id": 3598, 
+                    "chi": "　奕力", 
+                    "name": "ILITEK ", 
+                    "size": 70.2
+                }, 
+                {
+                    "id": 3638, 
+                    "chi": "　F-IML", 
+                    "name": "IML ", 
+                    "size": 89.8
+                }, 
+                {
+                    "id": 3686, 
+                    "chi": "　達能", 
+                    "name": "DANEN ", 
+                    "size": 12.45
+                }, 
+                {
+                    "id": 4919, 
+                    "chi": "　新唐", 
+                    "name": "NTC ", 
+                    "size": 33.0
+                }, 
+                {
+                    "id": 4952, 
+                    "chi": "　凌通", 
+                    "name": "GENERALPLUS ", 
+                    "size": 43.0
+                }, 
+                {
+                    "id": 5269, 
+                    "chi": "　祥碩", 
+                    "name": "ASMEDIA ", 
+                    "size": 149.5
+                }, 
+                {
+                    "id": 5280, 
+                    "chi": "　F-敦泰", 
+                    "name": "FOCALTECH ", 
+                    "size": 242.5
+                }, 
+                {
+                    "id": 5285, 
+                    "chi": "　界霖", 
+                    "name": "JIH LIN ", 
+                    "size": 46.0
+                }, 
+                {
+                    "id": 5305, 
+                    "chi": "　敦南", 
+                    "name": "LSC ", 
+                    "size": 22.25
+                }, 
+                {
+                    "id": 5471, 
+                    "chi": "　松翰", 
+                    "name": "SONIX ", 
+                    "size": 51.4
+                }, 
+                {
+                    "id": 6202, 
+                    "chi": "　盛群", 
+                    "name": "HOLTEK ", 
+                    "size": 58.4
+                }, 
+                {
+                    "id": 6239, 
+                    "chi": "　力成", 
+                    "name": "PTI ", 
+                    "size": 51.5
+                }, 
+                {
+                    "id": 6243, 
+                    "chi": "　迅杰", 
+                    "name": "ENE ", 
+                    "size": 32.0
+                }, 
+                {
+                    "id": 6257, 
+                    "chi": "　矽格", 
+                    "name": "SIGURD ", 
+                    "size": 33.0
+                }, 
+                {
+                    "id": 6271, 
+                    "chi": "　同欣電", 
+                    "name": "THEIL ", 
+                    "size": 153.5
+                }, 
+                {
+                    "id": 6286, 
+                    "chi": "　立錡", 
+                    "name": "RICHTEK ", 
+                    "size": 171.0
+                }, 
+                {
+                    "id": 6415, 
+                    "chi": "　F-矽力", 
+                    "name": "SILERGY ", 
+                    "size": 280.0
+                }, 
+                {
+                    "id": 8016, 
+                    "chi": "　矽創", 
+                    "name": "SITRONIX ", 
+                    "size": 61.9
+                }, 
+                {
+                    "id": 8081, 
+                    "chi": "　致新", 
+                    "name": "GMT ", 
+                    "size": 99.2
+                }, 
+                {
+                    "id": 8110, 
+                    "chi": "　華東", 
+                    "name": "WALTON ", 
+                    "size": 13.1
+                }, 
+                {
+                    "id": 8131, 
+                    "chi": "　福懋科", 
+                    "name": "FATC ", 
+                    "size": 23.1
+                }, 
+                {
+                    "id": 8150, 
+                    "chi": "　南茂", 
+                    "name": "CHIPMOS ", 
+                    "size": 39.3
+                }, 
+                {
+                    "id": 8261, 
+                    "chi": "　富鼎", 
+                    "name": "APEC ", 
+                    "size": 25.75
+                }, 
+                {
+                    "id": 8271, 
+                    "chi": "　宇瞻", 
+                    "name": "APACER ", 
+                    "size": 32.25
+                }
+            ]
+        }, 
+        {
+            "name": "Electronic Parts/Components", 
+            "children": [
+                {
+                    "id": 1471, 
+                    "chi": "　首利", 
+                    "name": "SL ", 
+                    "size": 10.25
+                }, 
+                {
+                    "id": 1582, 
+                    "chi": "　信錦", 
+                    "name": "SYNCMOLD ", 
+                    "size": 67.5
+                }, 
+                {
+                    "id": 2059, 
+                    "chi": "　川湖", 
+                    "name": "KING SLIDE ", 
+                    "size": 388.5
+                }, 
+                {
+                    "id": 2308, 
+                    "chi": "　台達電", 
+                    "name": "DELTA ", 
+                    "size": 205.5
+                }, 
+                {
+                    "id": 2313, 
+                    "chi": "　華通", 
+                    "name": "COMPEQ MFG. ", 
+                    "size": 17.7
+                }, 
+                {
+                    "id": 2316, 
+                    "chi": "　楠梓電", 
+                    "name": "WUS ", 
+                    "size": 14.7
+                }, 
+                {
+                    "id": 2327, 
+                    "chi": "　國巨", 
+                    "name": "YAGEO ", 
+                    "size": 20.2
+                }, 
+                {
+                    "id": 2328, 
+                    "chi": "　廣宇", 
+                    "name": "PI ", 
+                    "size": 21.85
+                }, 
+                {
+                    "id": 2355, 
+                    "chi": "　敬鵬", 
+                    "name": "CHIN-POON ", 
+                    "size": 54.1
+                }, 
+                {
+                    "id": 2367, 
+                    "chi": "　燿華", 
+                    "name": "UNITECH ", 
+                    "size": 11.95
+                }, 
+                {
+                    "id": 2368, 
+                    "chi": "　金像電", 
+                    "name": "GCE ", 
+                    "size": 10.4
+                }, 
+                {
+                    "id": 2375, 
+                    "chi": "　智寶", 
+                    "name": "TEAPO ", 
+                    "size": 13.0
+                }, 
+                {
+                    "id": 2383, 
+                    "chi": "　台光電", 
+                    "name": "EMC ", 
+                    "size": 35.0
+                }, 
+                {
+                    "id": 2392, 
+                    "chi": "　正崴", 
+                    "name": "FOXLINK ", 
+                    "size": 56.4
+                }, 
+                {
+                    "id": 2402, 
+                    "chi": "　毅嘉", 
+                    "name": "ICHIA ", 
+                    "size": 41.95
+                }, 
+                {
+                    "id": 2413, 
+                    "chi": "　環科", 
+                    "name": "UMEC ", 
+                    "size": 13.1
+                }, 
+                {
+                    "id": 2415, 
+                    "chi": "　錩新", 
+                    "name": "CX TECH ", 
+                    "size": 18.1
+                }, 
+                {
+                    "id": 2420, 
+                    "chi": "　新巨", 
+                    "name": "ZIPPY ", 
+                    "size": 44.35
+                }, 
+                {
+                    "id": 2421, 
+                    "chi": "　建準", 
+                    "name": "SUNON ", 
+                    "size": 20.6
+                }, 
+                {
+                    "id": 2428, 
+                    "chi": "　興勤", 
+                    "name": "THINKING ", 
+                    "size": 47.75
+                }, 
+                {
+                    "id": 2429, 
+                    "chi": "　銘旺科", 
+                    "name": "PWT ", 
+                    "size": 19.4
+                }, 
+                {
+                    "id": 2431, 
+                    "chi": "　聯昌", 
+                    "name": "LIEN CHANG ", 
+                    "size": 26.15
+                }, 
+                {
+                    "id": 2437, 
+                    "chi": "　旺詮", 
+                    "name": "RALEC ", 
+                    "size": 57.2
+                }, 
+                {
+                    "id": 2440, 
+                    "chi": "　太空梭", 
+                    "name": "SPACE SHUTTLE ", 
+                    "size": 10.8
+                }, 
+                {
+                    "id": 2443, 
+                    "chi": "　新利虹", 
+                    "name": "LEADDATA LTD ", 
+                    "size": 10.35
+                }, 
+                {
+                    "id": 2456, 
+                    "chi": "　奇力新", 
+                    "name": "CHILISN ELECTRONICS CORP. ", 
+                    "size": 31.65
+                }, 
+                {
+                    "id": 2457, 
+                    "chi": "　飛宏", 
+                    "name": "PHIHONG ", 
+                    "size": 19.45
+                }, 
+                {
+                    "id": 2460, 
+                    "chi": "　建通", 
+                    "name": "GEM ", 
+                    "size": 12.85
+                }, 
+                {
+                    "id": 2462, 
+                    "chi": "　良得電", 
+                    "name": "LINE TEK ", 
+                    "size": 32.1
+                }, 
+                {
+                    "id": 2467, 
+                    "chi": "　志聖", 
+                    "name": "C SUN ", 
+                    "size": 24.25
+                }, 
+                {
+                    "id": 2472, 
+                    "chi": "　立隆電", 
+                    "name": "LELON ", 
+                    "size": 43.95
+                }, 
+                {
+                    "id": 2476, 
+                    "chi": "　鉅祥", 
+                    "name": "GS ", 
+                    "size": 25.8
+                }, 
+                {
+                    "id": 2478, 
+                    "chi": "　大毅", 
+                    "name": "TA-I ", 
+                    "size": 18.05
+                }, 
+                {
+                    "id": 2483, 
+                    "chi": "　百容", 
+                    "name": "ECE ", 
+                    "size": 20.25
+                }, 
+                {
+                    "id": 2484, 
+                    "chi": "　希華", 
+                    "name": "SIWARD ", 
+                    "size": 20.1
+                }, 
+                {
+                    "id": 2492, 
+                    "chi": "　華新科", 
+                    "name": "WTC ", 
+                    "size": 11.0
+                }, 
+                {
+                    "id": 2493, 
+                    "chi": "　揚博", 
+                    "name": "AMPOC ", 
+                    "size": 28.65
+                }, 
+                {
+                    "id": 3003, 
+                    "chi": "　健和興", 
+                    "name": "KST ", 
+                    "size": 42.5
+                }, 
+                {
+                    "id": 3011, 
+                    "chi": "　今皓", 
+                    "name": "JH ", 
+                    "size": 11.4
+                }, 
+                {
+                    "id": 3015, 
+                    "chi": "　全漢", 
+                    "name": "FSP ", 
+                    "size": 30.15
+                }, 
+                {
+                    "id": 3021, 
+                    "chi": "　鴻名", 
+                    "name": "WELLTEND ", 
+                    "size": 14.9
+                }, 
+                {
+                    "id": 3023, 
+                    "chi": "　信邦", 
+                    "name": "SINBON ", 
+                    "size": 46.9
+                }, 
+                {
+                    "id": 3026, 
+                    "chi": "　禾伸堂", 
+                    "name": "HOLY STONE ", 
+                    "size": 43.1
+                }, 
+                {
+                    "id": 3032, 
+                    "chi": "　偉訓", 
+                    "name": "COMPUCASE ", 
+                    "size": 25.05
+                }, 
+                {
+                    "id": 3037, 
+                    "chi": "　欣興", 
+                    "name": "UNIMICRON ", 
+                    "size": 23.75
+                }, 
+                {
+                    "id": 3042, 
+                    "chi": "　晶技", 
+                    "name": "TXC ", 
+                    "size": 43.45
+                }, 
+                {
+                    "id": 3044, 
+                    "chi": "　健鼎", 
+                    "name": "TRIPOD ", 
+                    "size": 58.9
+                }, 
+                {
+                    "id": 3058, 
+                    "chi": "　立德", 
+                    "name": "LEI ", 
+                    "size": 13.25
+                }, 
+                {
+                    "id": 3090, 
+                    "chi": "　日電貿", 
+                    "name": "NDB ", 
+                    "size": 27.65
+                }, 
+                {
+                    "id": 3229, 
+                    "chi": "　晟鈦", 
+                    "name": "CHEER TIME ", 
+                    "size": 44.65
+                }, 
+                {
+                    "id": 3296, 
+                    "chi": "　勝德", 
+                    "name": "POWERTECH ", 
+                    "size": 22.95
+                }, 
+                {
+                    "id": 3308, 
+                    "chi": "　聯德", 
+                    "name": "BESTEC ", 
+                    "size": 12.1
+                }, 
+                {
+                    "id": 3338, 
+                    "chi": "　泰碩", 
+                    "name": "TAISOL ", 
+                    "size": 37.85
+                }, 
+                {
+                    "id": 3376, 
+                    "chi": "　新日興", 
+                    "name": "SZS ", 
+                    "size": 77.8
+                }, 
+                {
+                    "id": 3432, 
+                    "chi": "　台端", 
+                    "name": "TAI TWUN ", 
+                    "size": 15.15
+                }, 
+                {
+                    "id": 3501, 
+                    "chi": "　維熹", 
+                    "name": "WELL SHIN ", 
+                    "size": 53.1
+                }, 
+                {
+                    "id": 3533, 
+                    "chi": "　嘉澤", 
+                    "name": "LOTES ", 
+                    "size": 115.5
+                }, 
+                {
+                    "id": 3550, 
+                    "chi": "　聯穎", 
+                    "name": "COPARTNER ", 
+                    "size": 16.7
+                }, 
+                {
+                    "id": 3605, 
+                    "chi": "　宏致", 
+                    "name": "ACES ELECTRONIC CO. LTD. ", 
+                    "size": 40.5
+                }, 
+                {
+                    "id": 3607, 
+                    "chi": "　谷崧", 
+                    "name": "COXON ", 
+                    "size": 53.0
+                }, 
+                {
+                    "id": 3645, 
+                    "chi": "　達邁", 
+                    "name": "TMT ", 
+                    "size": 37.2
+                }, 
+                {
+                    "id": 3653, 
+                    "chi": "　健策", 
+                    "name": "JENTECH ", 
+                    "size": 84.9
+                }, 
+                {
+                    "id": 3679, 
+                    "chi": "　新至陞", 
+                    "name": "NISHOKU ", 
+                    "size": 50.5
+                }, 
+                {
+                    "id": 4958, 
+                    "chi": "　F-臻鼎", 
+                    "name": "ZDT ", 
+                    "size": 90.0
+                }, 
+                {
+                    "id": 4999, 
+                    "chi": "　鑫禾", 
+                    "name": "SINHER ", 
+                    "size": 66.0
+                }, 
+                {
+                    "id": 5469, 
+                    "chi": "　瀚宇博", 
+                    "name": "HSB ", 
+                    "size": 12.85
+                }, 
+                {
+                    "id": 6108, 
+                    "chi": "　競國", 
+                    "name": "APCB INC. ", 
+                    "size": 22.5
+                }, 
+                {
+                    "id": 6115, 
+                    "chi": "　鎰勝", 
+                    "name": "I-SHENG ", 
+                    "size": 42.8
+                }, 
+                {
+                    "id": 6133, 
+                    "chi": "　金橋", 
+                    "name": "GBE ", 
+                    "size": 11.5
+                }, 
+                {
+                    "id": 6141, 
+                    "chi": "　柏承", 
+                    "name": "PLOTECH ", 
+                    "size": 12.45
+                }, 
+                {
+                    "id": 6153, 
+                    "chi": "　嘉聯益", 
+                    "name": "CAREER TECH. ", 
+                    "size": 39.0
+                }, 
+                {
+                    "id": 6155, 
+                    "chi": "　鈞寶", 
+                    "name": "KC ", 
+                    "size": 24.4
+                }, 
+                {
+                    "id": 6165, 
+                    "chi": "　捷泰", 
+                    "name": "JTT ", 
+                    "size": 12.15
+                }, 
+                {
+                    "id": 6191, 
+                    "chi": "　精成科", 
+                    "name": "GBM ", 
+                    "size": 10.6
+                }, 
+                {
+                    "id": 6197, 
+                    "chi": "　佳必琪", 
+                    "name": "JPC ", 
+                    "size": 32.6
+                }, 
+                {
+                    "id": 6205, 
+                    "chi": "　詮欣", 
+                    "name": "COXOC ", 
+                    "size": 38.1
+                }, 
+                {
+                    "id": 6213, 
+                    "chi": "　聯茂", 
+                    "name": "ITEQ ", 
+                    "size": 32.3
+                }, 
+                {
+                    "id": 6224, 
+                    "chi": "　聚鼎", 
+                    "name": "PTTC. ", 
+                    "size": 72.0
+                }, 
+                {
+                    "id": 6251, 
+                    "chi": "　定穎", 
+                    "name": "DYTEK ", 
+                    "size": 16.05
+                }, 
+                {
+                    "id": 6269, 
+                    "chi": "　台郡", 
+                    "name": "FLEXIUM ", 
+                    "size": 82.9
+                }, 
+                {
+                    "id": 6282, 
+                    "chi": "　康舒", 
+                    "name": "ACBEL ", 
+                    "size": 46.45
+                }, 
+                {
+                    "id": 6412, 
+                    "chi": "　群電", 
+                    "name": "CHICONY POWER ", 
+                    "size": 43.5
+                }, 
+                {
+                    "id": 8039, 
+                    "chi": "　台虹", 
+                    "name": "TAIFLEX ", 
+                    "size": 49.3
+                }, 
+                {
+                    "id": 8046, 
+                    "chi": "　南電", 
+                    "name": "N.P.C ", 
+                    "size": 48.75
+                }, 
+                {
+                    "id": 8103, 
+                    "chi": "　瀚荃", 
+                    "name": "CVILUX ", 
+                    "size": 49.4
+                }, 
+                {
+                    "id": 8213, 
+                    "chi": "　志超", 
+                    "name": "TPT ", 
+                    "size": 42.1
+                }, 
+                {
+                    "id": 8249, 
+                    "chi": "　菱光", 
+                    "name": "CSI ", 
+                    "size": 24.5
+                }
+            ]
+        }, 
+        {
+            "name": "Electric Machinery", 
+            "children": [
+                {
+                    "id": 1503, 
+                    "chi": "　士電", 
+                    "name": "SEEC ", 
+                    "size": 40.25
+                }, 
+                {
+                    "id": 1504, 
+                    "chi": "　東元", 
+                    "name": "TECO ", 
+                    "size": 35.85
+                }, 
+                {
+                    "id": 1506, 
+                    "chi": "　正道", 
+                    "name": "R.W. ", 
+                    "size": 23.2
+                }, 
+                {
+                    "id": 1507, 
+                    "chi": "　永大", 
+                    "name": "YUNGTAY ", 
+                    "size": 75.0
+                }, 
+                {
+                    "id": 1512, 
+                    "chi": "　瑞利", 
+                    "name": "JL ", 
+                    "size": 8.25
+                }, 
+                {
+                    "id": 1513, 
+                    "chi": "　中興電", 
+                    "name": "CHEM ", 
+                    "size": 21.0
+                }, 
+                {
+                    "id": 1514, 
+                    "chi": "　亞力", 
+                    "name": "AEC ", 
+                    "size": 8.96
+                }, 
+                {
+                    "id": 1515, 
+                    "chi": "　力山", 
+                    "name": "REXON ", 
+                    "size": 10.1
+                }, 
+                {
+                    "id": 1517, 
+                    "chi": "　利奇", 
+                    "name": "LEE CHI ", 
+                    "size": 16.45
+                }, 
+                {
+                    "id": 1519, 
+                    "chi": "　華城", 
+                    "name": "FE ", 
+                    "size": 16.35
+                }, 
+                {
+                    "id": 1521, 
+                    "chi": "　大億", 
+                    "name": "DAIOKU ", 
+                    "size": 72.5
+                }, 
+                {
+                    "id": 1522, 
+                    "chi": "　堤維西", 
+                    "name": "TYC ", 
+                    "size": 20.0
+                }, 
+                {
+                    "id": 1524, 
+                    "chi": "　耿鼎", 
+                    "name": "GORDON ", 
+                    "size": 8.09
+                }, 
+                {
+                    "id": 1525, 
+                    "chi": "　江申", 
+                    "name": "KSC ", 
+                    "size": 67.1
+                }, 
+                {
+                    "id": 1526, 
+                    "chi": "　日馳", 
+                    "name": "SUNRACE ", 
+                    "size": 12.4
+                }, 
+                {
+                    "id": 1527, 
+                    "chi": "　鑽全", 
+                    "name": "BASSO ", 
+                    "size": 46.85
+                }, 
+                {
+                    "id": 1528, 
+                    "chi": "　恩德", 
+                    "name": "ANDERSON ", 
+                    "size": 13.35
+                }, 
+                {
+                    "id": 1529, 
+                    "chi": "　樂士", 
+                    "name": "LUXE ", 
+                    "size": 3.48
+                }, 
+                {
+                    "id": 1530, 
+                    "chi": "　亞崴", 
+                    "name": "AWEA ", 
+                    "size": 44.55
+                }, 
+                {
+                    "id": 1531, 
+                    "chi": "　高林股", 
+                    "name": "KAULIN ", 
+                    "size": 22.5
+                }, 
+                {
+                    "id": 1533, 
+                    "chi": "　車王電", 
+                    "name": "MOBILETRON ELECTRONICS CO. LT ", 
+                    "size": 67.1
+                }, 
+                {
+                    "id": 1535, 
+                    "chi": "　中宇", 
+                    "name": "CEC ", 
+                    "size": 71.6
+                }, 
+                {
+                    "id": 1536, 
+                    "chi": "　和大", 
+                    "name": "HOTA ", 
+                    "size": 50.5
+                }, 
+                {
+                    "id": 1537, 
+                    "chi": "　廣隆", 
+                    "name": "KUNG LONG ", 
+                    "size": 101.5
+                }, 
+                {
+                    "id": 1538, 
+                    "chi": "　正峰新", 
+                    "name": "JF ", 
+                    "size": 8.9
+                }, 
+                {
+                    "id": 1539, 
+                    "chi": "　巨庭", 
+                    "name": "GEETECH ", 
+                    "size": 21.95
+                }, 
+                {
+                    "id": 1540, 
+                    "chi": "　喬福", 
+                    "name": "JOHNFORD ", 
+                    "size": 22.6
+                }, 
+                {
+                    "id": 1541, 
+                    "chi": "　錩泰", 
+                    "name": "CHANG TYPE ", 
+                    "size": 18.05
+                }, 
+                {
+                    "id": 1560, 
+                    "chi": "　中砂", 
+                    "name": "KINIK ", 
+                    "size": 78.7
+                }, 
+                {
+                    "id": 1568, 
+                    "chi": "　倉佑", 
+                    "name": "T.Y. ", 
+                    "size": 25.2
+                }, 
+                {
+                    "id": 1583, 
+                    "chi": "　程泰", 
+                    "name": "GOODWAY ", 
+                    "size": 78.0
+                }, 
+                {
+                    "id": 1589, 
+                    "chi": "　F-永冠", 
+                    "name": "YGG ", 
+                    "size": 148.0
+                }, 
+                {
+                    "id": 1590, 
+                    "chi": "　F-亞德", 
+                    "name": "AIRTAC ", 
+                    "size": 289.5
+                }, 
+                {
+                    "id": 2049, 
+                    "chi": "　上銀", 
+                    "name": "HIWIN ", 
+                    "size": 317.0
+                }, 
+                {
+                    "id": 2228, 
+                    "chi": "　劍麟", 
+                    "name": "IRF ", 
+                    "size": 123.5
+                }, 
+                {
+                    "id": 2231, 
+                    "chi": "　為升", 
+                    "name": "CUB ", 
+                    "size": 278.0
+                }, 
+                {
+                    "id": 2371, 
+                    "chi": "　大同", 
+                    "name": "TATUNG CO. ", 
+                    "size": 9.83
+                }, 
+                {
+                    "id": 3167, 
+                    "chi": "　大量", 
+                    "name": "TA LIANG ", 
+                    "size": 40.1
+                }, 
+                {
+                    "id": 4526, 
+                    "chi": "　東台", 
+                    "name": "TONGTAI ", 
+                    "size": 33.3
+                }, 
+                {
+                    "id": 4532, 
+                    "chi": "　瑞智", 
+                    "name": "RECHI ", 
+                    "size": 30.0
+                }, 
+                {
+                    "id": 6605, 
+                    "chi": "　帝寶", 
+                    "name": "DEPO ", 
+                    "size": 107.0
+                }, 
+                {
+                    "id": 8374, 
+                    "chi": "　羅昇", 
+                    "name": "ACE PILLAR ", 
+                    "size": 24.5
+                }, 
+                {
+                    "id": 8996, 
+                    "chi": "　高力", 
+                    "name": "KAORI ", 
+                    "size": 72.5
+                }
+            ]
+        }, 
+        {
+            "name": "Iron & Steel", 
+            "children": [
+                {
+                    "id": 1532, 
+                    "chi": "　勤美", 
+                    "name": "CMP ", 
+                    "size": 31.9
+                }, 
+                {
+                    "id": 2002, 
+                    "chi": "　中鋼", 
+                    "name": "CSC ", 
+                    "size": 25.7
+                }, 
+                {
+                    "id": 2006, 
+                    "chi": "　東鋼", 
+                    "name": "TUNG HO STEEL ", 
+                    "size": 24.95
+                }, 
+                {
+                    "id": 2007, 
+                    "chi": "　燁興", 
+                    "name": "YH ", 
+                    "size": 6.75
+                }, 
+                {
+                    "id": 2008, 
+                    "chi": "　高興昌", 
+                    "name": "KHC ", 
+                    "size": 12.35
+                }, 
+                {
+                    "id": 2009, 
+                    "chi": "　第一銅", 
+                    "name": "FCC ", 
+                    "size": 10.3
+                }, 
+                {
+                    "id": 2010, 
+                    "chi": "　春源", 
+                    "name": "CHUN YUAN STEEL ", 
+                    "size": 11.9
+                }, 
+                {
+                    "id": 2012, 
+                    "chi": "　春雨", 
+                    "name": "CHUN YU ", 
+                    "size": 14.05
+                }, 
+                {
+                    "id": 2013, 
+                    "chi": "　中鋼構", 
+                    "name": "CSSC ", 
+                    "size": 29.15
+                }, 
+                {
+                    "id": 2014, 
+                    "chi": "　中鴻", 
+                    "name": "CHUNG HUNG ", 
+                    "size": 8.09
+                }, 
+                {
+                    "id": 2015, 
+                    "chi": "　豐興", 
+                    "name": "FH ", 
+                    "size": 41.3
+                }, 
+                {
+                    "id": 2017, 
+                    "chi": "　官田鋼", 
+                    "name": "QUINTAIN STEEL ", 
+                    "size": 6.55
+                }, 
+                {
+                    "id": 2020, 
+                    "chi": "　美亞", 
+                    "name": "MAYER PIPE ", 
+                    "size": 15.35
+                }, 
+                {
+                    "id": 2022, 
+                    "chi": "　聚亨", 
+                    "name": "TYCOONS ", 
+                    "size": 6.11
+                }, 
+                {
+                    "id": 2023, 
+                    "chi": "　燁輝", 
+                    "name": "YP ", 
+                    "size": 9.66
+                }, 
+                {
+                    "id": 2024, 
+                    "chi": "　志聯", 
+                    "name": "CHIH LIEN ", 
+                    "size": 9.06
+                }, 
+                {
+                    "id": 2025, 
+                    "chi": "　千興", 
+                    "name": "CSSSC ", 
+                    "size": 4.25
+                }, 
+                {
+                    "id": 2027, 
+                    "chi": "　大成鋼", 
+                    "name": "TC ", 
+                    "size": 19.65
+                }, 
+                {
+                    "id": 2028, 
+                    "chi": "　威致", 
+                    "name": "WEI CHIH ", 
+                    "size": 4.61
+                }, 
+                {
+                    "id": 2029, 
+                    "chi": "　盛餘", 
+                    "name": "SYSCO ", 
+                    "size": 22.9
+                }, 
+                {
+                    "id": 2030, 
+                    "chi": "　彰源", 
+                    "name": "FROCH ", 
+                    "size": 12.75
+                }, 
+                {
+                    "id": 2031, 
+                    "chi": "　新光鋼", 
+                    "name": "HKSSTEEL ", 
+                    "size": 18.35
+                }, 
+                {
+                    "id": 2032, 
+                    "chi": "　新鋼", 
+                    "name": "SINKANG ", 
+                    "size": 12.3
+                }, 
+                {
+                    "id": 2033, 
+                    "chi": "　佳大", 
+                    "name": "CHIA TA ", 
+                    "size": 10.4
+                }, 
+                {
+                    "id": 2034, 
+                    "chi": "　允強", 
+                    "name": "YC ", 
+                    "size": 29.4
+                }, 
+                {
+                    "id": 2038, 
+                    "chi": "　海光", 
+                    "name": "HAIKWANG ", 
+                    "size": 9.16
+                }, 
+                {
+                    "id": 3004, 
+                    "chi": "　豐達科", 
+                    "name": "NAFCO ", 
+                    "size": 68.5
+                }, 
+                {
+                    "id": 5007, 
+                    "chi": "　三星", 
+                    "name": "SAN SHING ", 
+                    "size": 79.7
+                }, 
+                {
+                    "id": 5538, 
+                    "chi": "　F-東明", 
+                    "name": "TONG MING ", 
+                    "size": 27.6
+                }, 
+                {
+                    "id": 9958, 
+                    "chi": "　世紀鋼", 
+                    "name": "CIAS ", 
+                    "size": 13.5
+                }
+            ]
+        }, 
+        {
+            "name": "Electrical & Cable", 
+            "children": [
+                {
+                    "id": 1603, 
+                    "chi": "　華電", 
+                    "name": "CWCO ", 
+                    "size": 12.8
+                }, 
+                {
+                    "id": 1604, 
+                    "chi": "　聲寶", 
+                    "name": "SAMPO ", 
+                    "size": 12.4
+                }, 
+                {
+                    "id": 1605, 
+                    "chi": "　華新", 
+                    "name": "WALSIN ", 
+                    "size": 10.4
+                }, 
+                {
+                    "id": 1608, 
+                    "chi": "　華榮", 
+                    "name": "HE ", 
+                    "size": 11.0
+                }, 
+                {
+                    "id": 1609, 
+                    "chi": "　大亞", 
+                    "name": "TA YA ", 
+                    "size": 7.19
+                }, 
+                {
+                    "id": 1611, 
+                    "chi": "　中電", 
+                    "name": "CE ", 
+                    "size": 11.6
+                }, 
+                {
+                    "id": 1612, 
+                    "chi": "　宏泰", 
+                    "name": "HONG TAI ", 
+                    "size": 10.3
+                }, 
+                {
+                    "id": 1613, 
+                    "chi": "　台一", 
+                    "name": "TAI-I ", 
+                    "size": 6.15
+                }, 
+                {
+                    "id": 1614, 
+                    "chi": "　三洋電", 
+                    "name": "SANYO ", 
+                    "size": 35.0
+                }, 
+                {
+                    "id": 1615, 
+                    "chi": "　大山", 
+                    "name": "DAH SAN ", 
+                    "size": 10.2
+                }, 
+                {
+                    "id": 1616, 
+                    "chi": "　億泰", 
+                    "name": "EVERTOP ", 
+                    "size": 6.2
+                }, 
+                {
+                    "id": 1617, 
+                    "chi": "　榮星", 
+                    "name": "JSW ", 
+                    "size": 8.86
+                }, 
+                {
+                    "id": 1618, 
+                    "chi": "　合機", 
+                    "name": "HK ", 
+                    "size": 9.65
+                }, 
+                {
+                    "id": 1626, 
+                    "chi": "　F-艾美", 
+                    "name": "TWSE LISTED STOCKS ", 
+                    "size": 50.5
+                }, 
+                {
+                    "id": 4930, 
+                    "chi": "　燦星網", 
+                    "name": "STAR COMGISTIC ", 
+                    "size": 14.7
+                }
+            ]
+        }, 
+        {
+            "name": "Biotechnology and Medical Care", 
+            "children": [
+                {
+                    "id": 1701, 
+                    "chi": "　中化", 
+                    "name": "CCPC ", 
+                    "size": 21.6
+                }, 
+                {
+                    "id": 1707, 
+                    "chi": "　葡萄王", 
+                    "name": "GKI ", 
+                    "size": 135.5
+                }, 
+                {
+                    "id": 1720, 
+                    "chi": "　生達", 
+                    "name": "S.C.P.C ", 
+                    "size": 39.0
+                }, 
+                {
+                    "id": 1729, 
+                    "chi": "　必翔", 
+                    "name": "PIHSIANG ", 
+                    "size": 46.7
+                }, 
+                {
+                    "id": 1731, 
+                    "chi": "　美吾華", 
+                    "name": "MAYWUFA ", 
+                    "size": 14.65
+                }, 
+                {
+                    "id": 1733, 
+                    "chi": "　五鼎", 
+                    "name": "APEX BIOTECHNOLOGY CORP. ", 
+                    "size": 58.3
+                }, 
+                {
+                    "id": 1734, 
+                    "chi": "　杏輝", 
+                    "name": "SINPHAR ", 
+                    "size": 46.0
+                }, 
+                {
+                    "id": 1736, 
+                    "chi": "　喬山", 
+                    "name": "JHT ", 
+                    "size": 75.8
+                }, 
+                {
+                    "id": 1762, 
+                    "chi": "　中化生", 
+                    "name": "CCSB ", 
+                    "size": 39.0
+                }, 
+                {
+                    "id": 1783, 
+                    "chi": "　和康生", 
+                    "name": "MBI ", 
+                    "size": 49.1
+                }, 
+                {
+                    "id": 1786, 
+                    "chi": "　科妍", 
+                    "name": "SVBI ", 
+                    "size": 102.5
+                }, 
+                {
+                    "id": 1789, 
+                    "chi": "　神隆", 
+                    "name": "SPT ", 
+                    "size": 63.7
+                }, 
+                {
+                    "id": 3164, 
+                    "chi": "　景岳", 
+                    "name": "GENMONT ", 
+                    "size": 42.0
+                }, 
+                {
+                    "id": 3705, 
+                    "chi": "　永信", 
+                    "name": "Y.S.H. ", 
+                    "size": 52.6
+                }, 
+                {
+                    "id": 4104, 
+                    "chi": "　佳醫", 
+                    "name": "EXCELSIOR ", 
+                    "size": 56.0
+                }, 
+                {
+                    "id": 4106, 
+                    "chi": "　雃博", 
+                    "name": "APEX ", 
+                    "size": 46.8
+                }, 
+                {
+                    "id": 4108, 
+                    "chi": "　懷特", 
+                    "name": "PHYTOHEALTH ", 
+                    "size": 37.3
+                }, 
+                {
+                    "id": 4119, 
+                    "chi": "　旭富", 
+                    "name": "SCI ", 
+                    "size": 63.6
+                }, 
+                {
+                    "id": 4133, 
+                    "chi": "　亞諾法", 
+                    "name": "ABNOVA ", 
+                    "size": 40.05
+                }, 
+                {
+                    "id": 4137, 
+                    "chi": "　F-麗豐", 
+                    "name": "CHLITINA ", 
+                    "size": 197.0
+                }, 
+                {
+                    "id": 4141, 
+                    "chi": "　F-龍燈", 
+                    "name": "ROTAM ", 
+                    "size": 67.1
+                }, 
+                {
+                    "id": 4142, 
+                    "chi": "　國光生", 
+                    "name": "ADIM ", 
+                    "size": 37.55
+                }, 
+                {
+                    "id": 4144, 
+                    "chi": "　F-康聯", 
+                    "name": "COLAND ", 
+                    "size": 68.9
+                }, 
+                {
+                    "id": 4164, 
+                    "chi": "　承業醫", 
+                    "name": "CHC ", 
+                    "size": 66.6
+                }, 
+                {
+                    "id": 4737, 
+                    "chi": "　華廣", 
+                    "name": "BIONIME ", 
+                    "size": 55.0
+                }, 
+                {
+                    "id": 4746, 
+                    "chi": "　台耀", 
+                    "name": "FRMSL ", 
+                    "size": 63.7
+                }
+            ]
+        }, 
+        {
+            "name": "Glass & Ceramic", 
+            "children": [
+                {
+                    "id": 1802, 
+                    "chi": "　台玻", 
+                    "name": "TGI ", 
+                    "size": 25.1
+                }, 
+                {
+                    "id": 1806, 
+                    "chi": "　冠軍", 
+                    "name": "CHAMPION ", 
+                    "size": 10.5
+                }, 
+                {
+                    "id": 1809, 
+                    "chi": "　中釉", 
+                    "name": "CHINA GLAZE ", 
+                    "size": 14.9
+                }, 
+                {
+                    "id": 1810, 
+                    "chi": "　和成", 
+                    "name": "HCG ", 
+                    "size": 10.15
+                }, 
+                {
+                    "id": 1817, 
+                    "chi": "　凱撒衛", 
+                    "name": "SANITAR ", 
+                    "size": 30.4
+                }
+            ]
+        }, 
+        {
+            "name": "Paper & Pulp", 
+            "children": [
+                {
+                    "id": 1902, 
+                    "chi": "　台紙", 
+                    "name": "TPPC ", 
+                    "size": 13.35
+                }, 
+                {
+                    "id": 1903, 
+                    "chi": "　士紙", 
+                    "name": "SHIHLIN PAPER ", 
+                    "size": 44.9
+                }, 
+                {
+                    "id": 1904, 
+                    "chi": "　正隆", 
+                    "name": "CHENG LOONG ", 
+                    "size": 12.5
+                }, 
+                {
+                    "id": 1905, 
+                    "chi": "　華紙", 
+                    "name": "CHP ", 
+                    "size": 9.26
+                }, 
+                {
+                    "id": 1906, 
+                    "chi": "　寶隆", 
+                    "name": "P.L ", 
+                    "size": 12.55
+                }, 
+                {
+                    "id": 1907, 
+                    "chi": "　永豐餘", 
+                    "name": "YFY ", 
+                    "size": 13.8
+                }, 
+                {
+                    "id": 1909, 
+                    "chi": "　榮成", 
+                    "name": "LCP ", 
+                    "size": 15.1
+                }
+            ]
+        }, 
+        {
+            "name": "Rubber", 
+            "children": [
+                {
+                    "id": 2101, 
+                    "chi": "　南港", 
+                    "name": "NK ", 
+                    "size": 34.75
+                }, 
+                {
+                    "id": 2102, 
+                    "chi": "　泰豐", 
+                    "name": "FEDERAL CORP ", 
+                    "size": 19.7
+                }, 
+                {
+                    "id": 2103, 
+                    "chi": "　台橡", 
+                    "name": "TSRC ", 
+                    "size": 41.3
+                }, 
+                {
+                    "id": 2104, 
+                    "chi": "　中橡", 
+                    "name": "CSRC ", 
+                    "size": 29.3
+                }, 
+                {
+                    "id": 2105, 
+                    "chi": "　正新", 
+                    "name": "CST ", 
+                    "size": 73.7
+                }, 
+                {
+                    "id": 2106, 
+                    "chi": "　建大", 
+                    "name": "KENDA ", 
+                    "size": 68.1
+                }, 
+                {
+                    "id": 2107, 
+                    "chi": "　厚生", 
+                    "name": "FRG ", 
+                    "size": 28.7
+                }, 
+                {
+                    "id": 2108, 
+                    "chi": "　南帝", 
+                    "name": "NANTEX ", 
+                    "size": 17.2
+                }, 
+                {
+                    "id": 2109, 
+                    "chi": "　華豐", 
+                    "name": "HWA FONG ", 
+                    "size": 23.55
+                }, 
+                {
+                    "id": 2114, 
+                    "chi": "　鑫永銓", 
+                    "name": "HYC ", 
+                    "size": 123.5
+                }, 
+                {
+                    "id": 2115, 
+                    "chi": "　F-六暉", 
+                    "name": "LUHAI ", 
+                    "size": 57.6
+                }
+            ]
+        }, 
+        {
+            "name": "Shipping & Transportation", 
+            "children": [
+                {
+                    "id": 2208, 
+                    "chi": "　台船", 
+                    "name": "CSBC ", 
+                    "size": 17.7
+                }, 
+                {
+                    "id": 2603, 
+                    "chi": "　長榮", 
+                    "name": "EMC ", 
+                    "size": 16.75
+                }, 
+                {
+                    "id": 2605, 
+                    "chi": "　新興", 
+                    "name": "SNC ", 
+                    "size": 26.3
+                }, 
+                {
+                    "id": 2606, 
+                    "chi": "　裕民", 
+                    "name": "U-MING ", 
+                    "size": 46.6
+                }, 
+                {
+                    "id": 2607, 
+                    "chi": "　榮運", 
+                    "name": "EITC ", 
+                    "size": 19.1
+                }, 
+                {
+                    "id": 2608, 
+                    "chi": "　大榮", 
+                    "name": "KERRY TJ ", 
+                    "size": 37.8
+                }, 
+                {
+                    "id": 2609, 
+                    "chi": "　陽明", 
+                    "name": "YMTC ", 
+                    "size": 12.3
+                }, 
+                {
+                    "id": 2610, 
+                    "chi": "　華航", 
+                    "name": "CAL ", 
+                    "size": 10.1
+                }, 
+                {
+                    "id": 2611, 
+                    "chi": "　志信", 
+                    "name": "TSI ", 
+                    "size": 10.1
+                }, 
+                {
+                    "id": 2612, 
+                    "chi": "　中航", 
+                    "name": "CMT ", 
+                    "size": 34.0
+                }, 
+                {
+                    "id": 2613, 
+                    "chi": "　中櫃", 
+                    "name": "CCTC ", 
+                    "size": 19.45
+                }, 
+                {
+                    "id": 2615, 
+                    "chi": "　萬海", 
+                    "name": "WANHAI ", 
+                    "size": 15.45
+                }, 
+                {
+                    "id": 2617, 
+                    "chi": "　台航", 
+                    "name": "TAIWANLINE ", 
+                    "size": 21.35
+                }, 
+                {
+                    "id": 2618, 
+                    "chi": "　長榮航", 
+                    "name": "EVAAIR ", 
+                    "size": 14.4
+                }, 
+                {
+                    "id": 2637, 
+                    "chi": "　F-慧洋", 
+                    "name": "WISDOM ", 
+                    "size": 34.6
+                }, 
+                {
+                    "id": 2642, 
+                    "chi": "　宅配通", 
+                    "name": "PELICAN ", 
+                    "size": 48.9
+                }, 
+                {
+                    "id": 5607, 
+                    "chi": "　遠雄港", 
+                    "name": "FARGLORY FTZ ", 
+                    "size": 22.0
+                }, 
+                {
+                    "id": 5608, 
+                    "chi": "　四維航", 
+                    "name": "S. W. ", 
+                    "size": 20.3
+                }, 
+                {
+                    "id": 6702, 
+                    "chi": "　復航", 
+                    "name": "TNA ", 
+                    "size": 11.15
+                }
+            ]
+        }, 
+        {
+            "name": "Computer and Peripheral Equipm", 
+            "children": [
+                {
+                    "id": 2301, 
+                    "chi": "　光寶科", 
+                    "name": "LTC ", 
+                    "size": 48.55
+                }, 
+                {
+                    "id": 2305, 
+                    "chi": "　全友", 
+                    "name": "MII ", 
+                    "size": 7.9
+                }, 
+                {
+                    "id": 2324, 
+                    "chi": "　仁寶", 
+                    "name": "COMPAL ", 
+                    "size": 27.0
+                }, 
+                {
+                    "id": 2331, 
+                    "chi": "　精英", 
+                    "name": "ECS ", 
+                    "size": 20.75
+                }, 
+                {
+                    "id": 2352, 
+                    "chi": "　佳世達", 
+                    "name": "QISDA ", 
+                    "size": 14.35
+                }, 
+                {
+                    "id": 2353, 
+                    "chi": "　宏碁", 
+                    "name": "ACER ", 
+                    "size": 24.15
+                }, 
+                {
+                    "id": 2356, 
+                    "chi": "　英業達", 
+                    "name": "INVENTEC ", 
+                    "size": 25.3
+                }, 
+                {
+                    "id": 2357, 
+                    "chi": "　華碩", 
+                    "name": "ASUSTEK ", 
+                    "size": 313.5
+                }, 
+                {
+                    "id": 2358, 
+                    "chi": "　美格", 
+                    "name": "MAG ", 
+                    "size": 18.0
+                }, 
+                {
+                    "id": 2361, 
+                    "chi": "　鴻友", 
+                    "name": "MUSTEK ", 
+                    "size": 2.0
+                }, 
+                {
+                    "id": 2362, 
+                    "chi": "　藍天", 
+                    "name": "CLEVO CO. ", 
+                    "size": 52.6
+                }, 
+                {
+                    "id": 2364, 
+                    "chi": "　倫飛", 
+                    "name": "TWINHEAD ", 
+                    "size": 3.93
+                }, 
+                {
+                    "id": 2365, 
+                    "chi": "　昆盈", 
+                    "name": "KYE ", 
+                    "size": 12.8
+                }, 
+                {
+                    "id": 2376, 
+                    "chi": "　技嘉", 
+                    "name": "GIGABYTE ", 
+                    "size": 39.6
+                }, 
+                {
+                    "id": 2377, 
+                    "chi": "　微星", 
+                    "name": "MSI ", 
+                    "size": 42.0
+                }, 
+                {
+                    "id": 2380, 
+                    "chi": "　虹光", 
+                    "name": "AVISION ", 
+                    "size": 10.5
+                }, 
+                {
+                    "id": 2382, 
+                    "chi": "　廣達", 
+                    "name": "QCI ", 
+                    "size": 81.8
+                }, 
+                {
+                    "id": 2385, 
+                    "chi": "　群光", 
+                    "name": "CHICONY ", 
+                    "size": 83.7
+                }, 
+                {
+                    "id": 2387, 
+                    "chi": "　精元", 
+                    "name": "SUNREX ", 
+                    "size": 15.8
+                }, 
+                {
+                    "id": 2395, 
+                    "chi": "　研華", 
+                    "name": "ACL ", 
+                    "size": 237.5
+                }, 
+                {
+                    "id": 2397, 
+                    "chi": "　友通", 
+                    "name": "DFI INC. ", 
+                    "size": 34.3
+                }, 
+                {
+                    "id": 2399, 
+                    "chi": "　映泰", 
+                    "name": "BIOSTAR ", 
+                    "size": 13.6
+                }, 
+                {
+                    "id": 2405, 
+                    "chi": "　浩鑫", 
+                    "name": "SHUTTLE ", 
+                    "size": 10.05
+                }, 
+                {
+                    "id": 2417, 
+                    "chi": "　圓剛", 
+                    "name": "AVERMEDIA ", 
+                    "size": 12.15
+                }, 
+                {
+                    "id": 2424, 
+                    "chi": "　隴華", 
+                    "name": "LUNG HWA ", 
+                    "size": 38.7
+                }, 
+                {
+                    "id": 2425, 
+                    "chi": "　承啟", 
+                    "name": "CHAINTECH ", 
+                    "size": 38.0
+                }, 
+                {
+                    "id": 2442, 
+                    "chi": "　新美齊", 
+                    "name": "JEAN ", 
+                    "size": 9.16
+                }, 
+                {
+                    "id": 2465, 
+                    "chi": "　麗臺", 
+                    "name": "LEADTEK ", 
+                    "size": 10.8
+                }, 
+                {
+                    "id": 3002, 
+                    "chi": "　歐格", 
+                    "name": "AHOKU ", 
+                    "size": 15.95
+                }, 
+                {
+                    "id": 3005, 
+                    "chi": "　神基", 
+                    "name": "GETAC ", 
+                    "size": 16.75
+                }, 
+                {
+                    "id": 3013, 
+                    "chi": "　晟銘電", 
+                    "name": "UNEEC ", 
+                    "size": 36.1
+                }, 
+                {
+                    "id": 3017, 
+                    "chi": "　奇鋐", 
+                    "name": "AVC ", 
+                    "size": 24.05
+                }, 
+                {
+                    "id": 3022, 
+                    "chi": "　威強電", 
+                    "name": "IEI ", 
+                    "size": 55.2
+                }, 
+                {
+                    "id": 3046, 
+                    "chi": "　建碁", 
+                    "name": "AOPEN ", 
+                    "size": 6.28
+                }, 
+                {
+                    "id": 3057, 
+                    "chi": "　喬鼎", 
+                    "name": "PROMISE ", 
+                    "size": 39.1
+                }, 
+                {
+                    "id": 3060, 
+                    "chi": "　銘異", 
+                    "name": "MIN AIK ", 
+                    "size": 169.5
+                }, 
+                {
+                    "id": 3231, 
+                    "chi": "　緯創", 
+                    "name": "WISTRON ", 
+                    "size": 29.15
+                }, 
+                {
+                    "id": 3494, 
+                    "chi": "　誠研", 
+                    "name": "HITI ", 
+                    "size": 18.9
+                }, 
+                {
+                    "id": 3515, 
+                    "chi": "　華擎", 
+                    "name": "ASROCK ", 
+                    "size": 104.0
+                }, 
+                {
+                    "id": 3701, 
+                    "chi": "　大眾控", 
+                    "name": "FICG ", 
+                    "size": 8.52
+                }, 
+                {
+                    "id": 3706, 
+                    "chi": "　神達", 
+                    "name": "MHC ", 
+                    "size": 25.05
+                }, 
+                {
+                    "id": 4915, 
+                    "chi": "　致伸", 
+                    "name": "PRIMAX ", 
+                    "size": 45.2
+                }, 
+                {
+                    "id": 4916, 
+                    "chi": "　事欣科", 
+                    "name": "PEC ", 
+                    "size": 47.5
+                }, 
+                {
+                    "id": 4938, 
+                    "chi": "　和碩", 
+                    "name": "PEGATRON ", 
+                    "size": 56.3
+                }, 
+                {
+                    "id": 5215, 
+                    "chi": "　F-科嘉", 
+                    "name": "KO JA ", 
+                    "size": 28.7
+                }, 
+                {
+                    "id": 5264, 
+                    "chi": "　F-鎧勝", 
+                    "name": "CASETEK ", 
+                    "size": 176.0
+                }, 
+                {
+                    "id": 6117, 
+                    "chi": "　迎廣", 
+                    "name": "IN WIN ", 
+                    "size": 24.5
+                }, 
+                {
+                    "id": 6128, 
+                    "chi": "　上福", 
+                    "name": "GPI ", 
+                    "size": 35.05
+                }, 
+                {
+                    "id": 6166, 
+                    "chi": "　凌華", 
+                    "name": "ADLINK ", 
+                    "size": 75.7
+                }, 
+                {
+                    "id": 6172, 
+                    "chi": "　互億", 
+                    "name": "BILLIONTON ", 
+                    "size": 5.85
+                }, 
+                {
+                    "id": 6206, 
+                    "chi": "　飛捷", 
+                    "name": "FLYTECH ", 
+                    "size": 134.5
+                }, 
+                {
+                    "id": 6230, 
+                    "chi": "　超眾", 
+                    "name": "CCI ", 
+                    "size": 101.5
+                }, 
+                {
+                    "id": 6235, 
+                    "chi": "　華孚", 
+                    "name": "WAFFER ", 
+                    "size": 7.55
+                }, 
+                {
+                    "id": 6277, 
+                    "chi": "　宏正", 
+                    "name": "ATEN@@ ", 
+                    "size": 80.8
+                }, 
+                {
+                    "id": 6414, 
+                    "chi": "　樺漢", 
+                    "name": "ENNOCONN ", 
+                    "size": 212.5
+                }, 
+                {
+                    "id": 8114, 
+                    "chi": "　振樺電", 
+                    "name": "POSIFLEX ", 
+                    "size": 160.5
+                }, 
+                {
+                    "id": 8163, 
+                    "chi": "　達方", 
+                    "name": "DARFON ", 
+                    "size": 20.1
+                }, 
+                {
+                    "id": 8210, 
+                    "chi": "　勤誠", 
+                    "name": "CHENBRO ", 
+                    "size": 63.5
+                }, 
+                {
+                    "id": 9912, 
+                    "chi": "　偉聯", 
+                    "name": "AIC ", 
+                    "size": 17.0
+                }
+            ]
+        }, 
+        {
+            "name": "Other Electronic Industry", 
+            "children": [
+                {
+                    "id": 2312, 
+                    "chi": "　金寶", 
+                    "name": "KINPO ", 
+                    "size": 12.95
+                }, 
+                {
+                    "id": 2317, 
+                    "chi": "　鴻海", 
+                    "name": "HON HAI ", 
+                    "size": 103.0
+                }, 
+                {
+                    "id": 2354, 
+                    "chi": "　鴻準", 
+                    "name": "FTC ", 
+                    "size": 72.4
+                }, 
+                {
+                    "id": 2359, 
+                    "chi": "　所羅門", 
+                    "name": "SOLOMON ", 
+                    "size": 17.0
+                }, 
+                {
+                    "id": 2360, 
+                    "chi": "　致茂", 
+                    "name": "CHROMA ", 
+                    "size": 81.1
+                }, 
+                {
+                    "id": 2373, 
+                    "chi": "　震旦行", 
+                    "name": "AURORA ", 
+                    "size": 52.4
+                }, 
+                {
+                    "id": 2390, 
+                    "chi": "　云辰", 
+                    "name": "EVERSPRING ", 
+                    "size": 31.0
+                }, 
+                {
+                    "id": 2404, 
+                    "chi": "　漢唐", 
+                    "name": "UIS ", 
+                    "size": 28.3
+                }, 
+                {
+                    "id": 2423, 
+                    "chi": "　固緯", 
+                    "name": "GW ", 
+                    "size": 18.75
+                }, 
+                {
+                    "id": 2433, 
+                    "chi": "　互盛電", 
+                    "name": "ASC ", 
+                    "size": 41.0
+                }, 
+                {
+                    "id": 2461, 
+                    "chi": "　光群雷", 
+                    "name": "K LASER ", 
+                    "size": 16.65
+                }, 
+                {
+                    "id": 2464, 
+                    "chi": "　盟立", 
+                    "name": "MIRLE ", 
+                    "size": 28.9
+                }, 
+                {
+                    "id": 2474, 
+                    "chi": "　可成", 
+                    "name": "CATCHER ", 
+                    "size": 256.0
+                }, 
+                {
+                    "id": 2477, 
+                    "chi": "　美隆電", 
+                    "name": "MEILOON ", 
+                    "size": 19.3
+                }, 
+                {
+                    "id": 2482, 
+                    "chi": "　連宇", 
+                    "name": "UIC ", 
+                    "size": 13.6
+                }, 
+                {
+                    "id": 2488, 
+                    "chi": "　漢平", 
+                    "name": "HANPIN ", 
+                    "size": 22.95
+                }, 
+                {
+                    "id": 2495, 
+                    "chi": "　普安", 
+                    "name": "INFORTREND ", 
+                    "size": 17.5
+                }, 
+                {
+                    "id": 2497, 
+                    "chi": "　怡利電", 
+                    "name": "E-LEAD ", 
+                    "size": 66.3
+                }, 
+                {
+                    "id": 3018, 
+                    "chi": "　同開", 
+                    "name": "TUNG KAI TECHNOLOGY ", 
+                    "size": 26.1
+                }, 
+                {
+                    "id": 3030, 
+                    "chi": "　德律", 
+                    "name": "TRI ", 
+                    "size": 53.1
+                }, 
+                {
+                    "id": 3043, 
+                    "chi": "　科風", 
+                    "name": "PCM ", 
+                    "size": 6.3
+                }, 
+                {
+                    "id": 3305, 
+                    "chi": "　昇貿", 
+                    "name": "SHENMAO ", 
+                    "size": 35.1
+                }, 
+                {
+                    "id": 3450, 
+                    "chi": "　聯鈞", 
+                    "name": "ELASER ", 
+                    "size": 123.0
+                }, 
+                {
+                    "id": 3518, 
+                    "chi": "　柏騰", 
+                    "name": "PT TECH ", 
+                    "size": 64.2
+                }, 
+                {
+                    "id": 3617, 
+                    "chi": "　碩天", 
+                    "name": "CYBERPOWER SYSTEMS INC ", 
+                    "size": 61.6
+                }, 
+                {
+                    "id": 3665, 
+                    "chi": "　F-貿聯", 
+                    "name": "BHI ", 
+                    "size": 126.0
+                }, 
+                {
+                    "id": 5225, 
+                    "chi": "　F-東科", 
+                    "name": "KYET ", 
+                    "size": 47.5
+                }, 
+                {
+                    "id": 6139, 
+                    "chi": "　亞翔", 
+                    "name": "L & K ", 
+                    "size": 25.55
+                }, 
+                {
+                    "id": 6192, 
+                    "chi": "　巨路", 
+                    "name": "LUMAX ", 
+                    "size": 71.5
+                }, 
+                {
+                    "id": 6196, 
+                    "chi": "　帆宣", 
+                    "name": "MIC ", 
+                    "size": 23.6
+                }, 
+                {
+                    "id": 6201, 
+                    "chi": "　亞弘電", 
+                    "name": "YAHORNG ", 
+                    "size": 24.2
+                }, 
+                {
+                    "id": 6215, 
+                    "chi": "　和椿", 
+                    "name": "AUROTEK ", 
+                    "size": 22.65
+                }, 
+                {
+                    "id": 6409, 
+                    "chi": "　旭隼", 
+                    "name": "VOLTRONIC ", 
+                    "size": 204.5
+                }, 
+                {
+                    "id": 8021, 
+                    "chi": "　尖點", 
+                    "name": "TOPOINT ", 
+                    "size": 30.9
+                }, 
+                {
+                    "id": 8201, 
+                    "chi": "　無敵", 
+                    "name": "BESTA ", 
+                    "size": 13.25
+                }
+            ]
+        }, 
+        {
+            "name": "Communications and Internet", 
+            "children": [
+                {
+                    "id": 2314, 
+                    "chi": "　台揚", 
+                    "name": "MTI ", 
+                    "size": 18.25
+                }, 
+                {
+                    "id": 2321, 
+                    "chi": "　東訊", 
+                    "name": "TECOM ", 
+                    "size": 3.85
+                }, 
+                {
+                    "id": 2332, 
+                    "chi": "　友訊", 
+                    "name": "D-LINK ", 
+                    "size": 21.15
+                }, 
+                {
+                    "id": 2345, 
+                    "chi": "　智邦", 
+                    "name": "ACCTON ", 
+                    "size": 17.6
+                }, 
+                {
+                    "id": 2412, 
+                    "chi": "　中華電", 
+                    "name": "CHT ", 
+                    "size": 91.3
+                }, 
+                {
+                    "id": 2419, 
+                    "chi": "　仲琦", 
+                    "name": "H.T. ", 
+                    "size": 17.55
+                }, 
+                {
+                    "id": 2439, 
+                    "chi": "　美律", 
+                    "name": "MERRY ", 
+                    "size": 157.5
+                }, 
+                {
+                    "id": 2444, 
+                    "chi": "　友旺", 
+                    "name": "ABOCOM ", 
+                    "size": 11.3
+                }, 
+                {
+                    "id": 2450, 
+                    "chi": "　神腦", 
+                    "name": "SENAO ", 
+                    "size": 61.8
+                }, 
+                {
+                    "id": 2455, 
+                    "chi": "　全新", 
+                    "name": "VPEC ", 
+                    "size": 30.15
+                }, 
+                {
+                    "id": 2485, 
+                    "chi": "　兆赫", 
+                    "name": "ZINWELL ", 
+                    "size": 28.3
+                }, 
+                {
+                    "id": 2496, 
+                    "chi": "　卓越", 
+                    "name": "SPC ", 
+                    "size": 7.55
+                }, 
+                {
+                    "id": 2498, 
+                    "chi": "　宏達電", 
+                    "name": "HTC ", 
+                    "size": 122.0
+                }, 
+                {
+                    "id": 3025, 
+                    "chi": "　星通", 
+                    "name": "LOOP ", 
+                    "size": 11.3
+                }, 
+                {
+                    "id": 3027, 
+                    "chi": "　盛達", 
+                    "name": "BILLION ", 
+                    "size": 23.7
+                }, 
+                {
+                    "id": 3045, 
+                    "chi": "　台灣大", 
+                    "name": "TWM ", 
+                    "size": 92.4
+                }, 
+                {
+                    "id": 3047, 
+                    "chi": "　訊舟", 
+                    "name": "EDIMAX ", 
+                    "size": 13.5
+                }, 
+                {
+                    "id": 3062, 
+                    "chi": "　建漢", 
+                    "name": "CYBERTAN ", 
+                    "size": 28.8
+                }, 
+                {
+                    "id": 3311, 
+                    "chi": "　閎暉", 
+                    "name": "SILITECH ", 
+                    "size": 29.7
+                }, 
+                {
+                    "id": 3380, 
+                    "chi": "　明泰", 
+                    "name": "ALPHA ", 
+                    "size": 20.4
+                }, 
+                {
+                    "id": 3419, 
+                    "chi": "　譁裕", 
+                    "name": "WHAYU ", 
+                    "size": 15.95
+                }, 
+                {
+                    "id": 3596, 
+                    "chi": "　智易", 
+                    "name": "ARCADYAN ", 
+                    "size": 45.3
+                }, 
+                {
+                    "id": 3682, 
+                    "chi": "　亞太電", 
+                    "name": "APT ", 
+                    "size": 18.25
+                }, 
+                {
+                    "id": 3694, 
+                    "chi": "　海華", 
+                    "name": "AZUREWAVE ", 
+                    "size": 16.05
+                }, 
+                {
+                    "id": 3704, 
+                    "chi": "　合勤控", 
+                    "name": "UNIZYX ", 
+                    "size": 23.25
+                }, 
+                {
+                    "id": 4904, 
+                    "chi": "　遠傳", 
+                    "name": "FAR EASTONE ", 
+                    "size": 63.3
+                }, 
+                {
+                    "id": 4906, 
+                    "chi": "　正文", 
+                    "name": "GEMTEK ", 
+                    "size": 27.1
+                }, 
+                {
+                    "id": 4977, 
+                    "chi": "　F-眾達", 
+                    "name": "F-PCL ", 
+                    "size": 68.6
+                }, 
+                {
+                    "id": 4984, 
+                    "chi": "　F-科納", 
+                    "name": "COADNA ", 
+                    "size": 37.35
+                }, 
+                {
+                    "id": 5388, 
+                    "chi": "　中磊", 
+                    "name": "SERCOMM ", 
+                    "size": 69.7
+                }, 
+                {
+                    "id": 6136, 
+                    "chi": "　富爾特", 
+                    "name": "FTC ", 
+                    "size": 25.15
+                }, 
+                {
+                    "id": 6142, 
+                    "chi": "　友勁", 
+                    "name": "CAMEO ", 
+                    "size": 8.83
+                }, 
+                {
+                    "id": 6152, 
+                    "chi": "　百一", 
+                    "name": "PRIME ", 
+                    "size": 16.45
+                }, 
+                {
+                    "id": 6216, 
+                    "chi": "　居易", 
+                    "name": "DRAYTEK ", 
+                    "size": 30.95
+                }, 
+                {
+                    "id": 6283, 
+                    "chi": "　淳安", 
+                    "name": "SOE ", 
+                    "size": 7.85
+                }, 
+                {
+                    "id": 6285, 
+                    "chi": "　啟碁", 
+                    "name": "WNC ", 
+                    "size": 75.6
+                }, 
+                {
+                    "id": 8011, 
+                    "chi": "　台通", 
+                    "name": "TTCC ", 
+                    "size": 46.7
+                }, 
+                {
+                    "id": 8101, 
+                    "chi": "　華冠", 
+                    "name": "ARIMA COMM. ", 
+                    "size": 15.2
+                }
+            ]
+        }, 
+        {
+            "name": "Optoelectronic Industry", 
+            "children": [
+                {
+                    "id": 2323, 
+                    "chi": "　中環", 
+                    "name": "CMC ", 
+                    "size": 4.77
+                }, 
+                {
+                    "id": 2340, 
+                    "chi": "　光磊", 
+                    "name": "OPTOTECH ", 
+                    "size": 14.95
+                }, 
+                {
+                    "id": 2349, 
+                    "chi": "　錸德", 
+                    "name": "RITEK ", 
+                    "size": 4.39
+                }, 
+                {
+                    "id": 2374, 
+                    "chi": "　佳能", 
+                    "name": "ABILITY ", 
+                    "size": 22.1
+                }, 
+                {
+                    "id": 2384, 
+                    "chi": "　勝華", 
+                    "name": "WINTEK CORP. ", 
+                    "size": 11.2
+                }, 
+                {
+                    "id": 2393, 
+                    "chi": "　億光", 
+                    "name": "EVERLIGHT ", 
+                    "size": 66.9
+                }, 
+                {
+                    "id": 2406, 
+                    "chi": "　國碩", 
+                    "name": "GSC ", 
+                    "size": 28.6
+                }, 
+                {
+                    "id": 2409, 
+                    "chi": "　友達", 
+                    "name": "AUO ", 
+                    "size": 13.05
+                }, 
+                {
+                    "id": 2426, 
+                    "chi": "　鼎元", 
+                    "name": "TYNTEK ", 
+                    "size": 10.35
+                }, 
+                {
+                    "id": 2438, 
+                    "chi": "　英誌", 
+                    "name": "ENLIGHT ", 
+                    "size": 6.7
+                }, 
+                {
+                    "id": 2448, 
+                    "chi": "　晶電", 
+                    "name": "EPISTAR ", 
+                    "size": 68.8
+                }, 
+                {
+                    "id": 2466, 
+                    "chi": "　冠西電", 
+                    "name": "COSMO ELECTRONICS CORP. ", 
+                    "size": 37.5
+                }, 
+                {
+                    "id": 2475, 
+                    "chi": "　華映", 
+                    "name": "CPT ", 
+                    "size": 1.72
+                }, 
+                {
+                    "id": 2486, 
+                    "chi": "　一詮", 
+                    "name": "I-CHIUN ", 
+                    "size": 22.55
+                }, 
+                {
+                    "id": 2489, 
+                    "chi": "　瑞軒", 
+                    "name": "AMTRAN ", 
+                    "size": 22.3
+                }, 
+                {
+                    "id": 2491, 
+                    "chi": "　吉祥全", 
+                    "name": "INFODISC ", 
+                    "size": 7.28
+                }, 
+                {
+                    "id": 2499, 
+                    "chi": "　東貝", 
+                    "name": "UNITY ", 
+                    "size": 33.85
+                }, 
+                {
+                    "id": 3008, 
+                    "chi": "　大立光", 
+                    "name": "LARGAN ", 
+                    "size": 2340.0
+                }, 
+                {
+                    "id": 3019, 
+                    "chi": "　亞光", 
+                    "name": "ASIA ", 
+                    "size": 41.85
+                }, 
+                {
+                    "id": 3024, 
+                    "chi": "　憶聲", 
+                    "name": "ACTION ", 
+                    "size": 6.19
+                }, 
+                {
+                    "id": 3031, 
+                    "chi": "　佰鴻", 
+                    "name": "BRIGHT ", 
+                    "size": 14.85
+                }, 
+                {
+                    "id": 3038, 
+                    "chi": "　全台", 
+                    "name": "EDT ", 
+                    "size": 10.2
+                }, 
+                {
+                    "id": 3049, 
+                    "chi": "　和鑫", 
+                    "name": "HANNSTOUCH ", 
+                    "size": 8.31
+                }, 
+                {
+                    "id": 3050, 
+                    "chi": "　鈺德", 
+                    "name": "U-TECH ", 
+                    "size": 7.02
+                }, 
+                {
+                    "id": 3051, 
+                    "chi": "　力特", 
+                    "name": "OPTIMAX ", 
+                    "size": 5.97
+                }, 
+                {
+                    "id": 3059, 
+                    "chi": "　華晶科", 
+                    "name": "ALTEK ", 
+                    "size": 23.35
+                }, 
+                {
+                    "id": 3061, 
+                    "chi": "　璨圓", 
+                    "name": "FOREPI ", 
+                    "size": 19.15
+                }, 
+                {
+                    "id": 3149, 
+                    "chi": "　正達", 
+                    "name": "G-TECH ", 
+                    "size": 32.05
+                }, 
+                {
+                    "id": 3356, 
+                    "chi": "　奇偶", 
+                    "name": "GEOVISION ", 
+                    "size": 121.0
+                }, 
+                {
+                    "id": 3383, 
+                    "chi": "　新世紀", 
+                    "name": "GPI ", 
+                    "size": 22.0
+                }, 
+                {
+                    "id": 3406, 
+                    "chi": "　玉晶光", 
+                    "name": "GENIUS ", 
+                    "size": 91.8
+                }, 
+                {
+                    "id": 3437, 
+                    "chi": "　榮創", 
+                    "name": "AOT ", 
+                    "size": 80.8
+                }, 
+                {
+                    "id": 3454, 
+                    "chi": "　晶睿", 
+                    "name": "VIVOTEK ", 
+                    "size": 114.5
+                }, 
+                {
+                    "id": 3481, 
+                    "chi": "　群創", 
+                    "name": "INX ", 
+                    "size": 13.6
+                }, 
+                {
+                    "id": 3504, 
+                    "chi": "　揚明光", 
+                    "name": "YOUNG OPTICS ", 
+                    "size": 58.5
+                }, 
+                {
+                    "id": 3514, 
+                    "chi": "　昱晶", 
+                    "name": "GINTECH ", 
+                    "size": 27.05
+                }, 
+                {
+                    "id": 3535, 
+                    "chi": "　晶彩科", 
+                    "name": "FAVITE ", 
+                    "size": 15.45
+                }, 
+                {
+                    "id": 3536, 
+                    "chi": "　誠創", 
+                    "name": "STI ", 
+                    "size": 7.53
+                }, 
+                {
+                    "id": 3557, 
+                    "chi": "　嘉威", 
+                    "name": "GAMMA ", 
+                    "size": 7.9
+                }, 
+                {
+                    "id": 3561, 
+                    "chi": "　昇陽科", 
+                    "name": "SEC ", 
+                    "size": 20.4
+                }, 
+                {
+                    "id": 3573, 
+                    "chi": "　穎台", 
+                    "name": "ENTIRE ", 
+                    "size": 31.0
+                }, 
+                {
+                    "id": 3576, 
+                    "chi": "　新日光", 
+                    "name": "NSP ", 
+                    "size": 27.3
+                }, 
+                {
+                    "id": 3584, 
+                    "chi": "　介面", 
+                    "name": "JTOUCH ", 
+                    "size": 23.15
+                }, 
+                {
+                    "id": 3591, 
+                    "chi": "　艾笛森", 
+                    "name": "EDISON OPTO ", 
+                    "size": 32.25
+                }, 
+                {
+                    "id": 3593, 
+                    "chi": "　力銘", 
+                    "name": "LOGAH ", 
+                    "size": 17.15
+                }, 
+                {
+                    "id": 3622, 
+                    "chi": "　洋華", 
+                    "name": "YFO ", 
+                    "size": 26.65
+                }, 
+                {
+                    "id": 3669, 
+                    "chi": "　圓展", 
+                    "name": "AVER ", 
+                    "size": 27.05
+                }, 
+                {
+                    "id": 3673, 
+                    "chi": "　F-TPK", 
+                    "name": "TPK ", 
+                    "size": 172.0
+                }, 
+                {
+                    "id": 3698, 
+                    "chi": "　隆達", 
+                    "name": "LEXTAR ", 
+                    "size": 30.6
+                }, 
+                {
+                    "id": 4934, 
+                    "chi": "　太極", 
+                    "name": "TAINERGY ", 
+                    "size": 19.45
+                }, 
+                {
+                    "id": 4935, 
+                    "chi": "　F-茂林", 
+                    "name": "GLT ", 
+                    "size": 43.15
+                }, 
+                {
+                    "id": 4942, 
+                    "chi": "　嘉彰", 
+                    "name": "CHIA CHANG ", 
+                    "size": 37.85
+                }, 
+                {
+                    "id": 4956, 
+                    "chi": "　光鋐", 
+                    "name": "EPILEDS ", 
+                    "size": 24.6
+                }, 
+                {
+                    "id": 4960, 
+                    "chi": "　奇美材", 
+                    "name": "CMMT ", 
+                    "size": 35.45
+                }, 
+                {
+                    "id": 4976, 
+                    "chi": "　佳凌", 
+                    "name": "CALIN ", 
+                    "size": 31.1
+                }, 
+                {
+                    "id": 5234, 
+                    "chi": "　達興", 
+                    "name": "DAXIN ", 
+                    "size": 49.0
+                }, 
+                {
+                    "id": 5243, 
+                    "chi": "　F-乙盛", 
+                    "name": "ESON ", 
+                    "size": 48.05
+                }, 
+                {
+                    "id": 5259, 
+                    "chi": "　清惠", 
+                    "name": "C.E.C ", 
+                    "size": 14.65
+                }, 
+                {
+                    "id": 5484, 
+                    "chi": "　慧友", 
+                    "name": "EVERFOCUS ", 
+                    "size": 11.85
+                }, 
+                {
+                    "id": 6116, 
+                    "chi": "　彩晶", 
+                    "name": "HANNSTAR ", 
+                    "size": 11.6
+                }, 
+                {
+                    "id": 6120, 
+                    "chi": "　輔祥", 
+                    "name": "FORHOUSE ", 
+                    "size": 12.95
+                }, 
+                {
+                    "id": 6131, 
+                    "chi": "　悠克", 
+                    "name": "YOKO ", 
+                    "size": 18.2
+                }, 
+                {
+                    "id": 6164, 
+                    "chi": "　華興", 
+                    "name": "LEDTECH ", 
+                    "size": 20.05
+                }, 
+                {
+                    "id": 6168, 
+                    "chi": "　宏齊", 
+                    "name": "HARVATEK ", 
+                    "size": 23.15
+                }, 
+                {
+                    "id": 6176, 
+                    "chi": "　瑞儀", 
+                    "name": "ROEC ", 
+                    "size": 122.0
+                }, 
+                {
+                    "id": 6209, 
+                    "chi": "　今國光", 
+                    "name": "KINKO OPTICAL ", 
+                    "size": 27.6
+                }, 
+                {
+                    "id": 6225, 
+                    "chi": "　天瀚", 
+                    "name": "AIPTEK ", 
+                    "size": 5.8
+                }, 
+                {
+                    "id": 6226, 
+                    "chi": "　光鼎", 
+                    "name": "PARA LIGHT ", 
+                    "size": 11.75
+                }, 
+                {
+                    "id": 6278, 
+                    "chi": "　台表科", 
+                    "name": "TSMT ", 
+                    "size": 43.5
+                }, 
+                {
+                    "id": 6289, 
+                    "chi": "　華上", 
+                    "name": "AOC ", 
+                    "size": 2.83
+                }, 
+                {
+                    "id": 6405, 
+                    "chi": "　悅城", 
+                    "name": "ONANO ", 
+                    "size": 67.3
+                }, 
+                {
+                    "id": 8072, 
+                    "chi": "　陞泰", 
+                    "name": "AV TECH ", 
+                    "size": 66.0
+                }, 
+                {
+                    "id": 8105, 
+                    "chi": "　凌巨", 
+                    "name": "GIANTPLUS ", 
+                    "size": 13.0
+                }, 
+                {
+                    "id": 8215, 
+                    "chi": "　明基材", 
+                    "name": "BMC ", 
+                    "size": 40.6
+                }
+            ]
+        }, 
+        {
+            "name": "Electronic Products Distributi", 
+            "children": [
+                {
+                    "id": 2347, 
+                    "chi": "　聯強", 
+                    "name": "SYNNEX ", 
+                    "size": 45.7
+                }, 
+                {
+                    "id": 2348, 
+                    "chi": "　海悅", 
+                    "name": "HIYES ", 
+                    "size": 48.8
+                }, 
+                {
+                    "id": 2414, 
+                    "chi": "　精技", 
+                    "name": "UT ", 
+                    "size": 16.25
+                }, 
+                {
+                    "id": 2430, 
+                    "chi": "　燦坤", 
+                    "name": "TKE ", 
+                    "size": 38.1
+                }, 
+                {
+                    "id": 2459, 
+                    "chi": "　敦吉", 
+                    "name": "AUDIX ", 
+                    "size": 35.0
+                }, 
+                {
+                    "id": 3010, 
+                    "chi": "　華立", 
+                    "name": "WAH LEE ", 
+                    "size": 56.0
+                }, 
+                {
+                    "id": 3028, 
+                    "chi": "　增你強", 
+                    "name": "ZENITRON ", 
+                    "size": 17.9
+                }, 
+                {
+                    "id": 3033, 
+                    "chi": "　威健", 
+                    "name": "WEIKENG ", 
+                    "size": 23.15
+                }, 
+                {
+                    "id": 3036, 
+                    "chi": "　文曄", 
+                    "name": "WT ", 
+                    "size": 43.4
+                }, 
+                {
+                    "id": 3040, 
+                    "chi": "　遠見", 
+                    "name": "G.V. ", 
+                    "size": 29.75
+                }, 
+                {
+                    "id": 3048, 
+                    "chi": "　益登", 
+                    "name": "EDOM ", 
+                    "size": 26.65
+                }, 
+                {
+                    "id": 3055, 
+                    "chi": "　蔚華科", 
+                    "name": "SPIROX CORP. ", 
+                    "size": 18.5
+                }, 
+                {
+                    "id": 3209, 
+                    "chi": "　全科", 
+                    "name": "ALLTEK ", 
+                    "size": 32.1
+                }, 
+                {
+                    "id": 3312, 
+                    "chi": "　弘憶股", 
+                    "name": "G.M.I. ", 
+                    "size": 11.45
+                }, 
+                {
+                    "id": 3315, 
+                    "chi": "　宣昶", 
+                    "name": "MAXTEK ", 
+                    "size": 19.2
+                }, 
+                {
+                    "id": 3702, 
+                    "chi": "　大聯大", 
+                    "name": "WPG ", 
+                    "size": 38.4
+                }, 
+                {
+                    "id": 5434, 
+                    "chi": "　崇越", 
+                    "name": "TOPCO ", 
+                    "size": 61.0
+                }, 
+                {
+                    "id": 6145, 
+                    "chi": "　勁永", 
+                    "name": "PQI ", 
+                    "size": 16.3
+                }, 
+                {
+                    "id": 6189, 
+                    "chi": "　豐藝", 
+                    "name": "PROMATE ", 
+                    "size": 36.5
+                }, 
+                {
+                    "id": 6281, 
+                    "chi": "　全國電", 
+                    "name": "E-LIFE MALL ", 
+                    "size": 62.5
+                }, 
+                {
+                    "id": 8070, 
+                    "chi": "　長華", 
+                    "name": "CWE ", 
+                    "size": 75.0
+                }, 
+                {
+                    "id": 8112, 
+                    "chi": "　至上", 
+                    "name": "SUPREME ", 
+                    "size": 18.5
+                }
+            ]
+        }, 
+        {
+            "name": "Information Service Industry", 
+            "children": [
+                {
+                    "id": 2427, 
+                    "chi": "　三商電", 
+                    "name": "MDS ", 
+                    "size": 9.3
+                }, 
+                {
+                    "id": 2453, 
+                    "chi": "　凌群", 
+                    "name": "SYSCOM ", 
+                    "size": 13.75
+                }, 
+                {
+                    "id": 2468, 
+                    "chi": "　華經", 
+                    "name": "FIS ", 
+                    "size": 15.15
+                }, 
+                {
+                    "id": 2471, 
+                    "chi": "　資通", 
+                    "name": "ARES ", 
+                    "size": 16.7
+                }, 
+                {
+                    "id": 2480, 
+                    "chi": "　敦陽科", 
+                    "name": "STARK ", 
+                    "size": 27.15
+                }, 
+                {
+                    "id": 3029, 
+                    "chi": "　零壹", 
+                    "name": "ZERO ONE ", 
+                    "size": 15.85
+                }, 
+                {
+                    "id": 3130, 
+                    "chi": "　一零四", 
+                    "name": "104", 
+                    "size": 119.0
+                }, 
+                {
+                    "id": 4994, 
+                    "chi": "　傳奇", 
+                    "name": "X-LEGEND ", 
+                    "size": 237.0
+                }, 
+                {
+                    "id": 5203, 
+                    "chi": "　訊連", 
+                    "name": "CYBERLINK ", 
+                    "size": 98.0
+                }, 
+                {
+                    "id": 6112, 
+                    "chi": "　聚碩", 
+                    "name": "SYSAGE ", 
+                    "size": 34.0
+                }, 
+                {
+                    "id": 6183, 
+                    "chi": "　關貿", 
+                    "name": "TRADE-VAN ", 
+                    "size": 26.7
+                }, 
+                {
+                    "id": 6214, 
+                    "chi": "　精誠", 
+                    "name": "SYSTEX ", 
+                    "size": 47.35
+                }
+            ]
+        }, 
+        {
+            "name": "Trading & Consumers Goods", 
+            "children": [
+                {
+                    "id": 2601, 
+                    "chi": "　益航", 
+                    "name": "FSC ", 
+                    "size": 20.25
+                }, 
+                {
+                    "id": 2614, 
+                    "chi": "　東森", 
+                    "name": "EMIC ", 
+                    "size": 11.6
+                }, 
+                {
+                    "id": 2901, 
+                    "chi": "　欣欣", 
+                    "name": "SHIN SHIN ", 
+                    "size": 35.75
+                }, 
+                {
+                    "id": 2903, 
+                    "chi": "　遠百", 
+                    "name": "FEDS ", 
+                    "size": 29.35
+                }, 
+                {
+                    "id": 2905, 
+                    "chi": "　三商行", 
+                    "name": "MERCURIES ", 
+                    "size": 19.15
+                }, 
+                {
+                    "id": 2906, 
+                    "chi": "　高林", 
+                    "name": "COLLINS ", 
+                    "size": 10.95
+                }, 
+                {
+                    "id": 2908, 
+                    "chi": "　特力", 
+                    "name": "TEST RITE ", 
+                    "size": 19.3
+                }, 
+                {
+                    "id": 2910, 
+                    "chi": "　統領", 
+                    "name": "TONLIN ", 
+                    "size": 38.95
+                }, 
+                {
+                    "id": 2911, 
+                    "chi": "　麗嬰房", 
+                    "name": "LES ENPHANTS ", 
+                    "size": 18.25
+                }, 
+                {
+                    "id": 2912, 
+                    "chi": "　統一超", 
+                    "name": "PCSC ", 
+                    "size": 228.5
+                }, 
+                {
+                    "id": 2913, 
+                    "chi": "　農林", 
+                    "name": "TTC ", 
+                    "size": 19.65
+                }, 
+                {
+                    "id": 2915, 
+                    "chi": "　潤泰全", 
+                    "name": "RUENTEX IND.LTD ", 
+                    "size": 72.0
+                }, 
+                {
+                    "id": 2929, 
+                    "chi": "　F-淘帝", 
+                    "name": "TOPBI ", 
+                    "size": 148.5
+                }, 
+                {
+                    "id": 5906, 
+                    "chi": "　F-台南", 
+                    "name": "TAINAN CAYMAN ", 
+                    "size": 9.1
+                }, 
+                {
+                    "id": 5907, 
+                    "chi": "　F-大洋", 
+                    "name": "GRAND OCEAN ", 
+                    "size": 65.7
+                }, 
+                {
+                    "id": 8429, 
+                    "chi": "　F-金麗", 
+                    "name": "JINLI ", 
+                    "size": 75.0
+                }
+            ]
+        }, 
+        {
+            "name": "Oil, Gas and Electricity Indu", 
+            "children": [
+                {
+                    "id": 2616, 
+                    "chi": "　山隆", 
+                    "name": "SLC ", 
+                    "size": 25.0
+                }, 
+                {
+                    "id": 6505, 
+                    "chi": "　台塑化", 
+                    "name": "FPCC ", 
+                    "size": 74.3
+                }, 
+                {
+                    "id": 8926, 
+                    "chi": "　台汽電", 
+                    "name": "TCC ", 
+                    "size": 20.55
+                }, 
+                {
+                    "id": 9908, 
+                    "chi": "　大台北", 
+                    "name": "GTG ", 
+                    "size": 23.9
+                }, 
+                {
+                    "id": 9918, 
+                    "chi": "　欣天然", 
+                    "name": "S.S.N.G ", 
+                    "size": 34.5
+                }, 
+                {
+                    "id": 9926, 
+                    "chi": "　新海", 
+                    "name": "S.H. ", 
+                    "size": 45.2
+                }, 
+                {
+                    "id": 9931, 
+                    "chi": "　欣高", 
+                    "name": "HSIN KAO ", 
+                    "size": 40.85
+                }, 
+                {
+                    "id": 9937, 
+                    "chi": "　全國", 
+                    "name": "NPC ", 
+                    "size": 33.9
+                }
+            ]
+        }, 
+        {
+            "name": "Tourism", 
+            "children": [
+                {
+                    "id": 2701, 
+                    "chi": "　萬企", 
+                    "name": "WANHWA ", 
+                    "size": 15.6
+                }, 
+                {
+                    "id": 2702, 
+                    "chi": "　華園", 
+                    "name": "HG ", 
+                    "size": 18.05
+                }, 
+                {
+                    "id": 2704, 
+                    "chi": "　國賓", 
+                    "name": "AMBH ", 
+                    "size": 28.3
+                }, 
+                {
+                    "id": 2705, 
+                    "chi": "　六福", 
+                    "name": "LEOFOO ", 
+                    "size": 12.3
+                }, 
+                {
+                    "id": 2706, 
+                    "chi": "　第一店", 
+                    "name": "FIRST HOTEL ", 
+                    "size": 20.7
+                }, 
+                {
+                    "id": 2707, 
+                    "chi": "　晶華", 
+                    "name": "GFRT ", 
+                    "size": 358.5
+                }, 
+                {
+                    "id": 2712, 
+                    "chi": "　遠雄來", 
+                    "name": "FGH ", 
+                    "size": 21.7
+                }, 
+                {
+                    "id": 2722, 
+                    "chi": "　夏都", 
+                    "name": "CHATEAU ", 
+                    "size": 40.65
+                }, 
+                {
+                    "id": 2723, 
+                    "chi": "　F-美食", 
+                    "name": "GOURMET ", 
+                    "size": 242.5
+                }, 
+                {
+                    "id": 2727, 
+                    "chi": "　王品", 
+                    "name": "WOWPRIME ", 
+                    "size": 414.0
+                }, 
+                {
+                    "id": 2731, 
+                    "chi": "　雄獅", 
+                    "name": "LIONTRAVEL ", 
+                    "size": 99.0
+                }, 
+                {
+                    "id": 5706, 
+                    "chi": "　鳳凰", 
+                    "name": "PHX TOUR ", 
+                    "size": 44.9
+                }, 
+                {
+                    "id": 8940, 
+                    "chi": "　新天地", 
+                    "name": "NEW PALACE ", 
+                    "size": 21.5
+                }, 
+                {
+                    "id": 9943, 
+                    "chi": "　好樂迪", 
+                    "name": "HOLIDAY ", 
+                    "size": 38.95
+                }
+            ]
+        }, 
+        {
+            "name": "Financial & Insurance", 
+            "children": [
+                {
+                    "id": 2801, 
+                    "chi": "　彰銀", 
+                    "name": "CHANG HWA BANK ", 
+                    "size": 17.9
+                }, 
+                {
+                    "id": 2809, 
+                    "chi": "　京城銀", 
+                    "name": "KTB ", 
+                    "size": 29.7
+                }, 
+                {
+                    "id": 2812, 
+                    "chi": "　台中銀", 
+                    "name": "T.C.C.B. ", 
+                    "size": 10.65
+                }, 
+                {
+                    "id": 2816, 
+                    "chi": "　旺旺保", 
+                    "name": "UNION INS. ", 
+                    "size": 26.6
+                }, 
+                {
+                    "id": 2820, 
+                    "chi": "　華票", 
+                    "name": "CBF ", 
+                    "size": 11.15
+                }, 
+                {
+                    "id": 2823, 
+                    "chi": "　中壽", 
+                    "name": "CHINA LIFE ", 
+                    "size": 28.65
+                }, 
+                {
+                    "id": 2832, 
+                    "chi": "　台產", 
+                    "name": "TFMI ", 
+                    "size": 22.7
+                }, 
+                {
+                    "id": 2833, 
+                    "chi": "　台壽保", 
+                    "name": "TAIWAN LIFE ", 
+                    "size": 20.85
+                }, 
+                {
+                    "id": 2834, 
+                    "chi": "　臺企銀", 
+                    "name": "TBB ", 
+                    "size": 9.4
+                }, 
+                {
+                    "id": 2836, 
+                    "chi": "　高雄銀", 
+                    "name": "B.O.K ", 
+                    "size": 9.5
+                }, 
+                {
+                    "id": 2837, 
+                    "chi": "　萬泰銀", 
+                    "name": "CSMB ", 
+                    "size": 15.15
+                }, 
+                {
+                    "id": 2838, 
+                    "chi": "　聯邦銀", 
+                    "name": "UBOT ", 
+                    "size": 10.5
+                }, 
+                {
+                    "id": 2845, 
+                    "chi": "　遠東銀", 
+                    "name": "FEIB ", 
+                    "size": 10.45
+                }, 
+                {
+                    "id": 2847, 
+                    "chi": "　大眾銀", 
+                    "name": "TC BANK ", 
+                    "size": 9.34
+                }, 
+                {
+                    "id": 2849, 
+                    "chi": "　安泰銀", 
+                    "name": "ENTIE BANK ", 
+                    "size": 14.2
+                }, 
+                {
+                    "id": 2850, 
+                    "chi": "　新產", 
+                    "name": "SK INSURANCE ", 
+                    "size": 24.1
+                }, 
+                {
+                    "id": 2851, 
+                    "chi": "　中再保", 
+                    "name": "CENTRAL RE ", 
+                    "size": 15.7
+                }, 
+                {
+                    "id": 2852, 
+                    "chi": "　第一保", 
+                    "name": "FIRST INS ", 
+                    "size": 16.35
+                }, 
+                {
+                    "id": 2855, 
+                    "chi": "　統一證", 
+                    "name": "PSC ", 
+                    "size": 16.45
+                }, 
+                {
+                    "id": 2856, 
+                    "chi": "　元富證", 
+                    "name": "ML ", 
+                    "size": 10.15
+                }, 
+                {
+                    "id": 2867, 
+                    "chi": "　三商壽", 
+                    "name": "MERCURIES LIFE ", 
+                    "size": 17.9
+                }, 
+                {
+                    "id": 2880, 
+                    "chi": "　華南金", 
+                    "name": "HNFHC ", 
+                    "size": 18.95
+                }, 
+                {
+                    "id": 2881, 
+                    "chi": "　富邦金", 
+                    "name": "FUBON FINANCIAL HOLDING CO. LTD. ", 
+                    "size": 45.25
+                }, 
+                {
+                    "id": 2882, 
+                    "chi": "　國泰金", 
+                    "name": "CATHAY HOLDINGS ", 
+                    "size": 48.65
+                }, 
+                {
+                    "id": 2883, 
+                    "chi": "　開發金", 
+                    "name": "CDIBH ", 
+                    "size": 9.71
+                }, 
+                {
+                    "id": 2884, 
+                    "chi": "　玉山金", 
+                    "name": "E.SUN FHC ", 
+                    "size": 19.7
+                }, 
+                {
+                    "id": 2885, 
+                    "chi": "　元大金", 
+                    "name": "YUANTA GROUP ", 
+                    "size": 16.0
+                }, 
+                {
+                    "id": 2886, 
+                    "chi": "　兆豐金", 
+                    "name": "MEGA FHC ", 
+                    "size": 26.0
+                }, 
+                {
+                    "id": 2887, 
+                    "chi": "　台新金", 
+                    "name": "TSFHC ", 
+                    "size": 15.9
+                }, 
+                {
+                    "id": 2888, 
+                    "chi": "　新光金", 
+                    "name": "SKFHC ", 
+                    "size": 9.75
+                }, 
+                {
+                    "id": 2889, 
+                    "chi": "　國票金", 
+                    "name": "WATERLAND HOLDINGS ", 
+                    "size": 9.41
+                }, 
+                {
+                    "id": 2890, 
+                    "chi": "　永豐金", 
+                    "name": "SINOPAC HOLDINGS ", 
+                    "size": 13.85
+                }, 
+                {
+                    "id": 2891, 
+                    "chi": "　中信金", 
+                    "name": "CHINATRUST GROUP. ", 
+                    "size": 20.75
+                }, 
+                {
+                    "id": 2892, 
+                    "chi": "　第一金", 
+                    "name": "FFHC ", 
+                    "size": 17.9
+                }, 
+                {
+                    "id": 5880, 
+                    "chi": "　合庫金", 
+                    "name": "TCFHC ", 
+                    "size": 17.45
+                }, 
+                {
+                    "id": 6005, 
+                    "chi": "　群益證", 
+                    "name": "CSC ", 
+                    "size": 10.5
+                }
+            ]
+        }
+    ]
+}

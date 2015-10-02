@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Long road trips.</title>
+	<link rel="stylesheet" type="text/css" href="../../css/gallery.css">
+	<link rel="stylesheet" type="text/css" href="../../d3/css/styles.css" />
+	<script type="text/javascript" src="../../d3/d3.v3.js"></script>
+	<script src="http://d3js.org/queue.v1.min.js"></script>
+	
+	<style>
+	#d3-svg {
+		margin: 10px 20px;
+	}
+	#d3-buttons {
+		margin: 20px 0px 15px 20px;
+	}
+	text.team-label {
+		font-size: 10px;
+		font-family: Consolas, verdana, courier;
+		text-align: center;
+		text-transform: uppercase;
+		fill: #aaa;
+	}
+	text.legend {
+		font-size: 10px;
+		font-family: verdana, consolas, courier;
+	}
+	</style>
+	
+	<!-- ref: http://bl.ocks.org/tjdecke/5558084 -->	
+</head>
+<body>
+	<div id="backontop">
+		<a href="../../index.html">#Back</a>
+	</div>
+	<div id="pagedesc1">proj#7: Visualization of NBA Schedule, darker color means more successive game.</div>
+	<div id="projdate">@August 21, 2014</div>
+	<div id="graphtype">Graph type: Color table by D3.js</br>Interactive: Yes.
+	Press button to choose season, default: NBA Season 14-15</br>
+	Put your mouse on the color bricks to see the opponent and game number. (red and '@' means road trip)</br>
+	</div>
+	<div id='d3-buttons'></div>	
+	<div id="d3-svg"></div>
+	
+<script>
+	
+	// create two buttons
+	var bw = 140, bh = 20;
+	var text_margin_left = 20;
+	var button = d3.select('#d3-buttons')
+					.append('svg')
+					.attr('width', 400)
+					.attr('height', 20);
+	
+	button.selectAll('.rect')
+			.data(['season 2013-14','season 2014-15'])
+			.enter()
+			.append('rect')
+			.attr('class', function(d,i) { return 'button' + i; })
+			.attr('x', function(d,i){ return i*(bw+20)+50; }) // d3-svg margin:20px, label-space-x: 50px
+			.attr('y', 0)
+			.attr('width', bw)
+			.attr('height', bh)
+			.attr('fill', function(d,i) {
+				if (i==0) {
+					return '#ffc6c6';
+				}
+				else { return '#bfdfbf';}
+			})
+			.on('click', function(d, i) {
+				userclick(i);
+			});
+	
+	button.selectAll('.text')
+			.data(['Season 2013-14','Season 2014-15'])
+			.enter()			
+			.append('text')
+			.text(function(d) { return d; })
+			.attr('x', function(d,i){ return i*(bw+20)+50+text_margin_left; })
+			.attr('y', bh-5)
+			.attr('text-anchor', 'start')
+			.attr('fill', 'steelblue')
+			.attr('font-family', 'verdana')
+			.attr('font-size', '12px');
+			
+	function userclick(d){
+		if (d==0) { //'season 2013-14'
+			drawgraph(locations1314, steps1314, ids, -9, 8);
+		}
+		else {
+			drawgraph(locations1415, steps1415, ids, -9, 9);
+		}
+	}
+	
+	
+	// --------------------- Data visualization --------------------- //
+	
+	var width=1080, height=480;
+	var w=12, h=12;
+	var margins = [0, 0, 0, 50];
+		
+	//var max = 8, min = -9; // pre-calculated for season13-14
+	//var max = 9, min = -9; // pre-calculated for season14-15
+		
+	// use queue.js because we want to associate four csv files (actually, it can be replaced with single json.)
+	var locations1314 = [], locations1415=[];
+	var steps1314 = [], steps1415=[];
+	var ids = [];
+		
+	queue()
+		.defer(d3.csv, 'schedule-locations-1314.csv')
+		.defer(d3.csv, 'schedule-steps-1314.csv')
+		.defer(d3.csv, 'schedule-locations-1415.csv')
+		.defer(d3.csv, 'schedule-steps-1415.csv')
+		.await(ready);
+		
+	function ready(error, csv1, csv2, csv3, csv4) {
+		
+		process_csv(csv1, locations1314);
+		process_csv(csv2, steps1314);
+		process_csv(csv3, locations1415);
+		process_csv(csv4, steps1415);
+		get_ids(csv2, ids);
+		
+		// default: draw season1415
+		drawgraph(locations1415, steps1415, ids, -9, 9);
+		 			
+	} // -ready()
+	
+	function process_csv(data, output) {
+		data.forEach( function(d,i) {
+			var tmp = [];
+			for (var key in d) {
+				if (key != "") {
+					tmp.push( d[key] );
+				}
+			}
+			output.push( tmp );
+		});		
+	}
+	
+	function get_ids(data, output) {
+ 		data.forEach( function(d, i) {
+			var tmp = [];
+			for (var key in d ) {
+				if (key == "") { // {"": team-id}
+					output.push( d[key] );
+				}
+			}
+		});			
+	}
+		
+	function drawgraph(locations, steps, ids, min, max)
+	{
+		// clean svg
+		d3.select("#d3-svg").select('svg').remove();
+		
+		var svg = d3.select("#d3-svg").append("svg")
+					.attr("width", width)
+					.attr("height", height);
+
+		var colors = d3.scale.linear()
+						.domain([min, 0, max])
+						.range(['red', 'white', 'green']);
+
+		// draw color bricks and labels
+		for (var r=0; r<ids.length; r++ ){
+			var group = svg.append('g')
+							.attr('class', ids[r])
+							.attr('transform', 'translate(' + margins[3].toString() + ', ' + r*h + ')');
+
+			group.selectAll('rect')
+				.data(steps[r]).enter()
+				.append('rect')
+				.attr('x', function(d,i) { return i*w; })
+				.attr('y', function(d,i) { return 0;})
+				.attr('width', w)
+				.attr('height', h)
+				.attr('fill', function(d) { return colors(d); })
+				.append('title')
+				.text(function(d,i){ 
+					if( locations[r][i].indexOf('@') > -1 ) { // road game
+						return ids[r] + ' ' + locations[r][i] + ' (' + (i+1) +')'; 
+					}
+					else {
+						return ids[r] + ' vs ' + locations[r][i] + ' (' + (i+1) +')';
+					}
+				});
+			
+			var labels = svg.selectAll('.labels')
+							.data(ids[r])
+							.enter()
+							.append('text')
+							.text( function(d) { return ids[r];} )
+							.attr('x', w/2+10)
+							.attr('y', r*h + h -2)
+							.attr('class', 'team-label')
+							.style('text-anchor', 'start'); //svg: start, middle, end 
+							
+		} // -for()-draw color bricks and labels
+		
+		// draw legend
+		var legendrectwidth = 23;
+		var legendrectheight = 12;
+		var legend = svg.append('g')
+						//.attr('class', 'legend')
+						.attr('transform', 'translate(' + margins[3].toString() + ', ' + 31*h + ')');
+		
+		legend.selectAll('.legend')
+			.data( d3.range(min, max+1, 1))
+			.enter()
+			.append('rect')
+			.attr('x', function(d,i) { return legendrectwidth*i; })
+			.attr('y', legendrectheight)
+			.attr('width', legendrectwidth)
+			.attr('height', legendrectheight)
+			.style('fill', function(d,i) { return colors(d); });
+		
+ 		legend.selectAll('.text')
+ 			.data(['continuous road trip:'+min, 'continuous home game:'+max])
+ 			.enter()
+ 			.append('text')
+			.text(function(d) {return d;})
+			.attr('x', function(d,i) {
+				return i*legendrectwidth*18;})
+			.attr('y', legendrectheight*3)
+			.attr('class', 'legend')
+			.style('text-anchor', function(d,i) { return (i==0)? 'start' : 'end';})
+			.style('fill', function(d,i) { return (i==0) ? 'red' : 'green'; });
+
+ 		// update button color
+ 		button.select('rect.button0')
+ 				.attr('fill', function(d) { return (max==8) ? '#ffc6c6' : '#f8f8f8';});
+ 		
+ 		button.select('rect.button1')
+			.attr('fill', function(d) { return (max==8) ? '#f8f8f8' : '#bfdfbf';});
+ 		
+	}	// -function drawgraph()
+
+	
+	/*
+	d3.csv('schedule-steps.csv', function(error, data) {
+ 		data.forEach( function(d, i) {
+		});		
+	});
+	*/
+	
+</script>
+
+</body>
+</html>
