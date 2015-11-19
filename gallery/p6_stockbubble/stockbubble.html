@@ -23,6 +23,11 @@
 	<div id="projdate">@August 7, 2014</div>
 	<div id="graphtype">Graph type: D3.js</br>
 	Interactive: Yes, check the prices and Chinese name by putting mouse on it.</div>
+	<div id="chartBody"></div>
+	<div id="reference">[Ref:]</br>
+		#1. <a href="http://bl.ocks.org/mbostock/4063269">bubble chart</a> from mbostock</br>
+		#2. bubble chart of <a href="http://mbostock.github.io/protovis/ex/bubble.html">protovis edition</a>
+	</div>
 
 	
 
@@ -37,7 +42,7 @@ var bubble = d3.layout.pack()
 				.size([diameter, diameter])
 				.padding(1.5);
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#chartBody").append("svg")
 			.attr("width", diameter)
 			.attr("height", diameter)
 			.attr("class", "bubble");
