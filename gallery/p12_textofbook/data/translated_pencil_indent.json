@@ -1,0 +1,361 @@
+{
+    "data": [
+        {
+            "language": "Afrikaans", 
+            "translatedText": "potlood"
+        }, 
+        {
+            "language": "Albanian", 
+            "translatedText": "laps"
+        }, 
+        {
+            "language": "Arabic", 
+            "translatedText": "قلم"
+        }, 
+        {
+            "language": "Armenian", 
+            "translatedText": "մատիտ"
+        }, 
+        {
+            "language": "Azerbaijani", 
+            "translatedText": "karandaş"
+        }, 
+        {
+            "language": "Basque", 
+            "translatedText": "arkatza"
+        }, 
+        {
+            "language": "Belarusian", 
+            "translatedText": "аловак"
+        }, 
+        {
+            "language": "Bengali", 
+            "translatedText": "পেন্সিল"
+        }, 
+        {
+            "language": "Bosnian", 
+            "translatedText": "olovka"
+        }, 
+        {
+            "language": "Bulgarian", 
+            "translatedText": "молив"
+        }, 
+        {
+            "language": "Catalan", 
+            "translatedText": "llapis"
+        }, 
+        {
+            "language": "Cebuano", 
+            "translatedText": "lapis"
+        }, 
+        {
+            "language": "Chichewa", 
+            "translatedText": "pensulo"
+        }, 
+        {
+            "language": "Chinese Simplified", 
+            "translatedText": "铅笔"
+        }, 
+        {
+            "language": "Chinese Traditional", 
+            "translatedText": "鉛筆"
+        }, 
+        {
+            "language": "Croatian", 
+            "translatedText": "olovka"
+        }, 
+        {
+            "language": "Czech", 
+            "translatedText": "tužka"
+        }, 
+        {
+            "language": "Danish", 
+            "translatedText": "blyant"
+        }, 
+        {
+            "language": "Dutch", 
+            "translatedText": "potlood"
+        }, 
+        {
+            "language": "Esperanto", 
+            "translatedText": "krajono"
+        }, 
+        {
+            "language": "Estonian", 
+            "translatedText": "pliiats"
+        }, 
+        {
+            "language": "Filipino", 
+            "translatedText": "lapis"
+        }, 
+        {
+            "language": "Finnish", 
+            "translatedText": "lyijykynä"
+        }, 
+        {
+            "language": "French", 
+            "translatedText": "crayon"
+        }, 
+        {
+            "language": "Galician", 
+            "translatedText": "lapis"
+        }, 
+        {
+            "language": "Georgian", 
+            "translatedText": "ფანქარი"
+        }, 
+        {
+            "language": "German", 
+            "translatedText": "Bleistift"
+        }, 
+        {
+            "language": "Greek", 
+            "translatedText": "μολύβι"
+        }, 
+        {
+            "language": "Gujarati", 
+            "translatedText": "પેન્સિલ"
+        }, 
+        {
+            "language": "Haitian Creole", 
+            "translatedText": "kreyon"
+        }, 
+        {
+            "language": "Hausa", 
+            "translatedText": "fensir"
+        }, 
+        {
+            "language": "Hebrew", 
+            "translatedText": "עִפָּרוֹן"
+        }, 
+        {
+            "language": "Hindi", 
+            "translatedText": "पेंसिल"
+        }, 
+        {
+            "language": "Hmong", 
+            "translatedText": "mem hluav"
+        }, 
+        {
+            "language": "Hungarian", 
+            "translatedText": "ceruza"
+        }, 
+        {
+            "language": "Icelandic", 
+            "translatedText": "blýantur"
+        }, 
+        {
+            "language": "Igbo", 
+            "translatedText": "pensụl"
+        }, 
+        {
+            "language": "Indonesian", 
+            "translatedText": "pensil"
+        }, 
+        {
+            "language": "Irish", 
+            "translatedText": "peann luaidhe"
+        }, 
+        {
+            "language": "Italian", 
+            "translatedText": "matita"
+        }, 
+        {
+            "language": "Japanese", 
+            "translatedText": "鉛筆"
+        }, 
+        {
+            "language": "Javanese", 
+            "translatedText": "potlot"
+        }, 
+        {
+            "language": "Kannada", 
+            "translatedText": "ಪೆನ್ಸಿಲ್"
+        }, 
+        {
+            "language": "Kazakh", 
+            "translatedText": "қарындаш"
+        }, 
+        {
+            "language": "Khmer", 
+            "translatedText": "ខ្មៅដៃ"
+        }, 
+        {
+            "language": "Korean", 
+            "translatedText": "연필"
+        }, 
+        {
+            "language": "Lao", 
+            "translatedText": "pencil"
+        }, 
+        {
+            "language": "Latin", 
+            "translatedText": "pincello"
+        }, 
+        {
+            "language": "Latvian", 
+            "translatedText": "zīmulis"
+        }, 
+        {
+            "language": "Lithuanian", 
+            "translatedText": "pieštukas"
+        }, 
+        {
+            "language": "Macedonian", 
+            "translatedText": "молив"
+        }, 
+        {
+            "language": "Malagasy", 
+            "translatedText": "pensilihazo"
+        }, 
+        {
+            "language": "Malay", 
+            "translatedText": "pensil"
+        }, 
+        {
+            "language": "Malayalam", 
+            "translatedText": "പെന്സില്"
+        }, 
+        {
+            "language": "Maltese", 
+            "translatedText": "lapes"
+        }, 
+        {
+            "language": "Maori", 
+            "translatedText": "pene"
+        }, 
+        {
+            "language": "Marathi", 
+            "translatedText": "पेन्सिल"
+        }, 
+        {
+            "language": "Mongolian", 
+            "translatedText": "харандаа"
+        }, 
+        {
+            "language": "Myanmar (Burmese)", 
+            "translatedText": "ခဲတံ"
+        }, 
+        {
+            "language": "Nepali", 
+            "translatedText": "सिसाकलमद्वारा"
+        }, 
+        {
+            "language": "Norwegian", 
+            "translatedText": "blyant"
+        }, 
+        {
+            "language": "Persian", 
+            "translatedText": "مداد"
+        }, 
+        {
+            "language": "Polish", 
+            "translatedText": "ołówek"
+        }, 
+        {
+            "language": "Portuguese", 
+            "translatedText": "lápis"
+        }, 
+        {
+            "language": "Romanian", 
+            "translatedText": "creion"
+        }, 
+        {
+            "language": "Russian", 
+            "translatedText": "карандаш"
+        }, 
+        {
+            "language": "Serbian", 
+            "translatedText": "оловка"
+        }, 
+        {
+            "language": "Sesotho", 
+            "translatedText": "female"
+        }, 
+        {
+            "language": "Sinhala", 
+            "translatedText": "පැන්සල්"
+        }, 
+        {
+            "language": "Slovak", 
+            "translatedText": "ceruzka"
+        }, 
+        {
+            "language": "Slovenian", 
+            "translatedText": "svinčnik"
+        }, 
+        {
+            "language": "Somali", 
+            "translatedText": "qalin"
+        }, 
+        {
+            "language": "Spanish", 
+            "translatedText": "lápiz"
+        }, 
+        {
+            "language": "Sudanese", 
+            "translatedText": "potlot"
+        }, 
+        {
+            "language": "Swahili", 
+            "translatedText": "kalamu"
+        }, 
+        {
+            "language": "Swedish", 
+            "translatedText": "penna"
+        }, 
+        {
+            "language": "Tajik", 
+            "translatedText": "щалам"
+        }, 
+        {
+            "language": "Tamil", 
+            "translatedText": "பென்சில்"
+        }, 
+        {
+            "language": "Telugu", 
+            "translatedText": "పెన్సిల్"
+        }, 
+        {
+            "language": "Thai", 
+            "translatedText": "ดินสอ"
+        }, 
+        {
+            "language": "Turkish", 
+            "translatedText": "kalem"
+        }, 
+        {
+            "language": "Ukrainian", 
+            "translatedText": "олівець"
+        }, 
+        {
+            "language": "Urdu", 
+            "translatedText": "پنسل"
+        }, 
+        {
+            "language": "Uzbek", 
+            "translatedText": "qalam"
+        }, 
+        {
+            "language": "Vietnamese", 
+            "translatedText": "bút chì"
+        }, 
+        {
+            "language": "Welsh", 
+            "translatedText": "pensil"
+        }, 
+        {
+            "language": "Yiddish", 
+            "translatedText": "בלייַער"
+        }, 
+        {
+            "language": "Yoruba", 
+            "translatedText": "ikọwe"
+        }, 
+        {
+            "language": "Zulu", 
+            "translatedText": "ipensela"
+        }
+    ], 
+    "source": "pencil"
+}

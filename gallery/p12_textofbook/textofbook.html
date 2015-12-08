@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+    <!-- useful data: 
+    http://code.highcharts.com/mapdata/ 
+    https://github.com/mbostock/d3/wiki/Geo-Projections#orthographic
+    http://bl.ocks.org/mbostock/3757132
+    http://blog.infographics.tw/2015/04/d3js-with-world-globe-map/
+
+    # by mbostock, load topojson and trans. to geojson for d3 impot
+    https://github.com/mbostock/world-atlas
+
+    #Placing Texts on Arcs with D3.js
+    http://www.visualcinnamon.com/2015/09/placing-text-on-arcs.html
+    -->
+<head>
+    <meta charset="utf-8">
+    <title>Text of 'book' in the world</title>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript" src="http://d3js.org/topojson.v1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../css/gallery.css">
+    <link rel="stylesheet" type="text/css" href="../../css/cookbookstyles.css"/>
+ </head>
+
+<body>
+    <div id="backontop">
+        <a href="../../index.html">#Back</a>
+    </div>
+    <div id="pagedesc1">proj#12: Text of book in the world,</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Check the different translated texts in every country, How many language do you recognize? :)</div>
+    <div id="projdate">@December 8, 2015</div>
+    <div id="graphtype">Graph type: D3.js</br>
+    Interactive: Yes, drag on map to move it, use the top buttons to change the scale and quick shift to some places.</br>
+    &nbsp;</div>
+
+
+    <div id="svg_btns"></div>
+    <div id="svg_chart"></div>
+
+    <div id="reference">[Ref:]</br>
+        #1. Google Translate Service</br>
+        #2. <a href="http://bl.ocks.org/mbostock/3757132">World path file from mbostock</a>
+    </div>
+
+
+    <script type="text/javascript">
+
+        // buttons controller
+        var bw = [25, 35, 25, 25, 50, 50], bh = 25, bcount = 6;
+        var bcolor = ['#ffc6c6', '#c6c6ff', '#bfdfbf', '#ffffff', '#6495ed', '#29ab87'];
+
+        var controller = d3.select('#svg_btns').append('svg')
+                        .attr('width', function(d) {
+                            var sum = 0;
+                            bw.forEach(function(d, i) {
+                                sum += bw[i];
+                            })
+                            return sum;
+                        })
+                        .attr('height', bh)
+                        .attr('display', 'block');
+        
+        var buttons = controller.selectAll('g')
+                        .data(['+', 'reset', '-', '', '#euro', '#asia'])  // bind data
+                        .enter()
+                        .append('g')
+                        .attr("transform", function(d, i) {             // Allocate spaces for 'g' at once!!! 
+                            var shift = 0;
+                            for (var j = 0; j < i; j++) {
+                                shift += bw[j];
+                            }
+                            return "translate(" + String(shift) + ")";  
+                        });    
+
+        buttons.append('rect')
+                .attr('width', function(d, i) {
+                    return bw[i];
+                })
+                .attr('height', bh)
+                .attr('fill', function(d, i) {
+                    return bcolor[i];
+                });
+
+        buttons.append('text')
+                .attr('x', function(d, i) {
+                    return bw[i] / 2;
+                })
+                .attr('y', bh / 2)
+                .text(function(d) {
+                    return d;
+                })
+                .attr('fill', 'white')
+                .attr('font-size', '6px')
+                .attr('font-family', 'verdana')
+                .attr('text-anchor', 'middle')
+                .attr('dominant-baseline', 'central');
+        
+        buttons.on('click', function(d, i) {
+            if (i == 2) {
+                if (w - 50 >= 800)
+                    w -= 50;
+            }
+            else if (i == 0) {
+                w += 50;    // if (w + 50 < 960)
+            }
+            else if (i == 4) {      // translate to center of euro
+                w = 3110;
+                h = 960;
+                cx = 247;
+                cy = 786; 
+            }            
+            else if (i == 5) {      // translate to center of asia
+                w = 1660;
+                h = 960;
+                cx = -66;
+                cy = 463; 
+            }
+            else {  // reset
+                resetParam();
+            }
+            updatemap(0);
+        });
+
+        function resetParam() {
+            w = width;
+            h = height;
+            cx = w / 2;
+            cy = h / 2;
+        }
+
+        function updatemap(i) {
+            
+            projection.scale((w + 1) / 2 / Math.PI)
+                        .translate([cx, cy]);
+            path = d3.geo.path().projection(projection);
+
+            // draw path..
+            svg.selectAll('path')
+                .data(myjson)
+                .attr('d', path)    // pass each datum 'd' into pass generator
+                .attr('fill', function(d) {
+                    if (String(d.text).length > 2) {
+                        return color(Math.sqrt(path.area(d)));
+                    }
+                    else {
+                        return color(0);
+                    }
+                });
+
+            // draw label..
+            svg.selectAll("text")
+                .data(myjson)
+                .text(function(d) {
+                    var v = d.text;
+                    if (v) {
+                        return v.replace('[', '').replace(']', '') ;
+                    }
+                    else 
+                        return d.text;
+                })
+                .attr("x", function(d) {
+                    return path.centroid(d)[0];
+                })
+                .attr("y", function(d) {
+                    return  path.centroid(d)[1];
+                })
+                .attr("text-anchor","middle")
+                .attr('font-size', function(d) {
+                    return String(Math.sqrt(path.area(d) / 80)) + 'pt';
+                })
+                .attr('font-family', 'verdana')
+                .attr('fill', function(d) {
+                    return '#333';
+                });            
+        }
+
+
+
+        // Initial parameters.
+        var width = 960;
+        var height = 960;
+        var w = 960;        // dynamic width
+        var h = 960;        // dynamic height    
+        var cx = w / 2;     // dynamic center x
+        var cy = h / 2;     // dynamic center y
+
+        //Create SVG element
+        var svg = d3.select('#svg_chart').append('svg')
+                    .attr('width', w)
+                    .attr('height', h);
+
+        var projection = d3.geo.mercator()
+            .scale((w + 1) / 2 / Math.PI)
+            .translate([w / 2, h / 2]);
+            // .precision(1);
+        
+        var path = d3.geo.path()
+                    .projection(projection);
+
+        // var color = d3.scale.category20();
+        var color = d3.scale.quantize()
+                        .range(["rgb(237,248,233)","rgb(186,228,179)","rgb(116,196,118)","rgb(49,163,84)","rgb(0,109,44)"]);
+        
+        // data loader
+        var myjson = []
+        /* load final table with [id, name, language, trans-text */
+        d3.csv('./data/finaltable_manual.csv', function(data) {
+
+            /* data came from 'https://gist.github.com/mbostock/4090846', 110m is less precision */
+            d3.json('./data/world-110m.json', function(json) {
+
+                // parse from geojson to topojson
+                var countries = topojson.feature(json, json.objects.countries).features;
+
+                color.domain([
+                    d3.min(countries, function(d) { return Math.sqrt(path.area(d));}), 
+                    d3.max(countries, function(d) { return Math.sqrt(path.area(d));})
+                ]);
+
+
+                /* merge the trans-text into geo-json by id */
+                for (var i = 0; i < data.length; i++) {
+                    var id_csv = data[i].id;
+                    var trans_text = data[i].text;
+
+                    for (var j = 0; j < countries.length; j++) {
+                        var id_json = countries[j].id;
+                        if (id_csv == id_json) {
+                            // copy data value into the json
+                            countries[j].text = trans_text;
+                            // stop looking through the json
+                            break;
+                        }
+                    }
+                }
+
+                // call function after loading data from files (due to asym.)
+                createMap(countries);
+
+                //
+                countries.forEach(function(d, i) {
+                    myjson.push(d);
+                });
+            });
+
+        });
+
+        function createMap(json) {
+            
+            // draw path
+            svg.selectAll('path')
+                .data(json)
+                .enter()
+                .append('path')
+                .attr('d', path)    // pass each datum 'd' into pass generator
+                .attr('fill', function(d) {
+                    if (String(d.text).length > 2) {
+                        return color(Math.sqrt(path.area(d)));
+                    }
+                    else {
+                        return color(0);
+                    }
+                });
+
+            // draw text
+            svg.selectAll("text")
+                .data(json)
+                .enter()
+                .append("svg:text")
+                .text(function(d) {
+                    var v = d.text;
+                    if (v) {
+                        return v.replace('[', '').replace(']', '') ;
+                    }
+                    else 
+                        return d.text;
+                })
+                .attr("x", function(d) {
+                    return path.centroid(d)[0];
+                })
+                .attr("y", function(d) {
+                    return  path.centroid(d)[1];
+                })
+                .attr("text-anchor","middle")
+                //.attr('font-size','6pt')
+                .attr('font-size', function(d) {
+                    return String(Math.sqrt(path.area(d) / 80)) + 'pt';
+                })
+                .attr('font-family', 'verdana')
+                .attr('fill', function(d) {
+                    return '#333';
+                });
+        }
+
+        // Add event-listener
+        var drag = d3.behavior.drag()  
+                        .on('dragstart', function() { 
+                        })
+                        .on('drag', function() {
+                            // console.log('dx: ' + String(d3.event.dx));
+                            cx += d3.event.dx;
+                            cy += d3.event.dy;
+                            updatemap(0); 
+                        })
+                        .on('dragend', function() { 
+                        });
+        d3.select('#svg_chart').call(drag);
+
+    </script>    
+</body>
+</html>

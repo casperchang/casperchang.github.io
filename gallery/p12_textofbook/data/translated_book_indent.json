@@ -1,0 +1,361 @@
+{
+    "data": [
+        {
+            "language": "Afrikaans", 
+            "translatedText": "boek"
+        }, 
+        {
+            "language": "Albanian", 
+            "translatedText": "libër"
+        }, 
+        {
+            "language": "Arabic", 
+            "translatedText": "كتاب"
+        }, 
+        {
+            "language": "Armenian", 
+            "translatedText": "գիրք"
+        }, 
+        {
+            "language": "Azerbaijani", 
+            "translatedText": "kitab"
+        }, 
+        {
+            "language": "Basque", 
+            "translatedText": "liburu"
+        }, 
+        {
+            "language": "Belarusian", 
+            "translatedText": "кніга"
+        }, 
+        {
+            "language": "Bengali", 
+            "translatedText": "বই"
+        }, 
+        {
+            "language": "Bosnian", 
+            "translatedText": "knjiga"
+        }, 
+        {
+            "language": "Bulgarian", 
+            "translatedText": "Книга"
+        }, 
+        {
+            "language": "Catalan", 
+            "translatedText": "llibre"
+        }, 
+        {
+            "language": "Cebuano", 
+            "translatedText": "nga basahon"
+        }, 
+        {
+            "language": "Chichewa", 
+            "translatedText": "buku"
+        }, 
+        {
+            "language": "Chinese Simplified", 
+            "translatedText": "书"
+        }, 
+        {
+            "language": "Chinese Traditional", 
+            "translatedText": "書"
+        }, 
+        {
+            "language": "Croatian", 
+            "translatedText": "rezervirati"
+        }, 
+        {
+            "language": "Czech", 
+            "translatedText": "rezervovat"
+        }, 
+        {
+            "language": "Danish", 
+            "translatedText": "bog"
+        }, 
+        {
+            "language": "Dutch", 
+            "translatedText": "boek"
+        }, 
+        {
+            "language": "Esperanto", 
+            "translatedText": "libro"
+        }, 
+        {
+            "language": "Estonian", 
+            "translatedText": "raamat"
+        }, 
+        {
+            "language": "Filipino", 
+            "translatedText": "aklat"
+        }, 
+        {
+            "language": "Finnish", 
+            "translatedText": "kirja"
+        }, 
+        {
+            "language": "French", 
+            "translatedText": "livre"
+        }, 
+        {
+            "language": "Galician", 
+            "translatedText": "libro"
+        }, 
+        {
+            "language": "Georgian", 
+            "translatedText": "წიგნი"
+        }, 
+        {
+            "language": "German", 
+            "translatedText": "Buch"
+        }, 
+        {
+            "language": "Greek", 
+            "translatedText": "βιβλίο"
+        }, 
+        {
+            "language": "Gujarati", 
+            "translatedText": "પુસ્તક"
+        }, 
+        {
+            "language": "Haitian Creole", 
+            "translatedText": "liv"
+        }, 
+        {
+            "language": "Hausa", 
+            "translatedText": "littafi"
+        }, 
+        {
+            "language": "Hebrew", 
+            "translatedText": "סֵפֶר"
+        }, 
+        {
+            "language": "Hindi", 
+            "translatedText": "किताब"
+        }, 
+        {
+            "language": "Hmong", 
+            "translatedText": "phau ntawv"
+        }, 
+        {
+            "language": "Hungarian", 
+            "translatedText": "könyv"
+        }, 
+        {
+            "language": "Icelandic", 
+            "translatedText": "bók"
+        }, 
+        {
+            "language": "Igbo", 
+            "translatedText": "akwụkwọ"
+        }, 
+        {
+            "language": "Indonesian", 
+            "translatedText": "Book"
+        }, 
+        {
+            "language": "Irish", 
+            "translatedText": "leabhar"
+        }, 
+        {
+            "language": "Italian", 
+            "translatedText": "libro"
+        }, 
+        {
+            "language": "Japanese", 
+            "translatedText": "本"
+        }, 
+        {
+            "language": "Javanese", 
+            "translatedText": "buku"
+        }, 
+        {
+            "language": "Kannada", 
+            "translatedText": "ಪುಸ್ತಕ"
+        }, 
+        {
+            "language": "Kazakh", 
+            "translatedText": "кітап"
+        }, 
+        {
+            "language": "Khmer", 
+            "translatedText": "សៀវភៅ"
+        }, 
+        {
+            "language": "Korean", 
+            "translatedText": "책"
+        }, 
+        {
+            "language": "Lao", 
+            "translatedText": "ຫນັງ​ສື"
+        }, 
+        {
+            "language": "Latin", 
+            "translatedText": "libro"
+        }, 
+        {
+            "language": "Latvian", 
+            "translatedText": "grāmata"
+        }, 
+        {
+            "language": "Lithuanian", 
+            "translatedText": "knyga"
+        }, 
+        {
+            "language": "Macedonian", 
+            "translatedText": "книга"
+        }, 
+        {
+            "language": "Malagasy", 
+            "translatedText": "boky"
+        }, 
+        {
+            "language": "Malay", 
+            "translatedText": "buku"
+        }, 
+        {
+            "language": "Malayalam", 
+            "translatedText": "പുസ്തകം"
+        }, 
+        {
+            "language": "Maltese", 
+            "translatedText": "ktieb"
+        }, 
+        {
+            "language": "Maori", 
+            "translatedText": "pukapuka"
+        }, 
+        {
+            "language": "Marathi", 
+            "translatedText": "पुस्तक"
+        }, 
+        {
+            "language": "Mongolian", 
+            "translatedText": "ном"
+        }, 
+        {
+            "language": "Myanmar (Burmese)", 
+            "translatedText": "စာအုပ်"
+        }, 
+        {
+            "language": "Nepali", 
+            "translatedText": "पुस्तक"
+        }, 
+        {
+            "language": "Norwegian", 
+            "translatedText": "bok"
+        }, 
+        {
+            "language": "Persian", 
+            "translatedText": "کتاب"
+        }, 
+        {
+            "language": "Polish", 
+            "translatedText": "książka"
+        }, 
+        {
+            "language": "Portuguese", 
+            "translatedText": "reservar"
+        }, 
+        {
+            "language": "Romanian", 
+            "translatedText": "carte"
+        }, 
+        {
+            "language": "Russian", 
+            "translatedText": "книга"
+        }, 
+        {
+            "language": "Serbian", 
+            "translatedText": "књига"
+        }, 
+        {
+            "language": "Sesotho", 
+            "translatedText": "buka"
+        }, 
+        {
+            "language": "Sinhala", 
+            "translatedText": "පොත"
+        }, 
+        {
+            "language": "Slovak", 
+            "translatedText": "kniha"
+        }, 
+        {
+            "language": "Slovenian", 
+            "translatedText": "knjige"
+        }, 
+        {
+            "language": "Somali", 
+            "translatedText": "buug"
+        }, 
+        {
+            "language": "Spanish", 
+            "translatedText": "libro"
+        }, 
+        {
+            "language": "Sudanese", 
+            "translatedText": "buku"
+        }, 
+        {
+            "language": "Swahili", 
+            "translatedText": "kitabu"
+        }, 
+        {
+            "language": "Swedish", 
+            "translatedText": "boka"
+        }, 
+        {
+            "language": "Tajik", 
+            "translatedText": "китоб"
+        }, 
+        {
+            "language": "Tamil", 
+            "translatedText": "புத்தகம்"
+        }, 
+        {
+            "language": "Telugu", 
+            "translatedText": "పుస్తకం"
+        }, 
+        {
+            "language": "Thai", 
+            "translatedText": "หนังสือ"
+        }, 
+        {
+            "language": "Turkish", 
+            "translatedText": "kitap"
+        }, 
+        {
+            "language": "Ukrainian", 
+            "translatedText": "книга"
+        }, 
+        {
+            "language": "Urdu", 
+            "translatedText": "کتاب"
+        }, 
+        {
+            "language": "Uzbek", 
+            "translatedText": "kitob"
+        }, 
+        {
+            "language": "Vietnamese", 
+            "translatedText": "sách"
+        }, 
+        {
+            "language": "Welsh", 
+            "translatedText": "Llyfr"
+        }, 
+        {
+            "language": "Yiddish", 
+            "translatedText": "בוך"
+        }, 
+        {
+            "language": "Yoruba", 
+            "translatedText": "iwe"
+        }, 
+        {
+            "language": "Zulu", 
+            "translatedText": "ibhuku"
+        }
+    ], 
+    "source": "book"
+}
