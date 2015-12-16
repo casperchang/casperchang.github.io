@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Population Density of Taiwan Counties, 2013</title>
+	<script src='http://code.jquery.com/jquery-2.0.3.js'></script>
+	<!-- use local ref to d3 relative file to avoid the version-incompatible -->
+	<script src="./d3/d3.v3.min.js"></script>
+	<script src="./d3/topojson.v1.min.js"></script>		
+	<script src="./d3/queue.v1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/gallery.css">
+	<link rel="stylesheet" type="text/css" href="./css/cookbookstyles.css"/>
+	<!-- 
+		ref:
+    	[online transfer geojson to topojson] http://mapshaper.org/
+    	[SO, center the geojson] http://stackoverflow.com/questions/14492284/center-a-map-in-d3-given-a-geojson-object 
+    	[perfect blog] http://www.maori.geek.nz/d3_js_geo_fun/
+    	ex. by mbostock: http://bl.ocks.org/mbostock/4060606#unemployment.tsv
+	-->
+
+	<style>
+/*		#background {
+			fill: #dd3497;
+			opacity: .1;
+		}*/
+	
+.mesh {
+		fill: none;
+  		stroke: #686868;
+  		stroke-width: .3px;
+  		stroke-linejoin: round;
+  		opacity: .4;
+	}		
+	</style>
+
+</head>
+	<body>
+		<div id="backontop">
+			<a href="../../index.html">#Back</a>
+		</div>
+		<div id="pagedesc1">proj#13: Population Density of Taiwan Counties, 2013</br>
+		</div>
+		<div id="projdate">@December 15, 2015</div>
+		<div id="graphtype">Graph type: D3.js with Topojson geometric data</br>
+		Interactive: </br>#1. display numeric data by mouse hovering</div>
+		<p></p>	
+		<div id="vis"></div>
+		<p></p>
+		<div id="source">Open data and dev reference:</br>
+		>><a href="http://data.gov.tw/">Open Data Taiwan</a></div>
+		
+		<script type="text/javascript">
+
+		var width  = 800;
+		var height = 600;
+
+		var svg = d3.select("#vis")
+					.append("svg")
+		      		.attr("width", width)
+		      		.attr("height", height);
+
+		var _background = svg.append("g").attr('id', 'background');
+		var _map = svg.append('g').attr('id', 'map');
+
+		// color generators from ColorBrewer by Cynthia Brewer
+		var brewer = ['#eff3ff','#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#084594'];
+		var _color = d3.scale.quantize()
+					.range(d3.range(1,7).map(function(i) { return brewer[i];}));	
+
+		queue()
+		    .defer(d3.json, "./data/twtown2010.3_topo_remove.json")
+		    .defer(d3.csv, "./data/opendata-102populationdensity.csv")
+		    .await(ready);		  
+
+		// use jQuery to copy objects after file loading
+		// var copied_json, copied_data;
+		var _features;
+		var _mesh;
+
+		function ready(error, json, data) {
+  			if (error) throw error;
+  			// copied_json = jQuery.extend({}, json);
+  			_features = jQuery.extend([], topojson.feature(json, json.objects.twtown2010).features);
+  			// _mesh = jQuery.extend([], topojson.mesh(json, json.objects.twtown2010, function(a, b) { return a !== b; }));
+  			_mesh = jQuery.extend({}, topojson.mesh(json));
+  			// console.log(_mesh);
+			// .data(topojson.feature(json, json.objects.twtown2010).features)	// topojson v1
+			// .data([topojson.object(json, json.objects.twtown2010)])	// topojson v0
+
+  			// update domain of _color
+  			_color.domain([
+  				d3.min(data, function(d) { return d.density;}), 
+  				d3.max(data, function(d) { return d.density;})
+  				]);
+
+  			// bind data|density to _features
+  			for (var i = 0; i < _features.length; i++) {
+				
+				//Grab county and town name
+				var county = _features[i].properties.county;
+				var town = _features[i].properties.town;
+
+				for (var j = 0; j < data.length; j++) {
+					if (data[j].dist.indexOf(county+town) > -1) {
+						_features[i].properties.density = parseFloat(data[j].density);
+						break;
+					}
+				}
+			}
+
+  			createmap();
+  		}
+
+  		var _scale = 6600;
+  		var _translate = [-13498, 3170];
+		// Create a unit projection.
+		var projection = d3.geo.mercator()
+	    				.scale(_scale)
+	    				.translate(_translate);
+		// Create a path generator.
+		var path = d3.geo.path()
+		    		.projection(projection);
+
+  		function createmap() {
+
+			// [background] add a rectangle to see the bound of the svg
+		    _background.selectAll('rect')
+		    	.data(' ')
+		    	.enter()
+		    	.append("rect")
+		    	.attr('width', width)
+		    	.attr('height', height)
+		        .attr('stroke', 'darkgrey')
+		        .attr('stroke-width', '1px')
+		        .attr('fill', 'none');
+		        // .on('click', function(d, i) {
+		        // 	_scale += 50;
+		        // 	updatemap();
+		        // });
+
+			//g.selectAll("path")
+			_map.selectAll('path')
+				.data(_features)
+			    .enter()
+			    .append("path")
+			    .attr("d", function(d) {
+			      	return path(d);
+			    })
+			    .attr('fill', function(d) {
+			    	if (d.properties.density) {
+			    		return _color(d.properties.density);
+			    	}
+			    })
+			    .on('mouseover', function() {		// EVENT LISTENER HAVE TO APPEND PRIOR TO TOOLTIP.
+			    	d3.select(this)
+			    		.attr('fill', '#dd3497')
+			    		.attr('fill-opacity', '0.5');
+			    })
+			    .on('mouseout', function(d) {
+			    	d3.select(this)
+					    .attr('fill', function(d) {
+					    	if (d.properties.density) {
+					    		return _color(d.properties.density);
+					    	}
+					    })
+					    .attr('fill-opacity', '1.0');
+			    })
+			    .append('title')
+			    .text(function(d) {
+			    	return d.properties.county + d.properties.town + ', (density: ' + d.properties.density + ')';
+			    });
+
+
+		    // put boarder around each geometry element 
+		  	svg.append("path")
+		      .datum(_mesh)
+		      .attr("class", "mesh")
+		      .attr("d", path);
+
+		    /*  	
+			dotNorthest= {'type': 'Point', 'coordinates': [121.536782, 25.299505] };
+			var v = svg.append("g");
+			v.selectAll('path')
+				.data([dotNorthest])
+				.enter()
+				.append('path')
+				.attr("d", path)
+				.attr("class","feature")
+				.attr('fill', 'none')
+				.attr('stroke', 'cyan')
+				.attr('stroke-width', '2px');
+			*/
+
+			// transition
+  			// g.transition()
+		   //    .duration(750)
+		   //    .style("stroke-width", 1.5 / scale + "px")
+		   //    .attr("transform", "translate(" + translate + ")scale(" + scale + ")");
+  		
+  		}	// end of createmap()
+
+  		function updatemap() {
+  			projection.translate(_translate).scale(_scale);
+  			g.selectAll('path')
+  				.attr('d', path);
+  		}	// end of updatemap()
+
+
+        // Add event-listener
+        var drag = d3.behavior.drag()  
+                        .on('dragstart', function() { 
+                        })
+                        .on('drag', function() {
+                            // console.log('dx: ' + String(d3.event.dx));
+                            _translate[0] += d3.event.dx;
+                            _translate[1] += d3.event.dy;
+                            updatemap(1); 
+                        })
+                        .on('dragend', function() { 
+                        });
+        //d3.select('#vis').call(drag); // tmp disable
+
+		</script>
+	</body>
+</html>

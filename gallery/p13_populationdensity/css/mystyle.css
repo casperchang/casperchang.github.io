@@ -1,0 +1,189 @@
+#nav-div {
+	font-family: verdana, arial, sans-serif;
+	width: 900px;
+    height: 35px;
+    margin: 2px auto 0px auto;
+    padding: 0px 40px 0px 0px;
+    background-color: #F0F0F0;
+    border: 0px solid #f00;
+    position: relative;
+}
+#nav {
+	position: absolute;
+	top: -2px;
+    width: 100%;
+    height: 35px;
+    float: left;
+    margin: 3px 0 25px 0;
+    padding: 0;
+    list-style: none;
+    background-color: #F0F0F0;
+    border-bottom: 0px solid #ccc;
+    border-top: 0px solid #ccc;
+    border: 0px solid #0f0; 
+}
+#nav li {
+    float: left;
+	
+	position: relative;
+	top: -2px;
+    height: 100%;
+    border: 0px solid #00f; 
+}
+#nav li a {
+    display: block;
+    /* padding: 13px 14px 8px 15px; */
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #746666;
+    border-right: 0px solid #0ff; 
+}
+#nav li a:hover {
+    color: #4B8BFB;
+    background-color: #E6E6E6; 
+}
+    
+    
+/* ----------------------------------------------- */
+#description {
+	font-family: verdana, arial, sans-serif, times new roman;
+	font-size: 13px;
+	width: 900px;
+    height: 150px;
+    margin: 10px auto 10px auto;
+    padding: 20px 20px 40px 20px;
+    border: 0px solid #f00;
+    /* position: relative; */
+}
+    
+/* ----------------------------------------------- */
+    
+body {
+    background-color: #FFFFFF;
+    font: small/1.3 Arial, Helvetica, sans-serif; 
+}
+
+/* ----------------------------------------------- */
+    
+#cpolaroid {
+    /*width: 80%;  or whatever is required */
+    /*text-align: center; /* ensures the image is always in the h-middle */
+    /*overflow: hidden; /* hide the cropped portion */
+    
+    width: 990px;
+    height: 100px;
+    margin: 30px auto;
+    
+    border: 0px solid #0ff;      
+}
+#cpolaroid figure {
+    float:left;
+    
+    width: 	220px;
+    height: 270px;
+    margin: 20px 0px 0px 20px;
+    
+    /*background: #FCFCFC; fallback colour for browsers that don't support gradients*/
+    /*
+    background: -webkit-linear-gradient(top, #F0F0F1, #e4f3ff 75%, #D0D2DD 100%);
+    background: -moz-linear-gradient(top, #F0F0F1, #ebf3f7 75%, #E0E2ED 100%);
+    background: -o-linear-gradient(top, #F0F0F1, #e4f3ff 75%, #D0D2DD 100%);
+    background: -ms-linear-gradient(top, #F0F0F1, #e4f3ff 75%, #D0D2DD 100%);
+    background: linear-gradient(top, #F0F0F1, #e4f3ff 75%, #D0D2DD 100%);
+    */
+    
+    /*give the Polaroids a small drop shadow*/
+    -webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .50);
+    -moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .50);
+    box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .50);
+	
+    /* black border and gray background for layout debug */
+    border-width: 1px; /*horizontal, vertical*/ /*up, right, bottom, left*/
+    border-color: #DDD;
+    border-style: solid;
+    background-color: #F8F8F8;
+    
+    border: 0px solid #f00;  
+}
+
+#cpolaroid img {
+    display: block;
+    max-width: 200px;
+    max-height:200px;
+    padding: 10px 10px 5px 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cpolaroid figcaption {
+    text-align: center;
+    font-size: 12px;
+    line-height: 140%;
+    font-family: "Verdana", "Arial";
+    color: #555;
+    max-width: 200px;
+    padding: 0px 10px 0px 10px;
+}
+.table-charttargets {
+    color: #746666;
+    /*
+    background-color: #FFF;
+    border-collapse: separate;
+    border-spacing: 3px; */
+}
+.table-charttargets td {
+    padding: 5px;
+    background-color: #F0F0F0;
+    border-width: 1px 1px 1px 0px; /*horizontal, vertical*/ /*up, right, bottom, left*/
+    border-color: #FFF;
+    border-style: solid;
+}
+
+#d3canvas {
+    padding: 0 20px 20px;
+    display: block;
+    margin: auto;
+    }
+
+.text_line {
+    clear: both;
+    margin-bottom: 2px;
+}
+
+form {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.node {
+	border: solid 1px white;
+	font: 15px sans-serif;
+	line-height: 12px;
+	overflow: hidden;
+	position: absolute;
+	text-indent: 2px;
+}
+/* --------------------------------------------------------- */
+#description-contact {
+	font-family: verdana, arial, sans-serif;
+	font-size: 14px;
+	line-height: 150%;
+	color: #777;
+		
+	width: 900px;
+    height: 150px;
+    margin: 10px auto 10px auto;
+    padding: 20px 20px 40px 20px;
+    border: 0px solid #f00;
+    /* position: relative; */
+}
+
+p.emailaddress {
+	font-size: 14px;
+	display: inline;
+	color: steelblue;
+	font-family: "Verdana", "Arial";
+	font-weight: bold;
+}
