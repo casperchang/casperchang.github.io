@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Population Density of Taiwan Counties, 2013</title>
+	<script src='http://code.jquery.com/jquery-2.0.3.js'></script>
+	<!-- use local ref to d3 relative file to avoid the version-incompatible -->
+	<script src="./d3/d3.v3.min.js"></script>
+	<!-- <script src="./d3/topojson.v1.min.js"></script>		 -->
+	<!-- <script src="./d3/queue.v1.min.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="./css/gallery.css">
+	<link rel="stylesheet" type="text/css" href="./css/cookbookstyles.css"/>
+	<!-- 
+		ref:
+	-->
+
+	<style>
+	.axis path, .axis line {
+		fill: none;
+		stroke: #666666;
+	}
+	.axis text {
+		font-family: verdana;
+		font-size: 11px;
+		fill: #666666;
+	}
+	</style>
+
+</head>
+<body>
+	<div id="backontop">
+		<a href="../../index.html">#Back</a>
+	</div>
+	<div id="pagedesc1">proj#13: Population Density of Taiwan Counties, 2013</br>
+	</div>
+	<div id="projdate">@December 15, 2015</div>
+	<div id="graphtype">Graph type: D3.js with Topojson geometric data</br>
+	Interactive: </br>#1. display numeric data by mouse hovering</div>
+	<p></p>	
+	<div id="vis"></div>
+	<p></p>
+	<div id="source">Open data and dev reference:</br>
+	>></div>
+	
+
+	<script type="text/javascript">
+
+	function range(start, end) {
+	    var foo = [];
+	    for (var i = start; i <= end; i++) {
+	        foo.push(i);
+	    }
+	    return foo;
+	}
+
+	var width  = w = 800;
+	var height = h = 600;
+
+	var svg = d3.select("#vis")
+				.append("svg")
+	      		.attr("width", width)
+	      		.attr("height", height);
+	// temp thin outline for refine representation.
+	svg.attr('style', 'outline: thin solid red');
+
+
+	var padding = 40;
+	var scalex = d3.scale.linear()
+				.domain([0, 24])
+				.range([padding, w - padding]);
+	var scaley = d3.scale.linear()
+				.domain([-100, +100])
+				.range([h - padding, padding])
+				.clamp(true);
+
+	var axisx = d3.svg.axis()
+				.scale(scalex)
+				.tickFormat(function(d,i) {return months[i];})
+				.orient('bottom')
+				.ticks(12);
+	var axisy = d3.svg.axis()
+				.scale(scaley)				
+				.orient('left')
+				.ticks(8);
+
+	// set tick lable for xaxis
+	var tmp = [], months = [];
+	for (i = 0; i < 12; i++) { tmp.push('103-' + (i+1)); }
+	for (i = 12; i < 24; i++) { tmp.push('104-' + (i-11)); }
+	for (i = 0; i < 24; i++) {
+		if (i % 2 == 0)	months.push(tmp[i]);
+	}
+	// console.log(months);
+
+
+	// color generators from ColorBrewer by Cynthia Brewer
+	// var brewer = ['#eff3ff','#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#084594'];
+	// var _color = d3.scale.quantize()
+	// 			.range(d3.range(1,7).map(function(i) { return brewer[i];}));	
+	
+	var glines = svg.append("g").attr('id', 'lines');
+	var gcircles = svg.append('g').attr('id', 'circles');
+	var gtexts = svg.append('g').attr('id', 'text');
+
+	svg.append('g')
+		.attr('class', 'axis')
+		.attr('transform', 'translate(0,' + (h - padding) + ')')
+		.call(axisx);
+	svg.append('g')
+		.attr('class', 'axis')
+		.attr('transform', 'translate(' + padding + ',0)')
+		.call(axisy);
+
+	d3.json('./data/json_indent.json', function(json) {
+
+		// console.log(json);
+
+		var thedata = json.industrylist[0].children[0].earning2014.concat(json.industrylist[0].children[0].earning2015);
+
+		var circles = gcircles.selectAll('circle')
+						.data(thedata)
+						.enter()
+						.append('circle')
+						.attr('fill', 'blue')
+						.attr('stroke', 'none')
+						.attr('cx', function(d, i) {
+							//return (i*50) + 25;
+							return scalex(i);
+
+						})
+						.attr('cy', function(d, i) {
+							return scaley(d);
+						})
+						.attr('r', function(d) {
+							return 2;
+						});
+
+		var lines = glines.selectAll('line')
+						.data(thedata)
+						.enter()
+						.append('line')
+						.attr('stroke', 'red')
+						.attr('x1', function(d, i) {
+							return scalex(i);
+						})
+						.attr('y1', function(d, i) {
+							return scaley(d);
+						})
+						.attr('x2', function(d, i) {
+							if (i != 0)
+								return scalex(i-1);
+							else
+								return scalex(i);	// pos of self
+						})
+						.attr('y2', function(d, i) {
+							if (i != 0)
+								return scaley(thedata[i-1]);
+							else
+								return scaley(d); // pos of self
+						});
+
+		var texts = gtexts.selectAll('text')
+						.data(thedata).enter()
+						.append('text')
+						.text(function(d) {
+							console.log(d);
+							return d;
+						})
+						.attr('x', function(d, i) {
+							return scalex(i);
+						})
+						.attr('y', function(d) {
+							return scaley(d);
+						})
+						.attr('font-family', 'verdana')
+						.attr('font-size', '11px')
+						.attr('fill', 'red');
+
+	});
+
+
+	</script>
+</body>
+</html>

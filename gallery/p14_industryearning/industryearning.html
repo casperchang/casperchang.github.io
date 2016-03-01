@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Revenues Visualization</title>
+	
+	<!-- local scripts (avoid the version-incompatible) -->
+	<script src="./d3/d3.v3.min.js"></script>
+
+	<!-- common css -->
+	<link rel="stylesheet" type="text/css" href="../../css/gallery.css">
+	
+	<!-- dev ref link and notes:
+	-->
+
+	<!-- project specific styles -->
+	<style>
+	svg {
+		margin-right: 10px;
+		margin-bottom: 5px;
+	}
+	.axis path, .axis line {
+		fill: none;
+		stroke: #666666;
+	}
+	.axis text, .svgnotetext {
+		font-family: verdana;
+		font-size: 11px;
+		fill: #666666;
+	}
+	</style>
+
+</head>
+<body>
+	<div id="backontop"><a href="../../index.html">#Back</a></div>
+	<div id="pagedesc1">Project14: YoY Revenues Growth Rate by Each Industry of Taiwan Stock Market</br>
+	By visualizing the corporation's year-over-year revenues growth rate, it provides a simple way to estimate the state </br>
+	of operation. And collecting the graphs of stocks with same industry into a single chart makes us easily to check the </br>
+	industry's trend and to find out the valuable outlier.</br> 
+	視覺化月營收年增率，可檢視一間公司的營業狀況是否良好，是否穩定成長。而將相同產業的個股至於同一個群組，</br>
+	除了試著視覺化一個產業的整體趨勢外，並尋求機會從中找出相對強勢個股。</br>
+	繪圖資料為所有上市櫃類股，扣除[加權指數，櫃買綜合]兩大類後，在2014-2015連續12個月中的年增率資料。</div><p></p>
+	<div id="projdate">Dev. @Feburary 26, 2016</div>
+	<div id="graphtype">Graph type: D3.js</br>
+	Interactive: show stock name and code at top-right corner by mouse hovering</div>
+	<p></p>
+	<div id="loadingprompt">Ploting All Stocks...</div>	
+	<div id="vis"></div>
+	<p></p>
+	<div id="source"></div>
+	
+
+	<script type="text/javascript">
+
+	function range(start, end) {
+	    var foo = [];
+	    for (var i = start; i <= end; i++) {
+	        foo.push(i);
+	    }
+	    return foo;
+	}
+
+	var width  = w = 800;
+	var height = h = 600;
+
+	var padding = 50;
+	var scalex = d3.scale.linear()
+				.domain([0, 24])
+				.range([padding, w - padding]);
+	var scaley = d3.scale.linear()
+				.range([h - padding, padding])
+				.clamp(true);
+
+	var axisx = d3.svg.axis()
+				.scale(scalex)
+				.tickFormat(function(d,i) {return months[i];})
+				.orient('bottom')
+				.ticks(12);
+	var axisy = d3.svg.axis()
+				.scale(scaley)
+				.orient('left')
+				.ticks(8);
+
+	// set tick lable for xaxis
+	var tmp = [], months = [];
+	for (i = 0; i < 12; i++) { tmp.push('103-' + (i+1)); }
+	for (i = 12; i < 24; i++) { tmp.push('104-' + (i-11)); }
+	for (i = 0; i < 24; i++) {
+		if (i % 2 == 0)	months.push(tmp[i]);
+	}
+
+	// colorscale
+	var color = d3.scale.category20();	// .linear().domain([1,10]).range(['#f00', '#00f']);
+	// svg.path: line generator	
+	var line = d3.svg.line()
+    			.x(function(d) { return d[0]; })
+    			.y(function(d) { return d[1]; });
+
+	d3.json('./data/json_indent.json', function(json) {
+
+		var svgs = d3.select('#vis').selectAll('svg')
+					.data(json.industrylist)
+					.enter()
+					.append('svg')
+					.attr('width', w)
+					.attr('height', h)
+					.attr('style', 'outline: thin solid red');
+
+
+		svgs.each(function(d, i) {
+
+			// Indep. parameters for each svg
+			color.domain([0, d.count]);
+			// dyn. scale of y-axis
+			var allearning = [];
+			for (x = 0; x < d.count; x++) {
+				allearning = allearning.concat(d.children[x].earning2014.concat(d.children[x].earning2015));
+			}
+			ymin = d3.min(allearning); 	if (ymin > -100) ymin = -100;
+			ymax = d3.max(allearning);	if (ymax < 100) ymax = 100;
+			scaley.domain([ymin, ymax]);	// update the axisy at the same time
+			
+
+			d3.select(this).append('g')
+				.attr('class', 'axis')
+				.attr('transform', 'translate(0,' + (h - padding) + ')')
+				.call(axisx);
+			d3.select(this).append('g')
+				.attr('class', 'axis')
+				.attr('transform', 'translate(' + padding + ',0)')
+				.call(axisy);
+
+			d3.select(this).selectAll('g.graph')
+				.data(d.children)
+				.enter()
+				.append('g')
+				.each(function(d, i) {
+					// each single stock
+					var thedata = d.earning2014.concat(d.earning2015);
+					var stockcolor = color(i);
+
+					d3.select(this).selectAll('circle')
+						.data(thedata)
+						.enter()
+						.append('circle')
+						.attr('fill', stockcolor)						
+						.attr('stroke', 'none')
+						.attr('cx', function(d, i) {
+							return scalex(i);
+						})
+						.attr('cy', function(d, i) {
+							return scaley(d);
+						})
+						.attr('r', function(d) {
+							return 2;
+						});
+
+					// map array
+					var maparray = [];
+					for (var x = 0; x < 24; x++) {
+						maparray.push( [scalex(x), scaley(thedata[x])] );
+					}
+
+					d3.select(this).append('path')
+						.attr('d', line(maparray))
+						.attr('stroke', stockcolor)
+						.attr('stroke-width', 1.5)
+						.attr('fill', 'none')
+						.on("mouseover", function(d) {
+						//.on("click", function() {
+							// var xpos = d3.mouse(this)[0]; //console.log(xpos);
+							// var ypos = d3.mouse(this)[1]; //console.log(ypos);
+							d3.select('#tooltip').remove();
+							d3.select(this.parentNode).append('text')
+								.attr('id', 'tooltip')
+								// .attr('x', xpos)
+								// .attr('y', ypos)
+								.attr('x', w - 50)
+								.attr('y', 20)
+								.attr('text-anchor', 'middle')
+								.attr('font-size', '11px')
+								.attr('font-family', 'verdana')
+								.attr('fill', stockcolor)
+								.text(d.sname + ' (' + d.scode + ')');
+						});
+
+					/*	-- backup: draw lines without line-generator --
+					d3.select(this).selectAll('line')
+						.data(thedata)
+						.enter()
+						.append('line')
+						.attr('stroke', stockcolor)
+						.attr('x1', function(d, i) {
+							return scalex(i);
+						})
+						.attr('y1', function(d, i) {
+							return scaley(d);
+						})
+						.attr('x2', function(d, i) {
+							if (i != 0)
+								return scalex(i-1);
+							else
+								return scalex(i);	// pos of self
+						})
+						.attr('y2', function(d, i) {
+							if (i != 0)
+								return scaley(thedata[i-1]);
+							else
+								return scaley(d); // pos of self
+						})
+						.append('title')
+						.text(function(d) {
+							return d.sname;
+						});;
+					*/
+
+					/* -- backup: draw text on the data circles --
+					d3.select(this).selectAll('text')
+						.data(thedata).enter()
+						.append('text')
+						.text(function(d) {
+							// console.log(d);
+							return d;
+						})
+						.attr('x', function(d, i) {
+							return scalex(i);
+						})
+						.attr('y', function(d) {
+							return scaley(d);
+						})
+						.attr('font-family', 'verdana')
+						.attr('font-size', '11px')
+						.attr('fill', 'red');
+					*/
+
+				});
+
+			// draw legends for each svg
+			d3.select(this).append('text')
+				.text(function(d) {
+					return d.iname + ', 個股數: ' + d.count;
+				})
+				.attr('class', 'svgnotetext')
+				.attr('x', 10)
+				.attr('y', 20);
+			d3.select(this).append('text').text('(%)')
+				.attr('class', 'svgnotetext')
+				.attr('x', 10)
+				.attr('y', 40);
+
+		}); // end of svg.each
+
+		// before drawing ending, do something
+		d3.select('#loadingprompt').remove();
+
+	});	// end of d3.json
+
+	</script>
+</body>
+</html>
