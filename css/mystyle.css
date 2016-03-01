@@ -47,10 +47,12 @@
     
 /* ----------------------------------------------- */
 #description {
-	font-family: verdana, arial, sans-serif, times new roman;
-	font-size: 13px;
+    color: #202020;
+	font-family: Arial, Helvetica, Verdana, sans-serif, times new roman;
+	font-size: 14px;
+    line-height: 20px;    
 	width: 900px;
-    height: 150px;
+    height: 125px;
     margin: 10px auto 10px auto;
     padding: 20px 20px 40px 20px;
     border: 0px solid #f00;
