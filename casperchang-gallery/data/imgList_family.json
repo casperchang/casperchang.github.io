@@ -1,0 +1,35 @@
+{
+    "aid0": {
+        "article": "2016", 
+        "date": "20151205", 
+        "path": "./image/151205-TyAn-laugh on bed-Fuji 160S++.jpg", 
+        "tag": [
+            "cloud", 
+            "sky"
+        ], 
+        "title": "article01",
+        "horizontal": "1"
+    }, 
+    "aid1": {
+        "article": "中文測試", 
+        "date": "20151206", 
+        "path": "./image/150816-fighter-fuji.jpg", 
+        "tag": [
+            "test"
+        ], 
+        "title": "article02",
+        "horizontal": "1"
+    }, 
+    "aid2": {
+        "article": "sentence: Laying out web pages using CSS is as much art as it is a technical exercise.</br>I'm in new line.", 
+        "date": "20151229", 
+        "path": "./image/my little feet.jpg", 
+        "tag": [
+            "sentence", 
+            "long", 
+            "句子"
+        ], 
+        "title": "real-article",
+        "horizontal": "1"
+    }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>My Photo Gelley</title>
+	<meta name="decription" content="The photo gallery of Casper Chang">
+	<meta name="author" content="Casper Chang">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/colorbox.css">
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+	<!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+	<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.js"></script>
+	<script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+	<script src="./js/jquery.colorbox-min.js"></script>
+
+</head>
+<body>
+ 	<nav id='_sidebar'>
+		<a id='homelink' href="http://casper1980.com/">#back to home</a>
+		<a id = 'family' class='album' href="#">family</a>
+		<a id = 'travel' class='album' href="#">travel</a>
+		<a id = 'friends' class='album' href="#">friends</a>
+		<div></br>Under-developing!!</div>
+		<div><p>ALL TEMP TESTING IMGS</br>from >> http://365daysofcoffee.</br>tumblr.com/</p></div>
+		<div></br>I'll remove them soon.</div>
+	</nav>
+	<div id='main'></div>
+
+	<!-- <script src="js/jquery.js"></script> -->
+	<!-- <script src="js/script.js"></script> -->
+
+<script type="text/javascript">
+
+	$(document).on("click", "#family", function(){
+    	$.ajax({
+		  // url: "http://localhost:5000/family",
+		  url: "https://shrouded-sea-43922.herokuapp.com/family",
+		}).success(function(data){
+			$("#main").html(data);
+			$('.grid').masonry({itemSelector: '.grid-item', columnWidth: 240});
+			$('a.group1').colorbox({rel:'gal', photo:true, maxWidth:'80%', maxHeight:'80%'});
+		});
+	});
+
+	$(document).on("click", "#travel", function() {
+		$("#main").empty();
+	});
+
+	$(document).on("click", "#friends", function() {
+		$("#main").empty();
+	});
+
+
+	// #family is the default html request.
+	$(document).ready(function() {	
+		$("#family").trigger("click");
+	});
+
+</script>
+</body>
+</html>
